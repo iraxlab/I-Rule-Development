@@ -118,10 +118,10 @@ All prompts in the [3D Reference Prompt Pack](../art-pipeline/3D_Reference_Promp
 
 ## Totals
 - 53 assets: 13 islands, 26 structures, 5 sky, 3 throne, 6 creatures.
-- Sheets needed: 53. Detail close-ups and optional single angles (combined count): 394.
+- Sheets needed: 53. Single views and detail close-ups (combined count): 394.
 - Plus four Throne detail renders (six fissures, dragon ribs, seat and armrest, ignited state): `art/assets/THR-01/detail-fissures.jpg`, `detail-ribs.jpg`, `detail-seat.jpg`, `ignited.jpg`.
 
 
 ## Detail close-ups
 
-**Core set per island: 1 sheet + 4 details (5 images).** Single angles are optional 3D extras. Each island has four detail close-ups, saved as `detail-1.jpg` to `detail-4.jpg` (labels and prompts are on the website and in the PDF).
+**Per island: 1 five-angle sheet, then the single views (front, back, side, top, underside) and 4 detail close-ups, all shown openly on the site.** Each island has four detail close-ups, saved as `detail-1.jpg` to `detail-4.jpg` (labels and prompts are on the website and in the PDF).
