@@ -52,6 +52,7 @@ The spec contains two threshold models for the Creative Energy Cycle:
 | 7 | **Page 23 moderation** | Art | Capture the exact Freepik rejection message if it recurs |
 | 8 | **Media link / trailer** | Application | Assemble the pitch deck or cut a short animatic |
 | 9 | **License** | Repository | Choose before opening the repo publicly |
+| 11 | **Stage 1 encounter and Stillness Duel** | Gameplay, level design | Approve the proposed Arms, Still Ring and mind-vision duel in [Playthrough](17-playthrough-start-to-throne.md#11-decisions-needed-from-the-project-owner) |
 | 10 | **Cover art regeneration** | Art, deck | The current cover shows six bars of increasing width (a pyramid shape). Regenerate with equal-width bars using [cover-regeneration prompt](../prompts/cover-regeneration.md) |
 
 ## Known issues in the assembled pitch deck (audit, not yet fixed)

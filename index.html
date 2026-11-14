@@ -35,6 +35,14 @@ nav#idx{background:var(--panel);border-right:1px solid var(--line);overflow-y:au
 .tag{font-size:12px;color:var(--muted);margin:0 0 18px;letter-spacing:.02em}
 .grp{font:600 12px/1 var(--font-d);letter-spacing:.14em;text-transform:uppercase;color:var(--bronze);margin:20px 0 6px;font-size:13px}
 nav#idx a{display:block;color:var(--fg);text-decoration:none;padding:5px 9px;border-radius:5px;font-size:13.5px;line-height:1.35}
+.pt{background:var(--panel2);border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:6px;padding:4px 8px 10px;margin:0 0 6px}
+.pt .grp{margin:8px 0 4px;color:var(--amber)}
+nav#idx a.ptmain{font-weight:700;font-size:14.5px;color:var(--fg)}
+.pt ol.steps{list-style:none;counter-reset:st;margin:4px 0 0;padding:0}
+.pt ol.steps li{counter-increment:st;margin:0}
+nav#idx .pt ol.steps a{display:block;padding:4px 9px 4px 30px;position:relative;font-size:13px;color:var(--muted)}
+nav#idx .pt ol.steps a::before{content:counter(st);position:absolute;left:7px;top:4px;width:17px;height:17px;border-radius:50%;background:var(--bg);border:1px solid var(--bronze);color:var(--amber);font:600 10px/16px var(--font-d);text-align:center}
+nav#idx .pt ol.steps a:hover{color:var(--fg)}
 nav#idx a:hover{background:var(--panel2)}
 nav#idx a[aria-current="page"]{background:var(--panel2);color:var(--amber);box-shadow:inset 2px 0 0 var(--amber)}
 main#view{overflow-y:auto;padding:28px max(20px,env(safe-area-inset-right,0px)) 80px 40px;min-width:0}
@@ -171,6 +179,9 @@ function slug(p){return p.replace(/\.md$/,'').replace(/[^A-Za-z0-9]+/g,'-').repl
 var MAP={};
 var idx=document.getElementById('idx');
 var h='<p class="brand">I-<b>RULE</b>01</p><p class="tag">Developer hub · The Creative Fire</p>';
+var PT='docs/17-playthrough-start-to-throne.md',PTS=[['3-island-1-the-starting-shelf-env-01','Island 1: where it starts'],['beat-plan-island-1-minute-by-minute-golden-path','Minute by minute on island 1'],['4-the-stillness-duel-the-encounter-exactly','The fight, then stillness'],['5-the-mind-vision-the-cinematic-core','The mind-vision'],['6-stage-by-stage-how-elias-gets-to-the-throne','Stages 1 to 6'],['7-the-route-to-the-throne','The climb to the Throne'],['8-the-throne-sequence-exactly-about-6-minutes','Sitting, fire and sound'],['10-what-the-developer-builds-by-system','What to build'],['11-decisions-needed-from-the-project-owner','Decisions needed']];
+MAP[slug(PT)]=PT;
+h+='<div class="pt"><div class="grp">Playthrough</div><a class="ptmain" href="#'+slug(PT)+'" data-p="'+PT+'">17 Playthrough: start to Throne</a><ol class="steps">'+PTS.map(function(x){return '<li><a href="#'+slug(PT)+'" data-step="'+x[0]+'">'+x[1]+'</a></li>'}).join('')+'</ol></div>';
 NAV.forEach(function(g){h+='<div class="grp">'+g[0]+'</div>';g[1].forEach(function(i){MAP[slug(i[0])]=i[0];h+='<a href="#'+slug(i[0])+'" data-p="'+i[0]+'">'+i[1]+'</a>'})});
 h+='<div class="grp">PDFs</div>';PDFS.forEach(function(i){h+='<a href="'+i[0]+'" target="_blank" rel="noopener">'+i[1]+'</a>'});
 idx.innerHTML=h;
@@ -201,9 +212,9 @@ function renderLibrary(mode){
     var allTxt=isl?'prompts/islands-core-prompts.txt':'prompts/all-asset-core-prompts.txt';
     var h='<div id="lib-top"></div><h1>'+(isl?'Islands':'Asset library')+'</h1>';
     h+='<p>'+(isl?'The '+L.length+' floating islands of the world. <b>Part 1</b> is the numbered list. <b>Part 2</b> has every island with its images (each with a Download button) and the exact prompt that made it (each with a Copy button).':'Every object in the game, with its images, downloads and prompts. <b>Part 1</b> is the numbered list. <b>Part 2</b> has every asset in full.')+' To add or replace an image, put it in <code>art/assets/&lt;ID&gt;/</code> with the file name shown and this page updates itself.</p>';
-    h+='<div class="tk-sum"><div><b id="n-total">'+L.length+'</b><span>'+(isl?'islands':'assets')+'</span></div><div><b id="n-sheet">0</b><span>turnaround sheets in</span></div><div><b id="n-views">0</b><span>detail close-ups in (of '+totalDet+')</span></div><div><b id="n-comp">0</b><span>complete (sheet + details)</span></div><div><b id="n-opt">0</b><span>optional 3D single angles (of '+totalOpt+')</span></div></div>';
+    h+='<div class="tk-sum"><div><b id="n-total">'+L.length+'</b><span>'+(isl?'islands':'assets')+'</span></div><div><b id="n-sheet">0</b><span>turnaround sheets in</span></div><div><b id="n-views">0</b><span>optional detail close-ups in (of '+totalDet+')</span></div><div><b id="n-comp">0</b><span>complete (sheet in)</span></div><div><b id="n-opt">0</b><span>optional 3D single angles (of '+totalOpt+')</span></div></div>';
     h+='<div class="prog" aria-hidden="true"><i id="bar"></i></div><p id="barlbl" style="font-size:12px;color:var(--muted);margin:2px 0 14px"></p>';
-    h+='<div class="tipbox"><b>How to generate:</b> every prompt below is <b>one image</b>. Paste <b>one prompt per message</b>. Start with the sheet (all sides in one image), then make the detail close-ups yourself, one at a time. The single angles are optional extras for 3D tools.</div><div class="acts"><a class="btn" href="art-pipeline/3D_Reference_Prompt_Pack.pdf" target="_blank" rel="noopener">Open the PDF prompt pack</a></div>';
+    h+='<div class="tipbox"><b>How to generate:</b> every prompt below is <b>one image</b>. Paste <b>one prompt per message</b>. Make the sheet first (5 angles in one image: front, back, side, top, underside). For consistency, <b>attach the approved sheet</b> to anything else you generate and say "same island, do not change any shapes". Detail close-ups and single angles are optional.</div><div class="acts"><a class="btn" href="art-pipeline/3D_Reference_Prompt_Pack.pdf" target="_blank" rel="noopener">Open the PDF prompt pack</a></div>';
     h+='<div class="tk-f">'+(isl?'':'<label for="fc">Group</label><select id="fc"><option value="">All</option>'+cats.map(function(c){return '<option>'+c+'</option>'}).join('')+'</select>')+'<label for="fs">Status</label><select id="fs"><option value="">All</option><option value="missing">Missing</option><option value="sheet">Needs details</option><option value="prog">In progress</option><option value="done">Complete</option></select><label for="fq">Find</label><input id="fq" type="search" placeholder="ID or name"></div>';
     // PART 1
     h+='<h2>Part 1 · The list</h2><ol class="nl" id="nl">';
@@ -224,17 +235,17 @@ function renderLibrary(mode){
        +(x.dress&&x.dress.length?'<div class="dress"><b>Put on this island</b> <span class="meta">(separate structures; suggested)</span><ul>'+x.dress.map(function(d){return '<li><span class="id">'+d.id+'</span> '+esc(d.name)+' <span class="meta">· '+esc(d.where)+'</span></li>'}).join('')+'</ul></div>':'')
        +'<div class="sheetbox" data-sheet><div class="empty">Turnaround sheet not added yet.<br><span class="path">'+base+'sheet.jpg</span></div></div>'
        +'<div class="acts"><span data-dl-sheet></span><a class="btn" href="prompts/assets/'+x.id+'/sheet.txt" download="'+x.id+'_sheet_prompt.txt">Download sheet prompt (.txt)</a><button class="btn" data-pid="'+x.id+'" data-pk="sheet">Copy sheet prompt</button></div>'
-       +'<h4>Sheet prompt <span class="meta">(one image, all angles)</span></h4><pre class="pt">'+esc(p.sheet)+'</pre>'
-       +(x.views.some(isdet)?'<h4>Detail close-ups <span class="meta">(attach the approved sheet as a reference)</span></h4><div class="vgrid dgrid">'+x.views.filter(isdet).map(vcardf(x,p)).join('')+'</div>':'')
+       +'<h4>Sheet prompt <span class="meta">(one image, 5 angles)</span></h4><pre class="pt">'+esc(p.sheet)+'</pre>'
+       +(x.views.some(isdet)?'<h4>Optional detail close-ups <span class="meta">(each works alone; attaching the approved sheet matches best)</span></h4><div class="vgrid dgrid">'+x.views.filter(isdet).map(vcardf(x,p)).join('')+'</div>':'')
        +'<details class="opt"><summary><b>Optional: single angles for 3D tools</b> <span class="meta">('+x.views.filter(function(v){return !isdet(v)}).length+' images, make them later, one at a time)</span></summary><div class="vgrid">'+x.views.filter(function(v){return !isdet(v)}).map(vcardf(x,p)).join('')+'</div></details>'
        +'<p class="meta"><button class="btn sm" data-go="lib-top">Back to the list</button> <span class="path">'+base+'</span></p></section>';
     });
     doc.className='wide';doc.innerHTML=h;
     var state={},ns=0,nv=0,no=0,nc=0;
     L.forEach(function(x){state[x.id]={sheet:false,n:0,o:0,total:x.views.filter(isdet).length}});
-    function stat(st){return !st.sheet?((st.n||st.o)?'prog':'missing'):st.n<st.total?(st.n===0?'sheet':'prog'):'done'}
+    function stat(st){return !st.sheet?((st.n||st.o)?'prog':'missing'):'done'}
     function upd(){nc=0;L.forEach(function(x){if(stat(state[x.id])==='done')nc++});document.getElementById('n-sheet').textContent=ns;document.getElementById('n-views').textContent=nv;document.getElementById('n-opt').textContent=no;document.getElementById('n-comp').textContent=nc;
-      var pct=Math.round((ns+nv)/(L.length+totalDet)*1000)/10;document.getElementById('bar').style.width=pct+'%';document.getElementById('barlbl').textContent=pct+'% of the core images (sheets + detail close-ups)'}
+      var pct=Math.round(ns/L.length*1000)/10;document.getElementById('bar').style.width=pct+'%';document.getElementById('barlbl').textContent=pct+'% of the sheets (one 5-angle sheet per asset)'}
     function setpill(id){var st=state[id],k=stat(st),t={missing:'Missing',sheet:'Needs details',prog:'In progress',done:'Complete'}[k]+(k==='prog'?' ('+(st.n+(st.sheet?1:0))+'/'+(st.total+1)+')':'');
       [].forEach.call(doc.querySelectorAll('[data-id="'+id+'"]'),function(el){el.setAttribute('data-s',k);var p=el.querySelector('[data-st]');p.className='pill '+k;p.textContent=t});filter()}
     function filter(){var fc=document.getElementById('fc'),c=fc?fc.value:'',s=document.getElementById('fs').value,q=document.getElementById('fq').value.toLowerCase();
@@ -293,6 +304,8 @@ doc.addEventListener('click',function(e){
   var c=e.target.closest('[data-pid]');if(c){var p=LIB.P[c.getAttribute('data-pid')],k=c.getAttribute('data-pk');copyText(k==='sheet'?p.sheet:p.views[k],c)}
 });
 document.getElementById('menu').addEventListener('click',function(){var o=document.body.classList.toggle('open');this.setAttribute('aria-expanded',o)});
+idx.addEventListener('click',function(e){var a=e.target.closest('a[data-step]');if(!a)return;e.preventDefault();var id=a.getAttribute('data-step'),sl=slug(PT);
+  if(location.hash==='#'+sl){var el=document.getElementById(id);if(el)el.scrollIntoView({behavior:'smooth',block:'start'});document.body.classList.remove('open')}else{pending=id;location.hash=sl}});
 window.addEventListener('hashchange',route);
 route();
 </script>

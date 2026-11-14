@@ -10,7 +10,9 @@
 | **Stillness hold** | 2.5 s |
 | **Lesson** | *Do not act yet. Find alignment first.* |
 
-No enemies. The game teaches "do not act yet." Combat is disabled; dash is allowed but penalised (+0.08 forcing each).
+> **PROPOSED CHANGE:** Stage 1 gets one scripted enemy encounter on island 1 (the Unbroken Shadow and the Stillness Duel). See [Playthrough: start to Throne](../17-playthrough-start-to-throne.md). The beat plan below is the canon version and needs retiming if approved.
+
+No enemies in the original canon. The game teaches "do not act yet." Combat is disabled; dash is allowed but penalised (+0.08 forcing each).
 
 ## Level
 Southwest. Spawn (-290, 0, -290). Footprint about 140 x 140 m. Ignition column (-210, 0, -210), trigger radius 3.0, hold 2.5 s. Gate arch to Stage 2 at (-190, 0, -190).
