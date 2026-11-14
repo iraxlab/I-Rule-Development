@@ -70,6 +70,7 @@ CONTRIBUTING.md            how to propose changes
 
 | # | Document | Answers |
 |---|---|---|
+| 17 | [Playthrough: start to Throne](docs/17-playthrough-start-to-throne.md) | Every beat from the first frame on island 1 to the Ring of Fire |
 | 00 | [How it plays](docs/how-it-plays.md) | What does the player actually do, minute by minute? |
 | 01 | [Vision and pillars](docs/01-vision-and-pillars.md) | What are we making and why? |
 | 02 | [Story and lore](docs/02-story-and-lore.md) | What happens, why Elias, why now, what does it mean? |
@@ -110,7 +111,7 @@ CONTRIBUTING.md            how to propose changes
 | Art direction and look lock | Done |
 | Key art | 25+ approved images, in [art/](art/README.md) |
 | Throne | **Redesigned**, new renders pending (see [docs/08](docs/08-the-throne.md)) |
-| 3D reference prompt pack | Done (53 assets, 126 pages) |
+| 3D reference prompt pack | Done (53 assets, 110 pages) |
 | Unreal prototype | **Not started.** Stage 1 vertical slice is the first build |
 | Open decisions | See [docs/13](docs/13-canon-and-open-decisions.md) |
 
