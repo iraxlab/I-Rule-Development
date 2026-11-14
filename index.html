@@ -171,17 +171,17 @@ var NAV=[
  ['Game design',[['docs/01-vision-and-pillars.md','01 Vision and pillars'],['docs/02-story-and-lore.md','02 Story and lore'],['docs/03-world-and-level-design.md','03 World and level design'],['docs/04-characters-and-companions.md','04 Characters and companions'],['docs/05-enemies.md','05 Enemies'],['docs/06-core-systems.md','06 Core systems'],['docs/08-the-throne.md','08 The Throne']]],
  ['Stages',[['docs/stages/README.md','Stages overview'],['docs/stages/stage-1-lurking.md','1 Lurking'],['docs/stages/stage-2-emerging.md','2 Emerging'],['docs/stages/stage-3-the-toil.md','3 The Toil'],['docs/stages/stage-4-the-leap.md','4 The Leap'],['docs/stages/stage-5-flying.md','5 Flying'],['docs/stages/stage-6-the-peak.md','6 The Peak'],['docs/stages/the-throne-ending.md','The Throne ending']]],
  ['Build',[['docs/09-audio-and-ux.md','09 Audio and UX'],['docs/10-unreal-architecture.md','10 Unreal architecture'],['docs/11-production-plan.md','11 Production plan']]],
- ['Art',[['docs/12-art-direction.md','12 Art direction'],['art/README.md','Art gallery'],['islands','Islands (13)'],['docs/16-island-dressing-guide.md','16 Island dressing guide'],['tracker','All assets (53)'],['art-pipeline/README.md','3D pipeline'],['prompts/README.md','Prompts index'],['prompts/key-art-prompts.md','Key art prompts'],['prompts/elias-character-reference-prompts.md','Elias prompts']]],
+ ['Art',[['docs/12-art-direction.md','12 Art direction'],['art/README.md','Art gallery'],['islands','Islands (13)'],['docs/16-island-dressing-guide.md','16 Island dressing guide'],['docs/18-look-bible.md','18 Look Bible (sample images)'],['docs/19-env01-blueprint.md','19 ENV-01 blueprint (locked)'],['docs/20-env01-developer-walkthrough.md','20 ENV-01 developer walkthrough'],['tracker','All assets (53)'],['art-pipeline/README.md','3D pipeline'],['prompts/README.md','Prompts index'],['prompts/playthrough-image-prompts.md','Playthrough image prompts (71)'],['prompts/key-art-prompts.md','Key art prompts'],['prompts/elias-character-reference-prompts.md','Elias prompts']]],
  ['Project',[['docs/13-canon-and-open-decisions.md','13 Canon and open decisions'],['docs/14-funding-and-submission.md','14 Funding and submission'],['GLOSSARY.md','Glossary'],['CONTRIBUTING.md','Contributing'],['design/README.md','Original PDFs']]]
 ];
-var PDFS=[['design/GDD_Legend_and_Game_Design.pdf','Game design document'],['design/Story_Meaning_Goal.pdf','Story, meaning, goal'],['design/Pitch_Deck_Master_Brief.pdf','Pitch deck brief'],['design/Elias_Character_Reference.pdf','Elias reference'],['design/Island_Map.pdf','Island map'],['design/Throne_Wow_Direction.pdf','Throne direction'],['art-pipeline/3D_Reference_Prompt_Pack.pdf','3D prompt pack']];
+var PDFS=[['design/GDD_Legend_and_Game_Design.pdf','Game design document'],['design/Story_Meaning_Goal.pdf','Story, meaning, goal'],['design/Pitch_Deck_Master_Brief.pdf','Pitch deck brief'],['design/Elias_Character_Reference.pdf','Elias reference'],['design/Island_Map.pdf','Island map'],['design/Throne_Wow_Direction.pdf','Throne direction'],['art-pipeline/3D_Reference_Prompt_Pack.pdf','3D prompt pack'],['art-pipeline/Playthrough_Storyboard_Prompts.pdf','Playthrough storyboard prompts']];
 function slug(p){return p.replace(/\.md$/,'').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'').toLowerCase()}
 var MAP={};
 var idx=document.getElementById('idx');
 var h='<p class="brand">I-<b>RULE</b>01</p><p class="tag">Developer hub · The Creative Fire</p>';
 var PT='docs/17-playthrough-start-to-throne.md',PTS=[['3-island-1-the-starting-shelf-env-01','Island 1: where it starts'],['beat-plan-island-1-minute-by-minute-golden-path','Minute by minute on island 1'],['4-the-stillness-duel-the-encounter-exactly','The fight, then stillness'],['5-the-mind-vision-the-cinematic-core','The mind-vision'],['6-stage-by-stage-how-elias-gets-to-the-throne','Stages 1 to 6'],['7-the-route-to-the-throne','The climb to the Throne'],['8-the-throne-sequence-exactly-about-6-minutes','Sitting, fire and sound'],['10-what-the-developer-builds-by-system','What to build'],['11-decisions-needed-from-the-project-owner','Decisions needed']];
-MAP[slug(PT)]=PT;
-h+='<div class="pt"><div class="grp">Playthrough</div><a class="ptmain" href="#'+slug(PT)+'" data-p="'+PT+'">17 Playthrough: start to Throne</a><ol class="steps">'+PTS.map(function(x){return '<li><a href="#'+slug(PT)+'" data-step="'+x[0]+'">'+x[1]+'</a></li>'}).join('')+'</ol></div>';
+MAP[slug(PT)]=PT;MAP[slug('prompts/playthrough-image-prompts.md')]='prompts/playthrough-image-prompts.md';
+h+='<div class="pt"><div class="grp">Playthrough</div><a class="ptmain" href="#'+slug(PT)+'" data-p="'+PT+'">17 Playthrough: start to Throne</a><ol class="steps">'+PTS.map(function(x){return '<li><a href="#'+slug(PT)+'" data-step="'+x[0]+'">'+x[1]+'</a></li>'}).join('')+'<li><a href="#'+slug('prompts/playthrough-image-prompts.md')+'">Image prompts for every step (71)</a></li></ol></div>';
 NAV.forEach(function(g){h+='<div class="grp">'+g[0]+'</div>';g[1].forEach(function(i){MAP[slug(i[0])]=i[0];h+='<a href="#'+slug(i[0])+'" data-p="'+i[0]+'">'+i[1]+'</a>'})});
 h+='<div class="grp">PDFs</div>';PDFS.forEach(function(i){h+='<a href="'+i[0]+'" target="_blank" rel="noopener">'+i[1]+'</a>'});
 idx.innerHTML=h;
@@ -207,7 +207,7 @@ function renderLibrary(mode){
     var A=R[0],P=R[1];LIB.P=P;
     var isl=mode==='islands';
     var L=isl?A.filter(function(x){return x.cat==='Islands'}):A;LIB.A=L;
-    var cats=['Islands','Structures','Sky','Throne','Creatures'];
+    var cats=['Islands','Structures','Sky','Throne','Creatures','Effects'];
     var totalDet=L.reduce(function(a,x){return a+x.views.filter(isdet).length},0);var totalOpt=L.reduce(function(a,x){return a+x.views.filter(function(v){return !isdet(v)}).length},0);
     var allTxt=isl?'prompts/islands-core-prompts.txt':'prompts/all-asset-core-prompts.txt';
     var h='<div id="lib-top"></div><h1>'+(isl?'Islands':'Asset library')+'</h1>';
