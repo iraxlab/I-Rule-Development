@@ -23,5 +23,5 @@ Every image carries `ID - NAME` as a visible title (for example `ENV-01 - STARTI
 **Paste one prompt per message into Gemini, never a whole file.** Pasting everything at once runs the image tool out of turns.
 
 - Core set per asset: 1 turnaround sheet, plus 4 detail close-ups where details exist (all 13 islands have them). That is 5 images per island.
-- `prompts/assets/<ID>/sheet.txt`, `detail-1.txt` ... `detail-4.txt` and the optional single angles (`front.txt`, `back.txt` ...): one file per prompt, one image per prompt.
+- `prompts/assets/<ID>/sheet.txt`, `detail-1.txt` ... `detail-4.txt` and the single views (`front.txt`, `back.txt` ...): one file per prompt, one image per prompt.
 - The same text is on the website (Art, Islands and All assets) with Copy and Download buttons. Source data: `data/prompts.json`.
