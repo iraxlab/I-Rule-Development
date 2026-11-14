@@ -1,0 +1,2466 @@
+[
+ {
+  "id": "ENV-01",
+  "name": "Starting Shelf Island",
+  "cat": "Islands",
+  "size": "~40 m wide",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "right",
+    "label": "Right"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   },
+   {
+    "k": "detail-1",
+    "label": "Detail 1: The broken gateway"
+   },
+   {
+    "k": "detail-2",
+    "label": "Detail 2: Fallen bronze beam"
+   },
+   {
+    "k": "detail-3",
+    "label": "Detail 3: Arrival disc"
+   },
+   {
+    "k": "detail-4",
+    "label": "Detail 4: Spearhead underside"
+   }
+  ],
+  "page": 6,
+  "ref": "art/world/stage-1-lurking.jpg",
+  "legacy": false,
+  "desc": "a vast dark shelf of rock split down the middle by a deep ravine that is crossed by one colossal fallen bronze beam, at the far end a towering broken gateway of bronze and frozen fire, a tall pointed arch with a single still beam of light standing inside it, a shallow bronze-inlaid arrival disc with concentric rings on the near side, huge cracked paving slabs, thick rusted chains hanging off the rim into the void, a tapering inverted-cone underside like a gigantic dark spearhead with a faint bronze vein glowing deep inside it, one bare dead fossil tree, immense, silent and ominous",
+  "short": "Ravine, fallen bronze beam, broken gateway of light",
+  "dress": [
+   {
+    "id": "STR-19",
+    "name": "Fossil Tree",
+    "where": "one, near the arrival disc side"
+   },
+   {
+    "id": "STR-09",
+    "name": "Anchor Socket",
+    "where": "at the bridge end"
+   },
+   {
+    "id": "STR-21",
+    "name": "Small Lantern Post",
+    "where": "a pair flanking the arrival disc"
+   }
+  ]
+ },
+ {
+  "id": "ENV-02",
+  "name": "Small Stepping Island",
+  "cat": "Islands",
+  "size": "~12 m wide",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   },
+   {
+    "k": "detail-1",
+    "label": "Detail 1: Bronze ring"
+   },
+   {
+    "k": "detail-2",
+    "label": "Detail 2: Twisted strata"
+   },
+   {
+    "k": "detail-3",
+    "label": "Detail 3: Stepping top"
+   },
+   {
+    "k": "detail-4",
+    "label": "Detail 4: Drilled tail"
+   }
+  ],
+  "page": 10,
+  "ref": null,
+  "legacy": false,
+  "desc": "a single tall twisted spire of rock like a petrified whirlwind, spiral strata corkscrewing up around its core, a small flat stepping top just wide enough for a person, one bronze ring band wrapped around its waist, jagged stone fins spiralling off the sides, a long drilled-looking tapering tail underneath with small hanging shards, striking and sculptural",
+  "short": "Twisted whirlwind spire with a bronze ring",
+  "note": "Sheet v1 filed. The last two cells repeat the labels LEFT SIDE and TOP; they are extra side views. No underside or right view yet.",
+  "dress": [
+   {
+    "id": "STR-19",
+    "name": "Fossil Tree",
+    "where": "one on top"
+   },
+   {
+    "id": "STR-09",
+    "name": "Anchor Socket",
+    "where": "at each bridge end"
+   }
+  ]
+ },
+ {
+  "id": "ENV-03",
+  "name": "Medium Island with Windbreak",
+  "cat": "Islands",
+  "size": "~30 m wide",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "right",
+    "label": "Right"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   },
+   {
+    "k": "detail-1",
+    "label": "Detail 1: Stone arch"
+   },
+   {
+    "k": "detail-2",
+    "label": "Detail 2: Bronze-inlaid hollow"
+   },
+   {
+    "k": "detail-3",
+    "label": "Detail 3: Leaning pillar"
+   },
+   {
+    "k": "detail-4",
+    "label": "Detail 4: Bell underside"
+   }
+  ],
+  "page": 13,
+  "ref": null,
+  "legacy": false,
+  "desc": "a wind-carved island whose edge sweeps up into a huge natural stone arch bridge spanning a sheltered hollow gully, the hollow floor paved with bronze inlay lines, the outer face of the arch fluted and scoured by wind into long ribbed grooves, a crooked leaning bronze-capped pillar at the mouth of the gully, ragged cliff sides, a ribbed bell-shaped underside with hanging stone tendrils, mysterious like the entrance to something ancient",
+  "short": "Natural stone arch over a sheltered hollow",
+  "dress": [
+   {
+    "id": "STR-04",
+    "name": "Monolith Slab",
+    "where": "one beside the stone arch"
+   },
+   {
+    "id": "STR-19",
+    "name": "Fossil Tree",
+    "where": "one in the sheltered hollow"
+   },
+   {
+    "id": "STR-21",
+    "name": "Small Lantern Post",
+    "where": "by the leaning pillar"
+   }
+  ]
+ },
+ {
+  "id": "ENV-04",
+  "name": "Large Plateau Island",
+  "cat": "Islands",
+  "size": "~60 m wide",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "right",
+    "label": "Right"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   },
+   {
+    "k": "detail-1",
+    "label": "Detail 1: Terraced bowl"
+   },
+   {
+    "k": "detail-2",
+    "label": "Detail 2: Column crown"
+   },
+   {
+    "k": "detail-3",
+    "label": "Detail 3: Fallen drums"
+   },
+   {
+    "k": "detail-4",
+    "label": "Detail 4: Beacon pillar"
+   }
+  ],
+  "page": 17,
+  "ref": "art/world/stage-2-emerging.jpg",
+  "legacy": false,
+  "desc": "a vast island dominated by a sunken terraced bowl of concentric collapsed stone rings like a dry ancient reservoir, around the rim a crown of towering broken columns of different heights like the stumps of a giant colonnade, enormous fallen column drums lying across the terraces, two tall stone-and-bronze beacon pillars at the edge of the bowl, broken ragged cliff rim, a deep underside of stacked hanging rock slabs like an upside-down mountain, grand, weathered and mysterious",
+  "short": "Sunken terraced bowl ringed by broken columns",
+  "dress": [
+   {
+    "id": "STR-01",
+    "name": "Tower Ruin, Large",
+    "where": "two on the rim, opposite each other"
+   },
+   {
+    "id": "STR-23",
+    "name": "Leaning Broken Tower",
+    "where": "one at the far edge"
+   },
+   {
+    "id": "STR-03",
+    "name": "Rock Spire Cluster",
+    "where": "one outside the column ring"
+   },
+   {
+    "id": "STR-14",
+    "name": "Lantern Anchor XL, Tower-Mounted",
+    "where": "on the tallest tower"
+   },
+   {
+    "id": "STR-19",
+    "name": "Fossil Tree",
+    "where": "two, scattered"
+   }
+  ]
+ },
+ {
+  "id": "ENV-05",
+  "name": "Long Causeway Island",
+  "cat": "Islands",
+  "size": "~80 m long, 10 m wide",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   },
+   {
+    "k": "detail-1",
+    "label": "Detail 1: Fossil ribs"
+   },
+   {
+    "k": "detail-2",
+    "label": "Detail 2: Paving strip"
+   },
+   {
+    "k": "detail-3",
+    "label": "Detail 3: Vertebra knobs"
+   },
+   {
+    "k": "detail-4",
+    "label": "Detail 4: Tail end"
+   }
+  ],
+  "page": 21,
+  "ref": null,
+  "legacy": false,
+  "desc": "a very long thin island shaped like the spine of a colossal fossil creature, a straight obsidian paving strip running along the top with a bronze inlay line, giant curved stone ribs arching up and over the strip in an uneven rhythm, some ribs snapped off, small vertebra-like knobs along the sides, the underside tapering away like a tail with hanging chains, eerie and monumental",
+  "short": "Fossil spine with giant arching ribs",
+  "note": "Sheet v1 filed. One angle in the middle row (a long 3/4 view) has no label, and there is no underside view.",
+  "dress": [
+   {
+    "id": "STR-07",
+    "name": "Plank and Metal Causeway Segment",
+    "where": "laid along the path between the ribs"
+   },
+   {
+    "id": "STR-20",
+    "name": "Signal Mast",
+    "where": "one at each end"
+   },
+   {
+    "id": "STR-21",
+    "name": "Small Lantern Post",
+    "where": "along the path"
+   },
+   {
+    "id": "STR-19",
+    "name": "Fossil Tree",
+    "where": "one near the middle"
+   }
+  ]
+ },
+ {
+  "id": "ENV-06",
+  "name": "Arena Island",
+  "cat": "Islands",
+  "size": "~64 m wide",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "right",
+    "label": "Right"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   },
+   {
+    "k": "detail-1",
+    "label": "Detail 1: Ember vent"
+   },
+   {
+    "k": "detail-2",
+    "label": "Detail 2: Ring-wall teeth"
+   },
+   {
+    "k": "detail-3",
+    "label": "Detail 3: Bronze brazier"
+   },
+   {
+    "k": "detail-4",
+    "label": "Detail 4: Funnel underside"
+   }
+  ],
+  "page": 24,
+  "ref": "art/world/stage-3-the-toil.jpg",
+  "legacy": false,
+  "desc": "a circular ancient stone arena floating in the sky, a massive ring wall broken into jagged tooth-like towers of different heights, a cracked flat floor with five great round vents glowing ember-orange, enormous bronze braziers on the ring wall, thick chains attached to two sides as bridge anchors, a stepped funnel-shaped underside like a gigantic inverted bowl with a dull glowing ember core deep in its base, as in the Stage 3 key art, intimidating and grand",
+  "short": "Tooth-ring arena, five vents, funnel underside",
+  "dress": [
+   {
+    "id": "STR-17",
+    "name": "Heat Vent",
+    "where": "the five arena vents"
+   },
+   {
+    "id": "STR-02",
+    "name": "Tower Ruin, Capped",
+    "where": "two among the ring teeth"
+   },
+   {
+    "id": "STR-24",
+    "name": "Needle Spire Tower",
+    "where": "one on the far side, as a landmark"
+   },
+   {
+    "id": "STR-15",
+    "name": "Lantern Anchor XL, Ground",
+    "where": "at the arena edge"
+   },
+   {
+    "id": "STR-18",
+    "name": "Energy Reservoir",
+    "where": "one set into the rim"
+   }
+  ]
+ },
+ {
+  "id": "ENV-07",
+  "name": "Summit Peak Island",
+  "cat": "Islands",
+  "size": "~50 m wide, 40 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "right",
+    "label": "Right"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   },
+   {
+    "k": "detail-1",
+    "label": "Detail 1: Spiral staircase"
+   },
+   {
+    "k": "detail-2",
+    "label": "Detail 2: Bronze terrace"
+   },
+   {
+    "k": "detail-3",
+    "label": "Detail 3: Crown of teeth"
+   },
+   {
+    "k": "detail-4",
+    "label": "Detail 4: Root of rock"
+   }
+  ],
+  "page": 28,
+  "ref": "art/world/stage-6-the-summit.jpg",
+  "legacy": false,
+  "desc": "the tallest floating island, a slender mountain spire of dark weathered stone spiralled by one long carved staircase winding up around it, narrow bronze-edged terraces at each turn, hanging chains and broken stone arches along the climb, the top ending in a wide flat crown platform ringed by jagged broken stone teeth and left empty for a monumental throne, the base a long tapering root of rock, wreathed in cloud, awe-inspiring and austere",
+  "short": "Spire wound by one long staircase, empty crown",
+  "note": "Sheet v1 plus six single-angle renders filed. Still needed: underside and 3/4 front-left.",
+  "dress": [
+   {
+    "id": "STR-22",
+    "name": "Summit Staircase",
+    "where": "the long carved stair around the spire"
+   },
+   {
+    "id": "STR-12",
+    "name": "Peak Column",
+    "where": "at the crown, beside the empty Throne space"
+   },
+   {
+    "id": "STR-26",
+    "name": "Gatehouse Tower",
+    "where": "one at the stair mid-point, as a landmark"
+   },
+   {
+    "id": "STR-21",
+    "name": "Small Lantern Post",
+    "where": "along the terraces"
+   }
+  ]
+ },
+ {
+  "id": "ENV-08",
+  "name": "Canyon Cliff Pair",
+  "cat": "Islands",
+  "size": "two ~35 m islands",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   },
+   {
+    "k": "detail-1",
+    "label": "Detail 1: Matching strata"
+   },
+   {
+    "k": "detail-2",
+    "label": "Detail 2: Cave mouth"
+   },
+   {
+    "k": "detail-3",
+    "label": "Detail 3: Toppled arch"
+   },
+   {
+    "k": "detail-4",
+    "label": "Detail 4: Shattered face"
+   }
+  ],
+  "page": 32,
+  "ref": "art/world/stage-4-the-leap.jpg",
+  "legacy": false,
+  "desc": "two colossal sheer cliff islands that look like the two halves of one split mountain, their layered strata lines matching across the gap as though torn apart, one cliff with a huge dark cave mouth, the other with a toppled bronze arch hanging from its edge by chains, bronze anchor plates set into the near edges, jagged shattered faces, hanging stone teeth below, dramatic and ominous",
+  "short": "Two halves of one split mountain, cave and toppled arch",
+  "dress": [
+   {
+    "id": "STR-06",
+    "name": "Fixed Stone Bridge",
+    "where": "across the gap between the two cliffs"
+   },
+   {
+    "id": "STR-05",
+    "name": "Locked Bronze Gate",
+    "where": "inside the cave mouth"
+   },
+   {
+    "id": "STR-25",
+    "name": "Twin Towers with Broken Arch",
+    "where": "one set on the cave-side cliff top"
+   },
+   {
+    "id": "STR-03",
+    "name": "Rock Spire Cluster",
+    "where": "on the other cliff top"
+   }
+  ]
+ },
+ {
+  "id": "ENV-09",
+  "name": "Drifting Fragment Cluster",
+  "cat": "Islands",
+  "size": "cluster ~50 m",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   },
+   {
+    "k": "detail-1",
+    "label": "Detail 1: Stone arch"
+   },
+   {
+    "k": "detail-2",
+    "label": "Detail 2: Tower tip"
+   },
+   {
+    "k": "detail-3",
+    "label": "Detail 3: Split sphere"
+   },
+   {
+    "k": "detail-4",
+    "label": "Detail 4: Staircase slab"
+   }
+  ],
+  "page": 35,
+  "ref": "art/world/stage-5-flying.jpg",
+  "legacy": false,
+  "desc": "a loose constellation of six very different broken fragments floating at different heights: a floating stone arch, a broken tower tip with bronze windows, a split hollow sphere of rock, a tilted slab with a staircase carved into it, a jagged crystal-like obsidian blade cluster, and a stout rounded boulder with a bronze band, thin amber light glowing in their cracks, no connections, mysterious like the wreckage of a giant structure",
+  "short": "Six different wreck fragments",
+  "dress": [
+   {
+    "id": "STR-19",
+    "name": "Fossil Tree",
+    "where": "one on the largest fragment"
+   }
+  ]
+ },
+ {
+  "id": "ENV-10",
+  "name": "Debris Rocks Set",
+  "cat": "Islands",
+  "size": "1-4 m each",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "detail-1",
+    "label": "Detail 1: Spiral shard"
+   },
+   {
+    "k": "detail-2",
+    "label": "Detail 2: Ring stone"
+   },
+   {
+    "k": "detail-3",
+    "label": "Detail 3: Blade cluster"
+   },
+   {
+    "k": "detail-4",
+    "label": "Detail 4: Banded boulder"
+   }
+  ],
+  "page": 38,
+  "ref": null,
+  "legacy": false,
+  "desc": "a set of four floating debris rocks, each a different shape: a spiral shard, a hollow ring-shaped stone, a cluster of obsidian blades, and a rounded boulder with a bronze band, jagged tan fracture faces, small bronze flecks, thin amber glow in the cracks",
+  "short": "Four distinct debris rocks",
+  "dress": [
+   {
+    "id": "STR-03",
+    "name": "Rock Spire Cluster",
+    "where": "a small one on the largest rock"
+   }
+  ]
+ },
+ {
+  "id": "ENV-11",
+  "name": "Moving Platform Slab",
+  "cat": "Islands",
+  "size": "~8 m wide",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   },
+   {
+    "k": "detail-1",
+    "label": "Detail 1: Amber guide channels"
+   },
+   {
+    "k": "detail-2",
+    "label": "Detail 2: Piston and rail"
+   },
+   {
+    "k": "detail-3",
+    "label": "Detail 3: Bronze rim"
+   },
+   {
+    "k": "detail-4",
+    "label": "Detail 4: Chamfered edge"
+   }
+  ],
+  "page": 40,
+  "ref": null,
+  "legacy": false,
+  "desc": "a heavy carved floating stone slab with a thick bronze rim, deep straight glowing amber guide channels cut across its top in parallel lines, chamfered edges, bronze ring handles hanging from its sides on short chains, a visible bronze piston-and-rail mechanism fixed beneath it, ancient engineered machinery",
+  "short": "Heavy slab on a visible piston and rail",
+  "dress": [
+   {
+    "id": "STR-09",
+    "name": "Anchor Socket",
+    "where": "at each end of the rail"
+   }
+  ]
+ },
+ {
+  "id": "ENV-12",
+  "name": "Brittle Slab",
+  "cat": "Islands",
+  "size": "~6 m wide",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   },
+   {
+    "k": "detail-1",
+    "label": "Detail 1: Peeling layers"
+   },
+   {
+    "k": "detail-2",
+    "label": "Detail 2: Amber cracks"
+   },
+   {
+    "k": "detail-3",
+    "label": "Detail 3: Drifting fragments"
+   },
+   {
+    "k": "detail-4",
+    "label": "Detail 4: Underside"
+   }
+  ],
+  "page": 43,
+  "ref": null,
+  "legacy": false,
+  "desc": "a fragile floating slab of thin layered stone peeling apart in sheets, hairline cracks leaking thin amber light, bronze inlay partly broken, chipped edges, small fragments already drifting off its rim, a delicate and doomed look",
+  "short": "Layered slab peeling apart, leaking amber light",
+  "dress": []
+ },
+ {
+  "id": "ENV-13",
+  "name": "Windbreak Ridge",
+  "cat": "Islands",
+  "size": "~25 m long, 8 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "detail-1",
+    "label": "Detail 1: Fluted face"
+   },
+   {
+    "k": "detail-2",
+    "label": "Detail 2: Notched crest"
+   },
+   {
+    "k": "detail-3",
+    "label": "Detail 3: Ruined stair"
+   },
+   {
+    "k": "detail-4",
+    "label": "Detail 4: Bronze brackets"
+   }
+  ],
+  "page": 46,
+  "ref": null,
+  "legacy": false,
+  "desc": "a tall curved blade of obsidian-black rock like a giant shark fin or scimitar rising from a flat base, its wind-carved face fluted with long smooth grooves, a notched crest, a tiny ruined stair cut along the rough back, a few bronze brackets bolted into it",
+  "short": "Shark-fin blade ridge with a tiny stair",
+  "dress": [
+   {
+    "id": "STR-20",
+    "name": "Signal Mast",
+    "where": "one at the top of the tiny stair"
+   }
+  ]
+ },
+ {
+  "id": "STR-01",
+  "name": "Tower Ruin, Large",
+  "cat": "Structures",
+  "size": "~30 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "right",
+    "label": "Right"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 49,
+  "ref": null,
+  "legacy": false,
+  "desc": "a colossal tapering tower ruin of dark weathered stone stacked in seven narrowing tiers, each tier ringed by a gold-bronze band and carved vertical panels, tall arched windows with a faint amber glow, flying stone buttress arches clinging to its flanks, a deep crack running down one side, the top sheared off in a jagged diagonal break that exposes the inner floors, grand and ominous",
+  "short": "Seven-tier tapering tower, sheared top"
+ },
+ {
+  "id": "STR-02",
+  "name": "Tower Ruin, Capped",
+  "cat": "Structures",
+  "size": "~22 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 51,
+  "ref": null,
+  "legacy": false,
+  "desc": "a squat massive round drum tower with an intact domed bronze cap weathered green with verdigris and topped by a bronze finial spike, a carved stone spiral stair wrapping around its outside, three gold-bronze bands, small arched windows with a faint amber glow, heavy and ancient",
+  "short": "Squat drum tower, verdigris dome, spiral stair"
+ },
+ {
+  "id": "STR-03",
+  "name": "Rock Spire Cluster",
+  "cat": "Structures",
+  "size": "~25 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 53,
+  "ref": null,
+  "legacy": false,
+  "desc": "seven jagged natural needles of obsidian-black rock with tan edges rising from one shared base, one very tall central needle with a leaning sister beside it, a small carved stone balcony fused halfway up the tallest, fractured horizontal strata, dramatic, sharp and mysterious",
+  "short": "Seven black needles with a fused balcony"
+ },
+ {
+  "id": "STR-04",
+  "name": "Monolith Slab",
+  "cat": "Structures",
+  "size": "~12 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 55,
+  "ref": null,
+  "legacy": false,
+  "desc": "a single tall rectangular monolith slab leaning very slightly, obsidian-black, smooth faces with one cracked corner, a thin vertical bronze inlay line running its full height, set in a low square stone footing",
+  "short": "Slightly leaning obsidian monolith"
+ },
+ {
+  "id": "STR-05",
+  "name": "Locked Bronze Gate",
+  "cat": "Structures",
+  "size": "~8 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "right",
+    "label": "Right"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 57,
+  "ref": null,
+  "legacy": false,
+  "desc": "a tall ornate double door set in a carved stone frame, green-bronze (verdigris) panels with scrollwork, a heavy chain and padlock across the center, a thin bright amber light leaking through the center crack",
+  "short": "A tall ornate double door set in a carved stone frame"
+ },
+ {
+  "id": "STR-06",
+  "name": "Fixed Stone Bridge",
+  "cat": "Structures",
+  "size": "~20 m long",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 59,
+  "ref": null,
+  "legacy": false,
+  "desc": "a narrow arched stone bridge of weathered dark blocks with a bronze keystone and low side curbs, worn surface, anchored at both ends into rock",
+  "short": "A narrow arched stone bridge of weathered dark blocks"
+ },
+ {
+  "id": "STR-07",
+  "name": "Plank and Metal Causeway Segment",
+  "cat": "Structures",
+  "size": "~10 m long",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 61,
+  "ref": null,
+  "legacy": false,
+  "desc": "a short walkway segment of weathered wooden planks fixed between heavy metal chains and bronze posts, sturdy and fixed in place, as seen on the plank bridges in the key art",
+  "short": "A short walkway segment of weathered wooden planks fixed between heavy metal cha"
+ },
+ {
+  "id": "STR-08",
+  "name": "Light Bridge Segment",
+  "cat": "Structures",
+  "size": "~6 m long",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   }
+  ],
+  "page": 63,
+  "ref": null,
+  "legacy": false,
+  "desc": "a short ladder-style chain bridge segment: two heavy chains with flat wooden rungs, where the front rungs are glowing bright amber light bars and the rest are plain weathered wood, as in the key art",
+  "short": "A short ladder-style chain bridge segment: two heavy chains"
+ },
+ {
+  "id": "STR-09",
+  "name": "Anchor Socket",
+  "cat": "Structures",
+  "size": "~2 m wide",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 64,
+  "ref": null,
+  "legacy": false,
+  "desc": "a round bronze meditation disc set flush in worn paving, several concentric etched rings with fine engraved patterns, a small recessed center; shown dormant (and a second version softly glowing amber)",
+  "short": "A round bronze meditation disc set flush in worn paving"
+ },
+ {
+  "id": "STR-10",
+  "name": "Ignition Column, Dormant",
+  "cat": "Structures",
+  "size": "~6 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "right",
+    "label": "Right"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 66,
+  "ref": null,
+  "legacy": false,
+  "desc": "a tall slim carved stone column on a round bronze base, vertical bronze inlay channels, flat top with a small dark fire bowl, shown dormant and unlit",
+  "short": "A tall slim carved stone column on a round bronze base"
+ },
+ {
+  "id": "STR-11",
+  "name": "Ignition Column, Ignited",
+  "cat": "Structures",
+  "size": "~6 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 68,
+  "ref": null,
+  "legacy": false,
+  "desc": "the same tall slim carved stone column on a round bronze base with a controlled straight vertical column of amber fire rising from its top bowl, bronze channels glowing amber",
+  "short": "The same tall slim carved stone column on a round bronze base"
+ },
+ {
+  "id": "STR-12",
+  "name": "Peak Column",
+  "cat": "Structures",
+  "size": "~10 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 70,
+  "ref": null,
+  "legacy": false,
+  "desc": "a wide fluted dark-stone column with a bronze capital, standing alone at a summit, shown dormant",
+  "short": "A wide fluted dark-stone column"
+ },
+ {
+  "id": "STR-13",
+  "name": "Lantern Anchor XL, Hanging",
+  "cat": "Structures",
+  "size": "~9 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "right",
+    "label": "Right"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 72,
+  "ref": null,
+  "legacy": false,
+  "desc": "a monumental hanging lantern, clean geometric aged-bronze frame around a hollow core, suspended from a heavy bracket, shown dark and dormant",
+  "short": "A monumental hanging lantern"
+ },
+ {
+  "id": "STR-14",
+  "name": "Lantern Anchor XL, Tower-Mounted",
+  "cat": "Structures",
+  "size": "~12 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 74,
+  "ref": null,
+  "legacy": false,
+  "desc": "a monumental lantern mounted on top of a carved stone tower base, clean geometric aged-bronze frame, hollow core, shown dark and dormant",
+  "short": "A monumental lantern mounted on top of a carved stone tower base"
+ },
+ {
+  "id": "STR-15",
+  "name": "Lantern Anchor XL, Ground",
+  "cat": "Structures",
+  "size": "~8 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 76,
+  "ref": null,
+  "legacy": false,
+  "desc": "a monumental ground-standing lantern on a wide stepped stone base, geometric bronze cage, hollow core, shown dormant",
+  "short": "A monumental ground-standing lantern on a wide stepped stone base"
+ },
+ {
+  "id": "STR-16",
+  "name": "Lantern Anchor XL, Lit",
+  "cat": "Structures",
+  "size": "~9 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 78,
+  "ref": null,
+  "legacy": false,
+  "desc": "the same monumental geometric bronze lantern with steady stable amber fire inside its core, warm light spilling onto the base",
+  "short": "The same monumental geometric bronze lantern"
+ },
+ {
+  "id": "STR-17",
+  "name": "Heat Vent",
+  "cat": "Structures",
+  "size": "~3 m wide",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   }
+  ],
+  "page": 80,
+  "ref": null,
+  "legacy": false,
+  "desc": "a round floor heat vent with a raised bronze rim and radial slots, obsidian paving around it, faint amber glow inside",
+  "short": "A round floor heat vent"
+ },
+ {
+  "id": "STR-18",
+  "name": "Energy Reservoir",
+  "cat": "Structures",
+  "size": "~10 m wide",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 81,
+  "ref": null,
+  "legacy": false,
+  "desc": "a shallow round basin of obsidian stone with bronze rim holding glowing amber energy liquid, stepped sides",
+  "short": "A shallow round basin of obsidian stone"
+ },
+ {
+  "id": "STR-19",
+  "name": "Fossil Tree",
+  "cat": "Structures",
+  "size": "~6 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 83,
+  "ref": null,
+  "legacy": false,
+  "desc": "a dry dead tree, bare twisted pale-brown trunk with many thin bare branching limbs, petrified, no leaves, as scattered across the key-art islands",
+  "short": "A dry dead tree"
+ },
+ {
+  "id": "STR-20",
+  "name": "Signal Mast",
+  "cat": "Structures",
+  "size": "~6 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   }
+  ],
+  "page": 85,
+  "ref": null,
+  "legacy": false,
+  "desc": "a tall thin dark-bronze mast pole with five short horizontal cross-arms of different lengths, the tip of each arm glowing amber, set on a small round bronze base",
+  "short": "A tall thin dark-bronze mast pole"
+ },
+ {
+  "id": "STR-21",
+  "name": "Small Lantern Post",
+  "cat": "Structures",
+  "size": "~1.2 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   }
+  ],
+  "page": 86,
+  "ref": null,
+  "legacy": false,
+  "desc": "a small bronze lantern on a short post with a flame-lit glass-free cage, warm amber glow, placed along bridge paths",
+  "short": "A small bronze lantern on a short post"
+ },
+ {
+  "id": "STR-22",
+  "name": "Summit Staircase",
+  "cat": "Structures",
+  "size": "~30 m long",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 87,
+  "ref": null,
+  "legacy": false,
+  "desc": "a broad weathered stone staircase of many wide flat steps climbing a rocky summit in zig-zag flights with landings, eroded edges",
+  "short": "A broad weathered stone staircase of many wide flat steps climbing a rocky summi"
+ },
+ {
+  "id": "STR-23",
+  "name": "Leaning Broken Tower",
+  "cat": "Structures",
+  "size": "~28 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left side"
+   },
+   {
+    "k": "right",
+    "label": "Right side"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 89,
+  "ref": null,
+  "legacy": false,
+  "desc": "a tall square tower ruin tilted at a dramatic angle as if caught mid-fall, held up by one thick bronze-banded stone buttress, the upper floors snapped and hanging off by heavy chains, dark weathered stone with carved panels, gaping arched windows with a faint amber glow, tense and mysterious",
+  "short": "Tower tilted mid-fall, chains and buttress"
+ },
+ {
+  "id": "STR-24",
+  "name": "Needle Spire Tower",
+  "cat": "Structures",
+  "size": "~45 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left side"
+   },
+   {
+    "k": "right",
+    "label": "Right side"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 91,
+  "ref": null,
+  "legacy": false,
+  "desc": "an impossibly slender needle tower of dark stone, a narrow carved lantern chamber near the top, tiny arched windows, a single thread of gold-bronze inlay running its whole height, tapering to a razor-sharp point, standing alone and awe-inspiring",
+  "short": "Impossibly slender 45 m needle tower"
+ },
+ {
+  "id": "STR-25",
+  "name": "Twin Towers with Broken Arch",
+  "cat": "Structures",
+  "size": "~26 m tall, 30 m wide",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left side"
+   },
+   {
+    "k": "right",
+    "label": "Right side"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 93,
+  "ref": null,
+  "legacy": false,
+  "desc": "two matching carved ruin towers of different heights, one with a bronze dome cap and one open-topped, joined near the top by a high stone arch bridge that is cracked and missing its middle section, gold-bronze bands, small amber-lit windows, grand and silent",
+  "short": "Twin towers joined by a broken arch"
+ },
+ {
+  "id": "STR-26",
+  "name": "Gatehouse Tower",
+  "cat": "Structures",
+  "size": "~24 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left side"
+   },
+   {
+    "k": "right",
+    "label": "Right side"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 95,
+  "ref": null,
+  "legacy": false,
+  "desc": "a broad fortress gatehouse tower with a huge pointed arch passage through its base, deep shadow inside, flanking carved guardian pilasters, empty bronze track grooves where a portcullis once hung, a stone crown of broken battlement teeth, weathered dark stone with gold-bronze trim, ruin not a city",
+  "short": "Gatehouse with a huge arch passage"
+ },
+ {
+  "id": "SKY-01",
+  "name": "Six-Line Ladder, Dormant",
+  "cat": "Sky",
+  "size": "~120 m wide total",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 98,
+  "ref": "art/world/04-six-lines-the-sky-is-the-map.jpg",
+  "legacy": false,
+  "desc": "six long straight horizontal cylindrical rods with small metal end caps, stacked vertically with even spacing, parallel and equal in length, floating; shown unlit as dark bronze rods; flat straight bars only, not a star shape, not a circle",
+  "short": "Six long straight horizontal cylindrical rods"
+ },
+ {
+  "id": "SKY-02",
+  "name": "Six-Line Ladder, Progress States",
+  "cat": "Sky",
+  "size": "~120 m wide total",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   }
+  ],
+  "page": 100,
+  "ref": "art/world/04-six-lines-the-sky-is-the-map.jpg",
+  "legacy": false,
+  "desc": "six equal straight horizontal bars stacked vertically; show three versions side by side: bottom bar glowing warm amber-white, bottom four glowing, all six glowing; unlit bars thin and dark; flat straight bars only",
+  "short": "Six equal straight horizontal bars stacked vertically; show three versions side "
+ },
+ {
+  "id": "SKY-03",
+  "name": "Fire Eye Structure",
+  "cat": "Sky",
+  "size": "~200 m wide",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 101,
+  "ref": "art/characters/companion-the-fire-eye.jpg",
+  "legacy": false,
+  "desc": "a huge eye of living fire floating in the sky, an almond-shaped eyelid ring of flaming amber tendrils and radiating fire filaments, a fiery amber iris with a dark vertical diamond-shaped pupil, perfectly symmetrical, as in the key art",
+  "short": "A huge eye of living fire floating in the sky"
+ },
+ {
+  "id": "SKY-04",
+  "name": "Ringed Planet",
+  "cat": "Sky",
+  "size": "sky object",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   }
+  ],
+  "page": 103,
+  "ref": null,
+  "legacy": false,
+  "desc": "a large distant ringed planet, warm sepia and tan bands, thin pale ring, soft glow, as in the key-art cover",
+  "short": "A large distant ringed planet"
+ },
+ {
+  "id": "SKY-05",
+  "name": "Plain Planet",
+  "cat": "Sky",
+  "size": "sky object",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   }
+  ],
+  "page": 104,
+  "ref": null,
+  "legacy": false,
+  "desc": "a distant cratered brown-amber planet with a dark terminator shadow, no rings, soft rim glow, as in the key-art cover",
+  "short": "A distant cratered brown-amber planet"
+ },
+ {
+  "id": "THR-01",
+  "name": "The Throne of Stillness",
+  "cat": "Throne",
+  "size": "~40 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "right",
+    "label": "Right"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_fr",
+    "label": "3/4 front-right"
+   },
+   {
+    "k": "tq_bl",
+    "label": "3/4 back-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   },
+   {
+    "k": "low",
+    "label": "Low angle"
+   },
+   {
+    "k": "high",
+    "label": "High angle"
+   },
+   {
+    "k": "detail-fissures",
+    "label": "Detail: fissures"
+   },
+   {
+    "k": "detail-ribs",
+    "label": "Detail: dragon ribs"
+   },
+   {
+    "k": "detail-seat",
+    "label": "Detail: seat"
+   },
+   {
+    "k": "ignited",
+    "label": "Ignited state"
+   }
+  ],
+  "page": 106,
+  "ref": null,
+  "legacy": false,
+  "desc": "a colossal ancient throne hewn from black volcanic stone and aged bronze, about 40 m tall, unmistakably a throne: a deep massive seat block with two thick armrests, and rising far above it a very tall narrow monolith backrest with straight parallel sides and a flat notched top, six equally spaced horizontal glowing amber fissures carved across the backrest like a ladder of fire, hot molten-amber cracks veining through the dark stone like lava under a crust, two colossal curved bronze dragon ribs rising on either side and arching inward like a cage with fire glowing between them, a long steep staircase of broken black stone with bronze braziers burning along both sides leading up to the seat, heavy rough weathered surfaces, thin embers rising",
+  "note": "Sheet v1 approved as the look reference. Revision needed on the final: six fissures (sheet shows five) and two large dragon ribs (sheet shows many tusk-like ribs); the throne should also read taller against the staircase.",
+  "short": "A colossal ancient throne hewn from black volcanic stone and aged bronze"
+ },
+ {
+  "id": "THR-02",
+  "name": "The Throne Stairs and Platform",
+  "cat": "Throne",
+  "size": "~50 m long",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 110,
+  "ref": null,
+  "legacy": false,
+  "desc": "a long steep staircase of broken black volcanic stone with bronze braziers burning along both sides, leading up to a broad flat cracked stone platform with thin molten-amber veins in the stone, heavy rough weathered surfaces",
+  "short": "A long steep staircase of broken black volcanic stone"
+ },
+ {
+  "id": "THR-03",
+  "name": "Throne on Summit",
+  "cat": "Throne",
+  "size": "~70 m overall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "right",
+    "label": "Right"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_fr",
+    "label": "3/4 front-right"
+   },
+   {
+    "k": "tq_bl",
+    "label": "3/4 back-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   },
+   {
+    "k": "low",
+    "label": "Low angle"
+   },
+   {
+    "k": "high",
+    "label": "High angle"
+   },
+   {
+    "k": "detail-fissures",
+    "label": "Detail: fissures"
+   },
+   {
+    "k": "detail-ribs",
+    "label": "Detail: dragon ribs"
+   },
+   {
+    "k": "detail-seat",
+    "label": "Detail: seat"
+   },
+   {
+    "k": "ignited",
+    "label": "Ignited state"
+   }
+  ],
+  "page": 112,
+  "ref": "art/world/stage-6-the-summit.jpg",
+  "legacy": false,
+  "desc": "the colossal ancient volcanic-stone Throne with its very tall six-fissure monolith backrest and two arching bronze dragon ribs, standing at the very top of a rocky summit island above the clouds, the long staircase of broken black stone with burning bronze braziers climbing up to it",
+  "short": "The colossal ancient volcanic-stone Throne"
+ },
+ {
+  "id": "CRE-01",
+  "name": "The Cinder (guide)",
+  "cat": "Creatures",
+  "size": "~30 cm",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "right",
+    "label": "Right"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "under",
+    "label": "Underside"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 117,
+  "ref": "art/characters/companion-the-cinder.jpg",
+  "legacy": false,
+  "desc": "a small floating faceted polyhedron fire construct about the size of a head, gold-bronze angular frame with glass-like triangular and hexagonal facets around a bright glowing ember core with a faint engraved symbol, no face, no limbs",
+  "short": "A small floating faceted polyhedron fire construct about the size of a head"
+ },
+ {
+  "id": "CRE-02",
+  "name": "Fire Dragon",
+  "cat": "Creatures",
+  "size": "~60 m long",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 119,
+  "ref": "art/characters/companion-the-fire-dragon.jpg",
+  "legacy": false,
+  "desc": "a colossal winged fire dragon matching the key art: dark scaled body cracked with glowing amber-ember seams, large membrane wings with ember-lit veins, spiked head ridge and jaw glowing with amber fire, long body, majestic and calm, shown flying",
+  "short": "A colossal winged fire dragon matching the key art: dark scaled body cracked"
+ },
+ {
+  "id": "CRE-03",
+  "name": "Glass Shadow",
+  "cat": "Creatures",
+  "size": "~2 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 121,
+  "ref": "art/characters/enemy-glass-shadows.jpg",
+  "legacy": false,
+  "desc": "a tall humanoid figure made of faceted transparent amber-gold glass crystal, smooth faceless head, fine crack lines across the body, small glowing shards breaking off at one arm, symbolic force not a person",
+  "short": "A tall humanoid figure made of faceted transparent amber-gold glass crystal"
+ },
+ {
+  "id": "CRE-04",
+  "name": "Burn Knight",
+  "cat": "Creatures",
+  "size": "~3 m tall",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "back",
+    "label": "Back"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   },
+   {
+    "k": "tq_br",
+    "label": "3/4 back-right"
+   }
+  ],
+  "page": 123,
+  "ref": "art/characters/enemy-burn-knights.jpg",
+  "legacy": false,
+  "desc": "a heavy armored figure in dark matte black-bronze plate armor with amber-glowing visor and shoulder studs, a large round shield on one arm with a glowing swirling amber heat core, helmet without horns, symbolic force not a person",
+  "short": "A heavy armored figure in dark matte black-bronze plate armor"
+ },
+ {
+  "id": "CRE-05",
+  "name": "Ember Leech",
+  "cat": "Creatures",
+  "size": "~40 cm",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   }
+  ],
+  "page": 125,
+  "ref": "art/characters/enemy-ember-leeches.jpg",
+  "legacy": false,
+  "desc": "a long armored centipede-like creature, dark segmented plates, many thin legs, curved pincer tail with a glowing molten-ember sac at the rear, clinging to a stone ledge",
+  "short": "A long armored centipede-like creature"
+ },
+ {
+  "id": "CRE-06",
+  "name": "Storm Wraith (VFX reference)",
+  "cat": "Creatures",
+  "size": "~5 m",
+  "views": [
+   {
+    "k": "front",
+    "label": "Front"
+   },
+   {
+    "k": "left",
+    "label": "Left"
+   },
+   {
+    "k": "top",
+    "label": "Top"
+   },
+   {
+    "k": "tq_fl",
+    "label": "3/4 front-left"
+   }
+  ],
+  "page": 126,
+  "ref": "art/characters/enemy-storm-wraiths.jpg",
+  "legacy": false,
+  "desc": "a large humanoid figure formed of dark swirling dust and storm cloud, long clawed hands, faint amber lightning veins running through it, no solid face, shown mid-stride",
+  "short": "A large humanoid figure formed of dark swirling dust and storm cloud"
+ }
+]
