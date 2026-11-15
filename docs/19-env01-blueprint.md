@@ -1,79 +1,126 @@
-# 19. ENV-01 blueprint (LOCKED, design v2)
+# ENV-01 Starting Shelf Island (LOCKED)
 
-The Starting Shelf Island is approved. The approved hero render is `art/assets/ENV-01/hero.jpg`. This page is the exact map. Coordinates are metres: x east from the west edge, y north from the near (spawn) rim, height 0 = shelf top.
+**Units:** metres. **x** = east, 0 to 40. **y** = north, 0 to 56 (0 is the south rim where the player starts). **Height 0** = the top of the island.
 
-![Approved hero view](../art/assets/ENV-01/hero.jpg)
+## 1. What this island is
+1. A floating island of dark rock, 40 m wide and 56 m long.
+2. The player starts at the south end.
+3. One big rock mountain stands at the north end. The bronze door is at the foot of it.
+4. The player goes through the door, into a big cave room, then down steps to an exit tunnel.
+5. The tunnel leads to a bridge to the next island (ENV-02).
 
-![Sheet A: plan](../art/guide/env01-blueprint-v2-A-plan.png)
+## 2. The player's route
+Follow the steps in order. "Build" tells you what to make.
 
-![Sheet B: section and front elevation](../art/guide/env01-blueprint-v2-B-section.png)
+1. **Start.** Elias stands on a round bronze disc. The camera looks toward the door.
+   - **Build:** the spawn point. Add soft invisible walls at the edge so he cannot fall by mistake.
+2. **Follow the road.** A thin bronze line in the broken road leads to the beam. There is no marker and no arrow.
+   - **Build:** a line mesh that does not glow.
+3. **The crack.** The ground ends at a deep crack. If he falls, he returns to the disc.
+   - **Build:** crack collision, a kill volume far below, fog.
+4. **The beam.** A rusty steel beam lies across the crack. It is level and safe to walk on.
+   - **Build:** a static mesh. Make the walk area a little wider than the beam. No rails.
+5. **The forecourt and steps.** Broken stone ground, then a few worn steps up to the door. The bronze line goes up to the door.
+   - **Build:** the ground, the steps and the bronze line.
+6. **The locked door.** A bronze double door in the mountain. Chains and one padlock hold it shut. A thin amber line shows between the two doors.
+   - **Build:** a door with 3 states: Locked, Unlocked, Open.
+7. **Unlock.** Elias stands still in front of the door. The Cinder stays above him and glows. The padlock opens. The chains fall onto the steps. See section 3.
+   - **Build:** a trigger at the top step, a hold-still timer, a padlock and chain sequence.
+8. **The door opens.** The two doors swing inward. It is dark inside. No light comes out. He walks through a short passage.
+   - **Build:** the door animation and the passage.
+9. **The cave room.** A big dark room carved inside the mountain. Columns stand in it. There is no daylight. A round platform holds three floating weapons: a bow, a dagger and a spear. Only their faint glow lights the room.
+   - **Build:** a dark interior, a very faint glow from the weapons, floating dust, a pickup on the platform.
+10. **Down the steps and out.** He walks to the far end of the room. Worn steps go down to an exit tunnel. The tunnel leads out to a rock ledge.
+    - **Build:** the steps, the tunnel and the ledge.
+11. **The ledge fight.** On the ledge, leeches crawl on the rock. Bat-birds dive at him. He shoots them with his bow. A stone bridge to ENV-02 starts here. When the way is clear, he crosses. The level ends here.
+    - **Build:** enemy spawns, the bridge, and a trigger to load ENV-02. See section 8.
 
-Note on the hero render: it shows a second floating rock with chains in the background. That rock is an artefact and is **not** part of the design; the chains belong to the ENV-01 rim. Every ENV-01 prompt says to add no second island.
+## 3. The Cinder and the door
+1. The Cinder is Elias's fire companion. He has it from the start of the game.
+2. It is a small floating fire core, about the size of his head. It has an ember centre and a bronze frame.
+3. It floats near his shoulder. It does not speak. It is not a pet.
+4. On this island it is dim and quiet.
+5. It moves toward the right direction and gets a little brighter when he moves well.
+6. When he stands still, it stops moving and stays in place. It gives a low hum.
+7. At the door, he stands still on the top step for a few seconds.
+8. The Cinder stays above him and glows brighter.
+9. The padlock opens by itself. The chains slide off and fall on the steps.
+10. The two doors swing inward slowly. Elias does not push them.
+11. It is dark inside. The Cinder stays with him as he walks in.
+12. If he moves too early, the timer starts again.
 
-## Key distances
-| From | To | Distance |
+## 4. Door states
+| State | What you see | What the player can do |
 |---|---|---|
-| Disc centre (13.5, 7) | beam start (18, 15.5) | about 11 m along the broken road |
-| Beam | (18, 15.5) to (22.3, 30.9) | 16 m long, 2.5 m wide, about 15 degrees off north, level |
-| Crack | rim to rim | 8 to 11 m wide, 60 m+ drop |
-| Forecourt | irregular, about 13 x 4 m | y 31 to 35 |
-| Steps | 3 worn steps, about 9 m wide, 1.2 m deep, 0.4 m rise | y 35 to 38.6 |
-| Spawn to door | total walk | about 35 m |
-| Door | 8 m high, leaves 5.2 m, frame 7.6 m, crown 10.5 m | cliff face y 38.6, leaves x 17.9 to 23.1 |
-| Door passage | 3 m deep | y 38.6 to 41.6 |
-| Antechamber | about 16 x 11.5 m, ceiling 11 m | x 12.5 to 28.5, y 41.6 to 53 |
-| Arms dais | 4.5 m round, 0.4 m high | (20.5, 50) |
-| Ceiling hole | 3.6 m across, one shaft of light | (19, 47.8) |
+| Locked | Chains crossed, padlock closed | Walk up to it only |
+| Unlocked | Chains and padlock on the steps | See that the way is open |
+| Open | Doors swung in, dark inside | Walk in |
+
+## 5. Main sizes
+| Part | Size | Place |
+|---|---|---|
+| Island | 40 x 56 m, 6 m thick at the rim | whole map |
+| Underside | rock cone, 48 m deep | below the island |
+| Road to the beam | 11 m | from the disc |
+| Beam | 16 m long, 2.5 m wide | (18, 15.5) to (22.3, 30.9) |
+| Crack | 8 to 11 m wide, 60 m+ deep | y 15 to 31 |
+| Forecourt | 13 x 4 m | y 31 to 35 |
+| Steps to the door | 3 steps, 9 m wide | y 35 to 38.6 |
+| Walk from start to door | about 35 m | |
+| Door | 8 m high, 5.2 m wide | y 38.6, x 17.9 to 23.1 |
+| Door passage | 3 m long | y 38.6 to 41.6 |
+| Cave room | 16 x 11.5 m, 11 m high | x 12.5 to 28.5, y 41.6 to 53 |
+| Weapons platform | 4.5 m round, 0.4 m high | (20.5, 50) |
+| Steps down | 5 steps, 5 m wide, 2 m total drop | east end of the room |
 | Exit tunnel | 4 m wide, 5 m high | east wall, y 45 to 49 |
-| Exit ledge and bridge head | open rock terrace | x 32.2 to 40, y 42 to 52; bridge leaves at (40, 47) toward Island 2 |
+| Exit ledge | open rock | x 32.2 to 40, y 42 to 52 |
+| Bridge start | | (40, 47) |
 
-## Elements
-| Element | Position (x, y) | Size |
-|---|---|---|
-| Arrival disc | (13.5, 7) | 3.6 m, three rings, slightly sunken and cracked |
-| Tower A | (26.5, 44) | radius 4.2 m, top 60 m |
-| Tower B | (10.5, 43.5) | radius 3.2 m, top 36 m, leaning 12 degrees west |
-| Rock spire S1 | (7, 46) | 42 m |
-| Rock spire S2 | (14, 52.5) | 33 m |
-| Rock spire S3 | (21, 54) | 36 m |
-| Rock spire S4 | (30, 53) | 48 m |
-| Rock spire S5 | (31.5, 41) | 28 m |
-| Rock spire S6 | (5, 41) | 20 m |
-| Column (whole) | (15.6, 45.2) | 1.6 m across |
-| Column (broken) | (25.4, 45.0) | 1.6 m across |
-| Column (broken) | (15.4, 50.4) | 1.6 m across |
-| Column (whole) | (25.6, 50.6) | 1.6 m across |
-| Dead tree or stump T1 | (5, 11) | 6.0 m |
-| Dead tree or stump T2 | (31.5, 10.5) | 4.5 m |
-| Dead tree or stump T3 | (9, 34) | 2.8 m |
-| Dry grass clusters | (4.2, 13), (6.6, 9.6), (30, 12), (33.5, 8), (8.5, 31.5), (30.5, 32), (28, 5), (35, 20), (4, 36) | 0.3 to 0.5 m |
-| Rubble pile | (10, 35.5) | 3.0 m across, uneven stones |
-| Rubble pile | (29.5, 35) | 3.5 m across, uneven stones |
-| Rubble pile | (8, 14.5) | 2.5 m across, uneven stones |
-| Rubble pile | (33, 13) | 3.0 m across, uneven stones |
-| Rubble pile | (31, 27.5) | 2.2 m across, uneven stones |
-| Rubble pile | (6, 30) | 2.4 m across, uneven stones |
-| Single fallen blocks | (12, 31), (28, 30), (24.5, 9.5), (34, 28.5) | single slabs |
-| Chain C1 | (2.2, 14.5) rim ring | 28 m long |
-| Chain C2 | (3.8, 6) rim ring | 22 m long |
-| Chain C3 | (38, 17) rim ring | 30 m long |
-| Chain C4 | (36, 5) rim ring | 20 m long |
-| Chain C5 | (28, 0.5) rim ring | 18 m long |
-| Chain C6 | (12, 0.5) rim ring | 24 m long |
-| Chain C7 | (39.5, 33) rim ring | 26 m long |
-| Chain C8 | (3, 40) rim ring | 21 m long |
+## 6. Rock rules
+1. The mountain, the peaks and the outcrops are all one dark brown-black rock. Use one rock material.
+2. The mountain is thick and solid, with the cave room carved inside it. There is 15 m or more of rock above the room.
+3. The mountain is made of many big boulders, slabs and ribs. Many large rocks stand next to the door.
+4. Nothing on the mountain is built. No bricks, no windows, no towers, no battlements.
+5. Do not make it symmetrical. The edge is ragged. The stones are different sizes.
+6. The beam is rusty, dented and never clean.
 
-## Surface rules (why it must not look staged)
-No mirror symmetry. Ragged outline. The beam is level but crooked, dented, rust-streaked and chipped, never polished. The crack is jagged and meandering with stepped lips. The terrace, road and forecourt are broken, uneven patches of different-sized slabs. Rubble is scattered, not piled in neat heaps. Towers and spires grow out of the cliff.
+## 7. Sounds and mood
+The island is quiet, large and alive. Sound tells the player where they are.
 
-## Prompts
-ENV-01 now has an all-sides sheet (front, back, left, right, top, underside in one image) and 14 separate detail prompts, in the 3D Reference Prompt Pack, in `prompts/assets/ENV-01/`, and in `art-pipeline/ENV-01_Blueprint_and_Prompts.pdf`. Attach the hero image and both blueprint sheets to every prompt. The details are: 1 locked door, 2 weathered beam, 3 spawn terrace, 4 underside cone, 5 door and towers, 6 door unlocked, 7 door open, 8 forecourt and steps, 9 the crack, 10 towers on the cliff, 11 antechamber hall, 12 Arms dais, 13 exit tunnel and ledge, 14 rim props.
+### Always on
+1. Wind. Low and slow. It never stops.
+2. Clouds and fog. A soft, deep air sound. Fog drifts over the crack and around the rim.
+3. Fire, here and there. A few small amber fires burn on the island. Each has a soft crackle you hear only when you are near.
+4. Birds far away. Dark shapes circle in the distance. You hear a cry now and then.
+5. Leeches. A dry scratching sound on the rock, in a few places.
 
-## Gameplay beat (PROPOSED)
-Elias appears on the disc, follows the road, crosses the beam, climbs the steps and stands still before the locked door; the Cinder opens the padlock and the chains fall. He walks through the passage into the antechamber (the Arms float above the dais), then takes the east tunnel to the ledge and the bridge to Island 2.
+### Chains
+The chains are heavy iron. They make small, low sounds.
+1. Each chain plays one quiet, heavy clink at its own place.
+2. Wait 3 to 9 seconds (random) between clinks. Never make a rhythm.
+3. In a gust of wind, make the clinks a little closer and louder, then calm again.
+4. The player hears a chain from 12 m. Past 25 m it is almost silent. Under the island it is louder.
+5. Door chains: a soft creak while the player is on the forecourt. When the padlock opens, play one heavy chain drop onto the steps. No music.
 
+## 8. Enemies and the bow
+1. Elias gets the bow from the platform in the cave. Before that he has no weapon.
+2. Outside, before the cave, nothing attacks him. Birds circle far away. Leeches crawl far away on the cliff. They are only life and mood.
+3. After he picks up the bow, enemies can attack. The fight happens on the exit ledge and the bridge.
+4. **Leeches.** Small, dark, armoured crawlers. They creep on the rock and the bridge. One arrow stops one leech.
+5. **Bat-birds.** Large, dark birds with wide bat-like wings. They dive from above, then pull away. Elias must shoot them. They come in short attacks, not all the time.
+6. **The bow.** Rush and spam give weak, ordinary arrows. Stand still and aim, and the arrow burns with fire and hits harder.
+7. Enemies do not follow him across the bridge into ENV-02.
 
-Step-by-step developer walkthrough with the filed images: `docs/20-env01-developer-walkthrough.md`.
+## 9. Blueprint pictures
+![Plan: top view of the island](../art/guide/env01-blueprint-v2-A-plan.png)
 
-## Sound note: the chains
-Chains are heavy rusted iron. In the wind they make a small, low, irregular clink and creak; they sway only a few degrees. Full builder note in `docs/20-env01-developer-walkthrough.md`.
+![Section and front view](../art/guide/env01-blueprint-v2-B-section.png)
+
+## 10. Notes for builders
+1. The pictures are looks only. If a picture and these numbers disagree, use the numbers.
+2. **Inside the cave it is dark.** When he enters, there is no light. Only the weapons glow, very faintly.
+3. Details 2 and 3 show ruined buildings with windows in the background. Ignore them. Build raw rock only.
+4. The hero, the underside picture and detail 4 show a small arched stone door on the cliff. Ignore it. The exit tunnel is a plain rough hole.
+5. Detail 13 may show skeletons. Do not build them.
+6. The top view shows a round pit on the west side. Do not build it.
+7. The bridge to ENV-02 is stone with chain rails, as in detail 13.

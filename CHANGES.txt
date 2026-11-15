@@ -1,79 +1,8 @@
-I-RULE01 GitHub update: ENV-01 ONLY (no other environments)
-Copy these files into the same folders in your repo and replace existing. Then delete the old ENV-01 images listed below.
-
-DELETE from your repo (old ENV-01 renders replaced by the new ones):
-art/assets/ENV-01/alt/front-2.jpg
-
-FILES (72):
-art-pipeline/ENV-01_Developer_Reference_and_Prompts.pdf
-art-pipeline/ENV-01_Developer_Walkthrough.pdf
-art/assets/ENV-01/back.jpg
-art/assets/ENV-01/detail-1.jpg
-art/assets/ENV-01/detail-11.jpg
-art/assets/ENV-01/detail-12.jpg
-art/assets/ENV-01/detail-13.jpg
-art/assets/ENV-01/detail-14.jpg
-art/assets/ENV-01/detail-2.jpg
-art/assets/ENV-01/detail-3.jpg
-art/assets/ENV-01/detail-4.jpg
-art/assets/ENV-01/detail-5.jpg
-art/assets/ENV-01/detail-6.jpg
-art/assets/ENV-01/detail-7.jpg
-art/assets/ENV-01/detail-8.jpg
-art/assets/ENV-01/detail-9.jpg
-art/assets/ENV-01/front.jpg
-art/assets/ENV-01/hero.jpg
-art/assets/ENV-01/left.jpg
-art/assets/ENV-01/right.jpg
-art/assets/ENV-01/sheet.jpg
-art/assets/ENV-01/thumbs/back.jpg
-art/assets/ENV-01/thumbs/detail-1.jpg
-art/assets/ENV-01/thumbs/detail-11.jpg
-art/assets/ENV-01/thumbs/detail-12.jpg
-art/assets/ENV-01/thumbs/detail-13.jpg
-art/assets/ENV-01/thumbs/detail-14.jpg
-art/assets/ENV-01/thumbs/detail-2.jpg
-art/assets/ENV-01/thumbs/detail-3.jpg
-art/assets/ENV-01/thumbs/detail-4.jpg
-art/assets/ENV-01/thumbs/detail-5.jpg
-art/assets/ENV-01/thumbs/detail-6.jpg
-art/assets/ENV-01/thumbs/detail-7.jpg
-art/assets/ENV-01/thumbs/detail-8.jpg
-art/assets/ENV-01/thumbs/detail-9.jpg
-art/assets/ENV-01/thumbs/front.jpg
-art/assets/ENV-01/thumbs/hero.jpg
-art/assets/ENV-01/thumbs/left.jpg
-art/assets/ENV-01/thumbs/right.jpg
-art/assets/ENV-01/thumbs/sheet.jpg
-art/assets/ENV-01/thumbs/top.jpg
-art/assets/ENV-01/thumbs/under.jpg
-art/assets/ENV-01/top.jpg
-art/assets/ENV-01/under.jpg
-art/guide/env01-blueprint-v2-A-plan.png
-art/guide/env01-blueprint-v2-B-section.png
-data/assets.json
-data/prompts.json
-docs/19-env01-blueprint.md
-docs/20-env01-developer-walkthrough.md
-index.html
-prompts/assets/ENV-01/back.txt
-prompts/assets/ENV-01/detail-1.txt
-prompts/assets/ENV-01/detail-10.txt
-prompts/assets/ENV-01/detail-11.txt
-prompts/assets/ENV-01/detail-12.txt
-prompts/assets/ENV-01/detail-13.txt
-prompts/assets/ENV-01/detail-14.txt
-prompts/assets/ENV-01/detail-2.txt
-prompts/assets/ENV-01/detail-3.txt
-prompts/assets/ENV-01/detail-4.txt
-prompts/assets/ENV-01/detail-5.txt
-prompts/assets/ENV-01/detail-6.txt
-prompts/assets/ENV-01/detail-7.txt
-prompts/assets/ENV-01/detail-8.txt
-prompts/assets/ENV-01/detail-9.txt
-prompts/assets/ENV-01/front.txt
-prompts/assets/ENV-01/left.txt
-prompts/assets/ENV-01/right.txt
-prompts/assets/ENV-01/sheet.txt
-prompts/assets/ENV-01/top.txt
-prompts/assets/ENV-01/under.txt
+I-RULE01 hub: ENV-01, ENV-02 and ENV-03 only.
+Copy these files into the repo, keeping the folder names.
+1. art/assets/ENV-01, ENV-02, ENV-03: all pictures and thumbs.
+2. prompts/assets/ENV-01, ENV-02, ENV-03: prompt .txt files.
+3. art/guide: the blueprint pictures for ENV-01, ENV-02, ENV-03.
+4. docs 15, 16, 18, 19, 20, 21: tracker, dressing guide, look bible, three environment guides.
+5. data/assets.json, data/prompts.json, index.html: the hub itself.
+Nothing for ENV-04 and later is in this zip as new work.

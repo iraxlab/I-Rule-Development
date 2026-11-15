@@ -31,7 +31,7 @@
    },
    {
     "k": "hero",
-    "label": "Approved hero view"
+    "label": "Hero view"
    },
    {
     "k": "detail-1",
@@ -51,7 +51,7 @@
    },
    {
     "k": "detail-5",
-    "label": "Detail 5: The door and its towers"
+    "label": "Detail 5: The door and its rock pillars"
    },
    {
     "k": "detail-6",
@@ -71,7 +71,7 @@
    },
    {
     "k": "detail-10",
-    "label": "Detail 10: Towers on the cliff"
+    "label": "Detail 10: Rock pillars on the cliff"
    },
    {
     "k": "detail-11",
@@ -93,36 +93,31 @@
   "page": 7,
   "ref": "art/world/stage-1-lurking.jpg",
   "legacy": false,
-  "desc": "a floating shelf of dark rock 40 m wide and 56 m long with a ragged asymmetric outline, about 6 m thick at the rim and tapering into an inverted cone 48 m deep with a faint bronze vein glowing inside it, six thick rusted chains hanging from bronze rim rings into the haze. At the near end is the SPAWN TERRACE, an irregular paved patch about 13 x 9 m of cracked slabs of different sizes, with a shallow bronze arrival disc (3.6 m across, three concentric rings, slightly sunken and cracked) at its centre and a low broken rock lip behind it; a tiny plain 1.8 m human silhouette stands on the disc facing the door in every view for scale. A broken road of uneven worn slabs about 4 m wide, with a thin broken bronze inlay line, leads about 11 m to THE BEAM: one colossal weathered bronze I-girder 16 m long with a 2.5 m wide top, lying slightly crooked (about 15 degrees off the straight line) across a ragged meandering crack that cuts the whole island from rim to rim, 8 to 11 m wide with stepped broken lips and a 60 m drop into haze; the beam is level but dented, rust-streaked, matte, dusty, with missing rivets and a chipped corner, never polished. Beyond it a broken irregular forecourt about 13 x 4 m, then three worn uneven steps rising to THE DOOR, shown LOCKED, cut into the face of a huge black rock cliff with raw rock on both sides: 8 m high, carved stone frame 7.6 m wide with a crown of bronze finials, battered green-bronze verdigris scrollwork leaves dark with soot, two thick rusted chains wound across both leaves held by one huge closed padlock, a thin bright amber line of light through the centre gap, exactly like the Core Fantasy key-art door. Behind the door the cliff holds a walkable antechamber: a 3 m passage, then an irregular carved hall about 16 x 11.5 m with an 11 m cracked ceiling, four stout columns (two whole, two broken) around a clear aisle, a low round dais 4.5 m across where three weapons hover, one shaft of amber light through a ceiling hole, a small west alcove, and a 4 m exit tunnel in the east wall opening onto a rock ledge on the cliffs east face where a fixed bridge leaves toward the next island. A very tall ruined carved tower (60 m, irregular broken tiers, sheared top, a few dim amber windows, no domes) and a shorter leaning half-collapsed tower (36 m) grow out of the cliff above the hall, with six jagged black rock spires of 20 to 48 m between and around them. Three bare dead trees (6 m, 4.5 m, and a 2.8 m broken stump) stand off the road, a few small uneven clumps of dry grass, and rubble in uneven scatters of different-sized stones; no mirror symmetry anywhere, immense, silent and ominous; match the attached approved ENV-01 hero image and blueprint sheets exactly, and add no second floating island or extra rock in the background",
+  "desc": "a floating shelf of dark rock 40 m wide and 56 m long with a ragged asymmetric outline, about 6 m thick at the rim and tapering into an inverted cone 48 m deep with a faint bronze vein glowing inside it, six thick rusted chains hanging from bronze rim rings into the haze. At the near end is the SPAWN TERRACE, an irregular paved patch about 13 x 9 m of cracked slabs of different sizes, with a shallow bronze arrival disc (3.6 m across, three concentric rings, slightly sunken and cracked) at its centre and a low broken rock lip behind it; a tiny plain 1.8 m human silhouette stands on the disc facing the door in every view for scale. A broken road of uneven worn slabs about 4 m wide, with a thin broken bronze inlay line, leads about 11 m to THE BEAM: one colossal weathered bronze I-girder 16 m long with a 2.5 m wide top, lying slightly crooked (about 15 degrees off the straight line) across a ragged meandering crack that cuts the whole island from rim to rim, 8 to 11 m wide with stepped broken lips and a 60 m drop into haze; the beam is level but dented, rust-streaked, matte, dusty, with missing rivets and a chipped corner, never polished. Beyond it a broken irregular forecourt about 13 x 4 m, then three worn uneven steps rising to THE DOOR, shown LOCKED, cut into the face of a huge black rock cliff with raw rock on both sides: 8 m high, carved stone frame 7.6 m wide with a crown of bronze finials, battered green-bronze verdigris scrollwork leaves dark with soot, two thick rusted chains wound across both leaves held by one huge closed padlock, a thin bright amber line of light through the centre gap, exactly like the Core Fantasy key-art door. Behind the door the cliff holds a walkable antechamber: a 3 m passage, then an irregular carved hall about 16 x 11.5 m with an 11 m cracked ceiling, four stout columns (two whole, two broken) around a clear aisle, a low round dais 4.5 m across where three weapons hover, completely dark inside with no daylight (only the faint glow of the weapons), a small west alcove, and, at the east side of the hall, a short flight of 5 wide worn stone steps going DOWN into a 4 m opening (the exit tunnel) in the east wall that leads out onto a rock ledge on the cliffs east face where a fixed bridge leaves toward the next island. The door sits low at the foot of ONE enormous, deep, solid mountain of black-brown fractured rock that rises 36 m at its west shoulder and 60 m at its summit, as thick and heavy as it is tall, with a huge cave carved inside it. The whole mass is built from countless big rough boulders, slabs, ribs and buttresses piled and jammed together, so the area around the door is crowded with many large rocks and ledges, with broken scree at their feet. Its upper part splits into two high crooked peaks (60 m and a 36 m one leaning west), which are simply the top of the same mass, not separate objects. All one rock: NO windows, NO openings, NO bricks or cut stone, NO tiers, NO battlements, NO carvings, nothing built. Only a faint amber glow deep in a few natural cracks. Around the base stand six chunky broken rock outcrops of 20 to 48 m, different heights, thick at the base, blunt snapped tops, NOT needles, NOT cones, NOT icicles. NO masonry on them: no bricks or courses of cut stone, no battlements, no crenellations, no arched windows, no columns, no domes, no bands or carved panels, nothing that looks built, Roman or medieval. Three bare dead trees (6 m, 4.5 m, and a 2.8 m broken stump) stand off the road, a few small uneven clumps of dry grass, and rubble in uneven scatters of different-sized stones; no mirror symmetry anywhere, immense, silent and ominous; match the attached approved ENV-01 hero image and blueprint sheets exactly, and add no second floating island or extra rock in the background",
   "short": "Crooked ravine, weathered beam, locked door in a cliff, walkable antechamber",
   "dress": [
    {
     "id": "STR-19",
     "name": "Fossil Tree",
-    "where": "one, near the arrival disc side"
-   },
-   {
-    "id": "STR-09",
-    "name": "Anchor Socket",
-    "where": "at the bridge end"
-   },
-   {
-    "id": "STR-21",
-    "name": "Small Lantern Post",
-    "where": "a pair flanking the arrival disc"
+    "where": "the three bare dead trees and the stump, exactly as placed on the ENV-01 map"
    },
    {
     "id": "STR-05",
     "name": "Locked Bronze Gate",
-    "where": "already part of ENV-01 (door in the cliff face)"
+    "where": "the locked door, already part of ENV-01 (cut into the cliff face)"
    },
    {
-    "id": "STR-30",
-    "name": "Fire Brazier, Standing",
-    "where": "one beside the arrival disc"
+    "id": "STR-34",
+    "name": "Bronze Door, Unlocked",
+    "where": "the same door after the padlock opens"
+   },
+   {
+    "id": "STR-35",
+    "name": "Bronze Door, Open",
+    "where": "the same door with both leaves swung inward"
    }
   ],
-  "note": "Design locked (v2). Filed: hero, the all-sides sheet, all six single views and details 1-9 and 11-14. Still to generate: detail 10 (towers on the cliff); detail 12 should be redone (duplicated title bar). Older images are in art/assets/ENV-01/_superseded."
+  "note": "Design locked (v2). Filed: hero, the all-sides sheet, all six single views and details 1-9 and 11-14. REGENERATE: hero, sheet, front/back/left/right/top and details 1,5,6,7,8,9 (they show built towers; the design is now natural rock pillars); detail 12 (duplicated title bar); detail 10 is new. Older images are in art/assets/ENV-01/_superseded."
  },
  {
   "id": "ENV-02",
@@ -137,10 +132,6 @@
    {
     "k": "back",
     "label": "Back"
-   },
-   {
-    "k": "left",
-    "label": "Left side"
    },
    {
     "k": "top",
@@ -165,12 +156,16 @@
    {
     "k": "detail-4",
     "label": "Detail 4: Drilled tail"
+   },
+   {
+    "k": "bird",
+    "label": "Big bat-bird over the island"
    }
   ],
   "page": 28,
   "ref": null,
   "legacy": false,
-  "desc": "a single tall twisted spire of rock like a petrified whirlwind, spiral strata corkscrewing up around its core, a small flat stepping top just wide enough for a person, one bronze ring band wrapped around its waist, jagged stone fins spiralling off the sides, a long drilled-looking tapering tail underneath with small hanging shards, striking and sculptural",
+  "desc": "a single heavy spire of the same dark black-brown fractured boulder rock as the Starting Shelf Island, thick and rough, built from big broken rock slabs that wind around its core like a slow whirlwind, with only thin lighter brown seams between the slabs, a few rough black rock fins sticking out of the sides, one small flat round top with room for a few steps and a long rough tapering tail underneath with a faint bronze vein glowing deep in the cracks and a few small hanging rock shards. One weathered bronze ring band, dented and green with verdigris, is wrapped around its waist. On the flat top, on the west edge, a short fixed stone bridge arrives and ends at a small bronze anchor socket set in the rock; on the east edge, a thin plank-and-chain bridge leaves from a second small bronze anchor socket. One thick rusted chain hangs from a bronze rim ring on the pad edge into the haze. One bare dead tree and a few small clumps of dry grass grow on the top. The top is cracked slabs of different sizes with loose chips. Everything is natural rock except the two bridge ends, the two anchor sockets, the chain and the bronze ring. Rough, grimy and uneven, never smooth, never tidy. No buildings, no walls, no windows, no arches",
   "short": "Twisted whirlwind spire with a bronze ring",
   "dress": [
    {
@@ -205,10 +200,6 @@
     "label": "Back"
    },
    {
-    "k": "left",
-    "label": "Left side"
-   },
-   {
     "k": "top",
     "label": "Top"
    },
@@ -218,30 +209,30 @@
    },
    {
     "k": "detail-1",
-    "label": "Detail 1: Stone arch"
+    "label": "Detail 1: Rock massif"
    },
    {
     "k": "detail-2",
-    "label": "Detail 2: Bronze-inlaid hollow"
+    "label": "Detail 2: Sheltered hollow"
    },
    {
     "k": "detail-3",
-    "label": "Detail 3: Leaning pillar"
+    "label": "Detail 3: Ignition column"
    },
    {
     "k": "detail-4",
-    "label": "Detail 4: Bell underside"
+    "label": "Detail 4: Extra tall crag"
    },
    {
     "k": "detail-5",
-    "label": "Detail 5: Pillar and towers"
+    "label": "Detail 5: Rest stone"
    }
   ],
-  "page": 33,
+  "page": 34,
   "ref": null,
   "legacy": false,
-  "desc": "a wind-carved island whose edge sweeps up into a huge natural stone arch bridge spanning a sheltered hollow gully, the hollow floor paved with bronze inlay lines, the outer face of the arch fluted and scoured by wind into long ribbed grooves, a crooked leaning bronze-capped pillar at the mouth of the gully, ragged cliff sides, a ribbed bell-shaped underside with hanging stone tendrils, mysterious like the entrance to something ancient; built into the same cliff at the mouth of the gully, right beside the crooked pillar, a squat round drum tower with a cracked half-collapsed cap and a stone spiral stair wrapping around it, and directly behind it one taller banded tower with amber-lit arched windows, both fused into the island rock within about 15 m of the pillar",
-  "short": "Natural stone arch over a sheltered hollow",
+  "desc": "a medium floating island of the same dark black-brown fractured boulder rock as the Starting Shelf Island, about 30 m wide, with a ragged uneven outline and a heavy rough underside. Along its north edge rises ONE GRAND MASSIF of natural rock: huge, thick and monumental, like a small mountain range or the great rock buttes of a canyon land, and like the tall rock clusters in the approved key art. It is a single mass that grows out of the island with no gaps at its base. It has a very wide heavy base about 22 m wide, and out of it rise five or six enormous crags of very different heights. TOWERING is the point. The crags are like the great spires of the Dolomites, the basalt pillars of Zhangjiajie and the fractured slate peaks of a mountain range, only crooked and leaning. THE BIGGEST CRAG RISES ABOUT TWICE AS HIGH AS THE WHOLE ISLAND IS WIDE (about 55 m on a 30 m island), so in the front view it is far taller than the island is long, and the island looks small beneath it. The second crag is about 38 m, then 34 m, 26 m, 18 m and 12 m, so the skyline is a jagged crown of very different heights: one extra tall spire, two or three tall ones, then medium ones and low broken shoulders. Do NOT make them all the same height. Every crag is thick at the base and rises in a long tapering shape, narrowing unevenly toward a ragged broken top, with long vertical fluting and deep vertical cracks, big ledges, overhangs and collapsed notches, wind grooves and thin lighter brown seams. They stand as ONE TIGHT OVERLAPPING CLUSTER, NOT in a fan, NOT in a row, NOT side by side like the fingers of a hand: some crags in front, some behind, two leaning against each other, one leaning out over the hollow, each leaning 10 to 25 degrees at a different angle, tops broken and jagged, the tallest off to the left of centre. They are fused at the base into one wide heavy mass with lower rock buttresses and stepped shoulders, with a few fallen boulders at the foot. They are NOT short blunt boulders, NOT squat blocks, NOT thin slabs, NOT planks, NOT fins, NOT ribs, NOT teeth, NOT stacked blocks, NOT toy bricks, NOT a neat row of equal stones, NOT like fingers, and NOT icicles or cones. In front of the crags the top dips into a small sheltered hollow with a plain flat floor of bare dark rock with nothing lying on it, thin straight bronze lines inlaid in the floor leading to one short stone column on a round bronze base with a small dark fire bowl on top, unlit. There are no steps, no stairs and no platforms. On the west edge a thin plank-and-chain bridge arrives at a short bronze socket post, and on the east edge a short fixed stone bridge end with a second short bronze socket post leaves toward the next place. The posts are plain short bronze posts. The underside tapers to a rough cone with a few long hanging rock tendrils and a faint bronze vein deep in the cracks. At the south-east edge, away from the crags, a big flat-topped natural boulder with a worn smooth top sits right on the rim, facing the open sky. Nobody sits on it. NOTHING ELSE: no props, no loose slabs, no extra bowls, no grass, no stumps, no rubble on the floor, no moss. It is dry and dead. Rough, grimy and uneven, never smooth, never tidy. Nothing is built: no buildings, no walls, no windows, no arches, no stairs",
+  "short": "A crooked crest of tall and extra tall rock spires shelters a quiet hollow with the first ignition column",
   "dress": [
    {
     "id": "STR-04",
@@ -307,7 +298,7 @@
     "label": "Detail 5: Rim tower cluster"
    }
   ],
-  "page": 39,
+  "page": 40,
   "ref": "art/world/stage-2-emerging.jpg",
   "legacy": false,
   "desc": "a vast island dominated by a sunken terraced bowl of concentric collapsed stone rings like a dry ancient reservoir, around the rim a crown of towering broken columns of different heights like the stumps of a giant colonnade, enormous fallen column drums lying across the terraces, two tall stone-and-bronze beacon pillars at the edge of the bowl, broken ragged cliff rim, a deep underside of stacked hanging rock slabs like an upside-down mountain, grand, weathered and mysterious; on one side of the rim, a tight cluster of three towers fused into the rim rock within about 25 m of each other: a tall seven-tier tapering tower with gold-bronze bands and a sheared top carrying a monumental bronze lantern, a leaning broken tower held up by one thick buttress, and a cluster of black rock needles beside them",
@@ -383,7 +374,7 @@
     "label": "Detail 4: Tail end"
    }
   ],
-  "page": 45,
+  "page": 46,
   "ref": null,
   "legacy": false,
   "desc": "a very long thin island shaped like the spine of a colossal fossil creature, a straight obsidian paving strip running along the top with a bronze inlay line, giant curved stone ribs arching up and over the strip in an uneven rhythm, some ribs snapped off, small vertebra-like knobs along the sides, the underside tapering away like a tail with hanging chains, eerie and monumental",
@@ -459,7 +450,7 @@
     "label": "Detail 5: Ring-wall tower group"
    }
   ],
-  "page": 50,
+  "page": 51,
   "ref": "art/world/stage-3-the-toil.jpg",
   "legacy": false,
   "desc": "a circular ancient stone arena floating in the sky, a massive ring wall broken into jagged tooth-like towers of different heights, a cracked flat floor with five great round vents glowing ember-orange, enormous bronze braziers on the ring wall, thick chains attached to two sides as bridge anchors, a stepped funnel-shaped underside like a gigantic inverted bowl with a dull glowing ember core deep in its base, as in the Stage 3 key art, intimidating and grand; built into the ring wall on one side, among the tooth-like towers, a tight group of three taller towers within about 20 m of each other: a squat drum tower with a cracked, half-collapsed cap, a very slender needle tower, and a broken tower tip with amber-lit windows, all the same stone as the wall",
@@ -552,7 +543,7 @@
     "label": "Detail 5: Gatehouse on the stair"
    }
   ],
-  "page": 56,
+  "page": 57,
   "ref": "art/world/stage-6-the-summit.jpg",
   "legacy": false,
   "desc": "the tallest floating island, a slender mountain spire of dark weathered stone spiralled by one long carved staircase winding up around it, narrow bronze-edged terraces at each turn, hanging chains and broken stone arches along the climb, the top ending in a wide flat crown platform ringed by jagged broken stone teeth and left empty for a monumental throne, the base a long tapering root of rock, wreathed in cloud, awe-inspiring and austere; at the middle turn of the staircase, a broad gatehouse tower with a pointed arch passage through its base that the staircase climbs through, with one slender banded tower fused to the spire rock right beside it, both within about 15 m of each other",
@@ -628,7 +619,7 @@
     "label": "Detail 5: Twin towers and arch"
    }
   ],
-  "page": 62,
+  "page": 63,
   "ref": "art/world/stage-4-the-leap.jpg",
   "legacy": false,
   "desc": "two colossal sheer cliff islands that look like the two halves of one split mountain, their layered strata lines matching across the gap as though torn apart, one cliff with a huge dark cave mouth, the other with a toppled bronze arch hanging from its edge by chains, bronze anchor plates set into the near edges, jagged shattered faces, hanging stone teeth below, dramatic and ominous; on the cave-side cliff top, within about 20 m of the cave mouth, twin ruin towers of different heights (one with a cracked broken cap, one open-topped) joined near the top by a cracked high stone arch, fused into the cliff rock; on the facing cliff top, a cluster of black rock needles",
@@ -704,7 +695,7 @@
     "label": "Detail 4: Staircase slab"
    }
   ],
-  "page": 68,
+  "page": 69,
   "ref": "art/world/stage-5-flying.jpg",
   "legacy": false,
   "desc": "a loose constellation of six very different broken fragments floating at different heights: a floating stone arch, a broken tower tip with bronze windows, a split hollow sphere of rock, a tilted slab with a staircase carved into it, a jagged crystal-like obsidian blade cluster, and a stout rounded boulder with a bronze band, thin amber light glowing in their cracks, no connections, mysterious like the wreckage of a giant structure",
@@ -761,7 +752,7 @@
     "label": "Detail 4: Banded boulder"
    }
   ],
-  "page": 73,
+  "page": 74,
   "ref": null,
   "legacy": false,
   "desc": "a set of four floating debris rocks, each a different shape: a spiral shard, a hollow ring-shaped stone, a cluster of obsidian blades, and a rounded boulder with a bronze band, jagged tan fracture faces, small bronze flecks, thin amber glow in the cracks",
@@ -817,7 +808,7 @@
     "label": "Detail 4: Chamfered edge"
    }
   ],
-  "page": 77,
+  "page": 78,
   "ref": null,
   "legacy": false,
   "desc": "a heavy carved floating stone slab with a thick bronze rim, deep straight glowing amber guide channels cut across its top in parallel lines, chamfered edges, bronze ring handles hanging from its sides on short chains, a visible bronze piston-and-rail mechanism fixed beneath it, ancient engineered machinery",
@@ -873,7 +864,7 @@
     "label": "Detail 4: Underside"
    }
   ],
-  "page": 81,
+  "page": 82,
   "ref": null,
   "legacy": false,
   "desc": "a fragile floating slab of thin layered stone peeling apart in sheets, hairline cracks leaking thin amber light, bronze inlay partly broken, chipped edges, small fragments already drifting off its rim, a delicate and doomed look",
@@ -919,7 +910,7 @@
     "label": "Detail 4: Bronze brackets"
    }
   ],
-  "page": 85,
+  "page": 86,
   "ref": null,
   "legacy": false,
   "desc": "a tall curved blade of obsidian-black rock like a giant shark fin or scimitar rising from a flat base, its wind-carved face fluted with long smooth grooves, a notched crest, a tiny ruined stair cut along the rough back, a few bronze brackets bolted into it",
@@ -959,7 +950,7 @@
     "label": "Underside"
    }
   ],
-  "page": 90,
+  "page": 91,
   "ref": null,
   "legacy": false,
   "desc": "a colossal tapering tower ruin of dark weathered stone stacked in seven narrowing tiers, each tier ringed by a gold-bronze band and carved vertical panels, tall arched windows with a faint amber glow, flying stone buttress arches clinging to its flanks, a deep crack running down one side, the top sheared off in a jagged diagonal break that exposes the inner floors, grand and ominous",
@@ -992,7 +983,7 @@
     "label": "Underside"
    }
   ],
-  "page": 93,
+  "page": 94,
   "ref": null,
   "legacy": false,
   "desc": "a squat massive round drum tower with a cracked, partly collapsed bronze cap stained green with verdigris and a bent finial spike, a carved stone spiral stair wrapping around its outside, three gold-bronze bands, small arched windows with a faint amber glow, heavy and ancient",
@@ -1025,7 +1016,7 @@
     "label": "Underside"
    }
   ],
-  "page": 95,
+  "page": 96,
   "ref": null,
   "legacy": false,
   "desc": "seven jagged natural needles of obsidian-black rock with tan edges rising from one shared base, one very tall central needle with a leaning sister beside it, a small carved stone balcony fused halfway up the tallest, fractured horizontal strata, dramatic, sharp and mysterious",
@@ -1058,7 +1049,7 @@
     "label": "Underside"
    }
   ],
-  "page": 97,
+  "page": 98,
   "ref": null,
   "legacy": false,
   "desc": "a single tall rectangular monolith slab leaning very slightly, obsidian-black, smooth faces with one cracked corner, a thin vertical bronze inlay line running its full height, set in a low square stone footing",
@@ -1091,7 +1082,7 @@
     "label": "Underside"
    }
   ],
-  "page": 99,
+  "page": 100,
   "ref": null,
   "legacy": false,
   "desc": "a tall ornate double door set in a carved stone frame with a pointed crown of bronze finials, green-bronze (verdigris) panels covered in flowing scrollwork, a heavy rusted chain and padlock across the center, a bright thin vertical amber light leaking through the center gap and spilling onto the paving at its foot, exactly like the Core Fantasy key-art door",
@@ -1124,7 +1115,7 @@
     "label": "Underside"
    }
   ],
-  "page": 101,
+  "page": 102,
   "ref": null,
   "legacy": false,
   "desc": "a narrow arched stone bridge of weathered dark blocks with a bronze keystone and low side curbs, worn surface, anchored at both ends into rock",
@@ -1157,7 +1148,7 @@
     "label": "Underside"
    }
   ],
-  "page": 103,
+  "page": 104,
   "ref": null,
   "legacy": false,
   "desc": "a short walkway segment of weathered wooden planks fixed between heavy metal chains and bronze posts, sturdy and fixed in place, as seen on the plank bridges in the key art",
@@ -1186,7 +1177,7 @@
     "label": "3/4 front-left"
    }
   ],
-  "page": 105,
+  "page": 106,
   "ref": null,
   "legacy": false,
   "desc": "a short rung bridge segment: two heavy chains with flat wooden rungs; the first rungs are glowing bright amber-white light bars like the six lines and the rest are plain weathered wood, as in the Leap key art",
@@ -1219,7 +1210,7 @@
     "label": "Underside"
    }
   ],
-  "page": 107,
+  "page": 108,
   "ref": null,
   "legacy": false,
   "desc": "a round bronze meditation disc set flush in worn paving, several concentric etched rings with fine engraved patterns, a small recessed center; shown dormant (and a second version softly glowing amber)",
@@ -1252,7 +1243,7 @@
     "label": "Underside"
    }
   ],
-  "page": 109,
+  "page": 110,
   "ref": null,
   "legacy": false,
   "desc": "a tall slim carved stone column on a round bronze base, vertical bronze inlay channels, flat top with a small dark fire bowl, shown dormant and unlit",
@@ -1285,7 +1276,7 @@
     "label": "Underside"
    }
   ],
-  "page": 111,
+  "page": 112,
   "ref": null,
   "legacy": false,
   "desc": "the same tall slim carved stone column on a round bronze base with a controlled straight vertical column of amber fire rising from its top bowl, bronze channels glowing amber",
@@ -1318,7 +1309,7 @@
     "label": "Underside"
    }
   ],
-  "page": 113,
+  "page": 114,
   "ref": null,
   "legacy": false,
   "desc": "a wide fluted dark-stone column with a bronze capital, standing alone at a summit, shown dormant",
@@ -1351,7 +1342,7 @@
     "label": "Underside"
    }
   ],
-  "page": 115,
+  "page": 116,
   "ref": null,
   "legacy": false,
   "desc": "a monumental hanging lantern, clean geometric aged-bronze frame around a hollow core, suspended from a heavy bracket, shown dark and dormant",
@@ -1384,7 +1375,7 @@
     "label": "Underside"
    }
   ],
-  "page": 117,
+  "page": 118,
   "ref": null,
   "legacy": false,
   "desc": "a monumental lantern mounted on top of a carved stone tower base, clean geometric aged-bronze frame, hollow core, shown dark and dormant",
@@ -1417,7 +1408,7 @@
     "label": "Underside"
    }
   ],
-  "page": 119,
+  "page": 120,
   "ref": null,
   "legacy": false,
   "desc": "a monumental ground-standing lantern on a wide stepped stone base, geometric bronze cage, hollow core, shown dormant",
@@ -1450,7 +1441,7 @@
     "label": "Underside"
    }
   ],
-  "page": 121,
+  "page": 122,
   "ref": null,
   "legacy": false,
   "desc": "the same monumental geometric bronze lantern with steady stable amber fire inside its core, warm light spilling onto the base",
@@ -1479,7 +1470,7 @@
     "label": "3/4 front-left"
    }
   ],
-  "page": 123,
+  "page": 124,
   "ref": null,
   "legacy": false,
   "desc": "a round floor heat vent with a raised bronze rim and radial slots, obsidian paving around it, faint amber glow inside",
@@ -1512,7 +1503,7 @@
     "label": "Underside"
    }
   ],
-  "page": 125,
+  "page": 126,
   "ref": null,
   "legacy": false,
   "desc": "a shallow round basin of obsidian stone with bronze rim holding glowing amber energy liquid, stepped sides",
@@ -1545,7 +1536,7 @@
     "label": "Underside"
    }
   ],
-  "page": 127,
+  "page": 128,
   "ref": null,
   "legacy": false,
   "desc": "a dry dead tree, bare twisted pale-brown trunk with many thin bare branching limbs, petrified, no leaves, as scattered across the Igara key-art islands; also shown as a broken stump with splintered roots gripping the rock",
@@ -1578,7 +1569,7 @@
     "label": "Underside"
    }
   ],
-  "page": 129,
+  "page": 130,
   "ref": null,
   "legacy": false,
   "desc": "a tall thin dark-bronze pylon pole like a cross with SIX short horizontal glowing arms stacked evenly up the pole, each arm a thin straight light bar glowing amber-white, the tips flaring and shedding tiny embers, set on a small round stepped bronze base, exactly like the pylons in the Emerging key art; shown lit, and a second version unlit with dark bronze arms",
@@ -1607,7 +1598,7 @@
     "label": "3/4 front-left"
    }
   ],
-  "page": 131,
+  "page": 132,
   "ref": null,
   "legacy": false,
   "desc": "a small bronze lantern on a short post with a flame-lit open cage and a wavering flame, warm amber glow and a few rising sparks, placed along bridge paths",
@@ -1640,7 +1631,7 @@
     "label": "Underside"
    }
   ],
-  "page": 133,
+  "page": 134,
   "ref": null,
   "legacy": false,
   "desc": "a broad weathered stone staircase of many wide flat steps climbing a rocky summit in zig-zag flights with landings, eroded edges",
@@ -1673,7 +1664,7 @@
     "label": "Underside"
    }
   ],
-  "page": 135,
+  "page": 136,
   "ref": null,
   "legacy": false,
   "desc": "a tall square tower ruin tilted at a dramatic angle as if caught mid-fall, held up by one thick bronze-banded stone buttress, the upper floors snapped and hanging off by heavy chains, dark weathered stone with carved panels, gaping arched windows with a faint amber glow, tense and mysterious",
@@ -1706,7 +1697,7 @@
     "label": "Underside"
    }
   ],
-  "page": 137,
+  "page": 138,
   "ref": null,
   "legacy": false,
   "desc": "an impossibly slender needle tower of dark stone, a narrow carved lantern chamber near the top, tiny arched windows, a single thread of gold-bronze inlay running its whole height, tapering to a razor-sharp point, standing alone and awe-inspiring",
@@ -1739,7 +1730,7 @@
     "label": "Underside"
    }
   ],
-  "page": 139,
+  "page": 140,
   "ref": null,
   "legacy": false,
   "desc": "two matching carved ruin towers of different heights, one with a cracked broken cap and one open-topped, joined near the top by a high stone arch bridge that is cracked and missing its middle section, gold-bronze bands, small amber-lit windows, grand and silent",
@@ -1772,7 +1763,7 @@
     "label": "Underside"
    }
   ],
-  "page": 141,
+  "page": 142,
   "ref": null,
   "legacy": false,
   "desc": "a broad fortress gatehouse tower with a huge pointed arch passage through its base, deep shadow inside, flanking carved guardian pilasters, empty bronze track grooves where a portcullis once hung, a stone crown of broken battlement teeth, weathered dark stone with gold-bronze trim, ruin not a city",
@@ -1805,7 +1796,7 @@
     "label": "Underside"
    }
   ],
-  "page": 147,
+  "page": 148,
   "ref": null,
   "legacy": false,
   "desc": "a very long bridge made of two heavy chains with flat wooden rungs and plank walkway, sagging slightly, anchored with bronze posts at both ends, a row of six evenly spaced glowing amber light-bar rungs along its length like the six lines, as in the Leap key art; fixed and rigid, not swaying",
@@ -1838,7 +1829,7 @@
     "label": "Underside"
    }
   ],
-  "page": 149,
+  "page": 150,
   "ref": null,
   "legacy": false,
   "desc": "the same long plank-and-chain bridge seen from slightly below, with four armored Ember Leeches clinging upside down to the underside planks and chains in the shadow, their tail sacs glowing a dull ember, one stretching up toward the walkway; dark, tense, mysterious",
@@ -1867,7 +1858,7 @@
     "label": "3/4 front-left"
    }
   ],
-  "page": 151,
+  "page": 152,
   "ref": null,
   "legacy": false,
   "desc": "a round paving plaza of cracked dark stone with six parallel straight bronze inlay bars set into the floor, glowing faintly amber, each bar a different length-matched element texture; shown dormant and lit",
@@ -1900,7 +1891,7 @@
     "label": "Underside"
    }
   ],
-  "page": 153,
+  "page": 154,
   "ref": null,
   "legacy": false,
   "desc": "a wide shallow bronze bowl on a short flared bronze stand sitting on the ground, burning with a steady lively flame and a few rising sparks, as the lone brazier in the Igara key art; weathered, ancient and simple",
@@ -1933,7 +1924,7 @@
     "label": "Underside"
    }
   ],
-  "page": 155,
+  "page": 156,
   "ref": null,
   "legacy": false,
   "desc": "a very grand stacked tower: a leaning spire of dark rock with a tall narrow carved tower built up its side in many tiers, verdigris-bronze bands, arched windows with a faint amber glow, broken battlements at the top, smaller ruined towers clinging to the rock beside it, as in the Elias hero key art",
@@ -1966,7 +1957,7 @@
     "label": "Underside"
    }
   ],
-  "page": 157,
+  "page": 158,
   "ref": null,
   "legacy": false,
   "desc": "a leaning cluster of huge black obsidian blades with glassy edges and amber reflections, rising from tan rock, as the shard formations in the Igara key art",
@@ -1995,7 +1986,7 @@
     "label": "3/4 front-left"
    }
   ],
-  "page": 159,
+  "page": 160,
   "ref": null,
   "legacy": false,
   "desc": "a small group of three bare petrified dead trees with twisting branches and splintered roots gripping a rock slab, as in the Igara key art",
@@ -2028,7 +2019,7 @@
     "label": "Underside"
    }
   ],
-  "page": 143,
+  "page": 144,
   "ref": null,
   "legacy": false,
   "desc": "the same tall ornate double door in its carved stone frame with bronze finials and battered verdigris scrollwork panels, now UNLOCKED: the huge padlock hangs open and the thick rusted chains have slid off and lie in heavy coils on the cracked paving, the two leaves still shut but a little loose, a brighter thin vertical amber light between them",
@@ -2061,7 +2052,7 @@
     "label": "Underside"
    }
   ],
-  "page": 145,
+  "page": 146,
   "ref": null,
   "legacy": false,
   "desc": "the same tall ornate double door in its carved stone frame with bronze finials, now OPEN: both battered verdigris leaves swung inward, the broken chains and open padlock lying on the paving, a deep stone antechamber beyond lit by warm gold-amber light pouring out across the floor, dust motes in the beams",
@@ -2094,7 +2085,7 @@
     "label": "Underside"
    }
   ],
-  "page": 162,
+  "page": 163,
   "ref": "art/world/04-six-lines-the-sky-is-the-map.jpg",
   "legacy": false,
   "desc": "six very large straight horizontal beams of dark bronze with small end caps, stacked vertically with even spacing, parallel and equal in length, floating in the sky; shown dormant and unlit, each beam the size of a bridge; flat straight bars only, not a star shape, not a circle",
@@ -2123,7 +2114,7 @@
     "label": "3/4 front-left"
    }
   ],
-  "page": 164,
+  "page": 165,
   "ref": "art/world/04-six-lines-the-sky-is-the-map.jpg",
   "legacy": false,
   "desc": "six equal straight horizontal glowing bars stacked vertically like the Interface key art, hot amber-white core, soft amber glow haze and a few embers drifting around them; show three versions side by side: bottom bar lit, bottom four lit, all six lit; unlit bars dark bronze; flat straight bars only",
@@ -2156,7 +2147,7 @@
     "label": "Underside"
    }
   ],
-  "page": 165,
+  "page": 166,
   "ref": "art/characters/companion-the-fire-eye.jpg",
   "legacy": false,
   "desc": "the Fire Eye, copy the attached Fire Eye reference exactly: a huge almond-shaped eye made of living fire, white-gold hot at the lid edge and deep orange-amber across the iris, the iris built from fine radial fibers like a sun, a narrow dark vertical diamond pupil, and the whole outline throwing out long thin jagged flame filaments and lightning-like tendrils into the sky like a solar corona; eye only, no face, no body; shown OPEN and burning",
@@ -2185,7 +2176,7 @@
     "label": "3/4 front-left"
    }
   ],
-  "page": 167,
+  "page": 168,
   "ref": null,
   "legacy": false,
   "desc": "a very large ringed planet filling a big part of the sky, warm sepia and tan cloud bands, a thin pale ring crossing in front, bright rim halo on the sun side, as in the Fire Dragon and Interface key art",
@@ -2214,7 +2205,7 @@
     "label": "3/4 front-left"
    }
   ],
-  "page": 168,
+  "page": 169,
   "ref": null,
   "legacy": false,
   "desc": "a large cratered brown-amber planet with a dark terminator shadow, no rings, soft rim glow, visible surface texture, as in the Fire Dragon key art",
@@ -2243,7 +2234,7 @@
     "label": "3/4 front-left"
    }
   ],
-  "page": 169,
+  "page": 170,
   "ref": null,
   "legacy": false,
   "desc": "a large dark planet cracked with glowing molten-orange fault lines like a cooling coal, a thin atmosphere halo of amber haze on one edge, no rings, hangs low on the horizon",
@@ -2276,7 +2267,7 @@
     "label": "Underside"
    }
   ],
-  "page": 170,
+  "page": 171,
   "ref": null,
   "legacy": false,
   "desc": "the same huge almond-shaped Fire Eye but with its fire out: the eye is carved from dark charcoal-bronze stone and cold metal, the iris a dull dim ember ring of radial fibers, the pupil a narrow dark vertical diamond, the outline a dead crown of long thin broken filaments like cooled lava glass, only a faint ember glow deep in the iris; eye only, no face",
@@ -2309,7 +2300,7 @@
     "label": "Underside"
    }
   ],
-  "page": 172,
+  "page": 173,
   "ref": null,
   "legacy": false,
   "desc": "the same huge Fire Eye with the eyelids fully CLOSED: one smooth almond shape sealed shut by a single bright white-gold seam along the lid line, the closed lids glowing deep orange-amber, the long thin jagged flame filaments and lightning-like tendrils still streaming from the outline like a solar corona; no iris and no pupil visible; eye only, no face",
@@ -2342,7 +2333,7 @@
     "label": "Underside"
    }
   ],
-  "page": 174,
+  "page": 175,
   "ref": null,
   "legacy": false,
   "desc": "the same huge Fire Eye CLOSED and with its fire out: a sealed almond of dark charcoal-bronze stone with a hairline seam along the lid line, a faint dull ember glow only inside the seam, the outline filaments dark, cold and still; eye only, no face",
@@ -2375,7 +2366,7 @@
     "label": "Underside"
    }
   ],
-  "page": 175,
+  "page": 176,
   "ref": null,
   "legacy": false,
   "desc": "six equal straight horizontal bars stacked vertically with even spacing, each bar a different element yet the same size: bar one glowing embers and coal, bar two molten bronze, bar three spiralling wind and dust streaks, bar four crackling lightning, bar five flowing liquid fire, bar six pure white-gold light; all six clearly straight bars, all in the warm gold-amber palette",
@@ -2448,7 +2439,7 @@
     "label": "Ignited state"
    }
   ],
-  "page": 178,
+  "page": 179,
   "ref": null,
   "legacy": false,
   "desc": "a colossal ancient throne hewn from black volcanic stone and aged bronze, about 40 m tall, unmistakably a throne: a deep massive seat block with two thick armrests, and rising far above it a very tall narrow monolith backrest with straight parallel sides and a flat notched top, six equally spaced horizontal glowing amber fissures carved across the backrest like a ladder of fire, hot molten-amber cracks veining through the dark stone like lava under a crust, two colossal curved bronze dragon ribs rising on either side and arching inward like a cage with fire glowing between them, a long steep staircase of broken black stone with bronze braziers burning along both sides leading up to the seat, heavy rough weathered surfaces, thin embers rising",
@@ -2481,7 +2472,7 @@
     "label": "Underside"
    }
   ],
-  "page": 182,
+  "page": 183,
   "ref": null,
   "legacy": false,
   "desc": "a long steep staircase of broken black volcanic stone with bronze braziers burning along both sides, leading up to a broad flat cracked stone platform with thin molten-amber veins in the stone, heavy rough weathered surfaces",
@@ -2554,7 +2545,7 @@
     "label": "Ignited state"
    }
   ],
-  "page": 184,
+  "page": 185,
   "ref": "art/world/stage-6-the-summit.jpg",
   "legacy": false,
   "desc": "the colossal ancient volcanic-stone Throne with its very tall six-fissure monolith backrest and two arching bronze dragon ribs, standing at the very top of a rocky summit island above the clouds, the long staircase of broken black stone with burning bronze braziers climbing up to it",
@@ -2587,7 +2578,7 @@
     "label": "Underside"
    }
   ],
-  "page": 189,
+  "page": 190,
   "ref": "art/characters/companion-the-cinder.jpg",
   "legacy": false,
   "desc": "a small floating faceted polyhedron fire construct about the size of a head, gold-bronze angular frame with glass-like triangular and hexagonal facets around a bright glowing ember core with a faint engraved symbol, no face, no limbs; shown LIT with a warm halo and a few drifting sparks (a second version DIM: core nearly out, frame cold, as in the Cinder key art)",
@@ -2620,7 +2611,7 @@
     "label": "Underside"
    }
   ],
-  "page": 191,
+  "page": 192,
   "ref": "art/characters/companion-the-fire-dragon.jpg",
   "legacy": false,
   "desc": "a MASSIVE winged fire dragon matching the Fire Dragon key art: dark scaled body cracked with glowing amber-ember seams, huge membrane wings with ember-lit veins, spiked head ridge, long neck, jaws open breathing a long roaring stream of orange fire with sparks, long body and tail, shown flying; large enough to carry a rider on its shoulders",
@@ -2653,7 +2644,7 @@
     "label": "Underside"
    }
   ],
-  "page": 193,
+  "page": 194,
   "ref": "art/characters/enemy-glass-shadows.jpg",
   "legacy": false,
   "desc": "a tall humanoid figure made of faceted transparent amber-gold glass crystal exactly as in the Glass Shadows key art, smooth faceless head, fine crack lines across the body, small glowing shards breaking off at one arm, a thin core of fire glowing inside the chest, drifting embers around the hands, symbolic force not a person",
@@ -2686,7 +2677,7 @@
     "label": "Underside"
    }
   ],
-  "page": 195,
+  "page": 196,
   "ref": "art/characters/enemy-burn-knights.jpg",
   "legacy": false,
   "desc": "a heavy armored figure in dark matte black-bronze plate armor with amber-glowing visor and shoulder studs, a large round shield on one arm with a glowing swirling amber heat core and a ring of flame licking its rim, helmet without horns, small flames curling from the shoulders, symbolic force not a person",
@@ -2715,7 +2706,7 @@
     "label": "3/4 front-left"
    }
   ],
-  "page": 197,
+  "page": 198,
   "ref": "art/characters/enemy-ember-leeches.jpg",
   "legacy": false,
   "desc": "a long armored centipede-like creature, dark segmented plates with thin glowing ember seams between segments, many thin legs, curved pincer tail with a glowing molten-ember sac at the rear, a few sparks dripping from it, clinging to a stone ledge or hanging upside down under a plank bridge",
@@ -2744,7 +2735,7 @@
     "label": "3/4 front-left"
    }
   ],
-  "page": 198,
+  "page": 199,
   "ref": "art/characters/enemy-storm-wraiths.jpg",
   "legacy": false,
   "desc": "a large humanoid figure formed of dark swirling dust and storm cloud exactly as in the Storm Wraiths key art, long clawed hands, amber lightning veins running through it, flecks of fire in the swirl, no solid face, shown mid-stride",
@@ -2765,7 +2756,7 @@
     "label": "Close-up"
    }
   ],
-  "page": 200,
+  "page": 201,
   "ref": null,
   "legacy": false,
   "desc": "a rear three-quarter view of Elias, 21, short dark hair, matte obsidian bodysuit, whose circuit seams glow bright orange-amber, a soft aura of warm light and drifting embers around his whole body; shown at low glow and at full glow",
@@ -2786,7 +2777,7 @@
     "label": "Close-up"
    }
   ],
-  "page": 201,
+  "page": 202,
   "ref": null,
   "legacy": false,
   "desc": "a wide arc of golden fire and light sweeping through the air around Elias, thick glowing flame ribbon with a hot white-gold core and trailing sparks, as in the Sacred Arc key art",
@@ -2807,7 +2798,7 @@
     "label": "Close-up"
    }
   ],
-  "page": 202,
+  "page": 203,
   "ref": null,
   "legacy": false,
   "desc": "concentric rings of orange light expanding from Elias standing still on the ground, thin hot circles with fine ember dust lifting inside them, calm and powerful, as in the Stillness Wins key art",
@@ -2828,7 +2819,7 @@
     "label": "Close-up"
    }
   ],
-  "page": 203,
+  "page": 204,
   "ref": null,
   "legacy": false,
   "desc": "a trail of fire sparks and ember streaks kicked up behind Elias as he runs, small bright points streaming back along his path, as in the Flow Over Force key art",
@@ -2849,7 +2840,7 @@
     "label": "Close-up"
    }
   ],
-  "page": 204,
+  "page": 205,
   "ref": null,
   "legacy": false,
   "desc": "slow floating fire sparks and glowing embers drifting upward in warm dusty air, varied sizes, some larger glowing flakes, used around Elias and across the islands",
@@ -2870,7 +2861,7 @@
     "label": "Close-up"
    }
   ],
-  "page": 205,
+  "page": 206,
   "ref": null,
   "legacy": false,
   "desc": "a controlled ring of orange flame circling Elias at waist height, a bright thin hot core with soft licking tongues of fire, restraint not chaos, as in the Combat Restraint key art",
@@ -2891,7 +2882,7 @@
     "label": "Close-up"
    }
   ],
-  "page": 206,
+  "page": 207,
   "ref": null,
   "legacy": false,
   "desc": "floating glowing orbs of amber light connected by thin bright energy threads in a loose lattice, some orbs bright and some dim, as in the Hidden System key art",
@@ -2912,7 +2903,7 @@
     "label": "Close-up"
    }
   ],
-  "page": 207,
+  "page": 208,
   "ref": null,
   "legacy": false,
   "desc": "a long roaring jet of orange fire with a white-gold core streaming from a dragon jaw outline, swirling smoke and embers, hot and powerful",
@@ -2933,7 +2924,7 @@
     "label": "Close-up"
    }
   ],
-  "page": 208,
+  "page": 209,
   "ref": null,
   "legacy": false,
   "desc": "a vast circle of embers: shown dormant as a faint ring of dull glowing coals along a distant horizon, and ignited as a towering wall of fire with leaping flames and sparks, proposed final-world boundary",

@@ -132,10 +132,12 @@ h3.an{font:700 34px/1.05 var(--font-d);letter-spacing:.03em;text-transform:upper
 section.asset h4{margin:18px 0 6px;font:600 16px var(--font-b)}
 .meta{font-size:12px;color:var(--muted);font-weight:400}
 pre.pt{white-space:pre-wrap;word-break:break-word;font:12.5px/1.55 ui-monospace,'SF Mono',Menlo,Consolas,monospace;margin:6px 0;max-height:none}
+.guide h1{display:none}.crumb{margin:0 0 8px}.guide h2{font-size:22px;margin:26px 0 8px}.guide h3{font-size:18px}.guide{max-width:none}
+.guide h1{display:none}textarea.pt{width:100%;background:var(--code);color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:10px;font:12.5px/1.5 ui-monospace,Menlo,monospace;resize:vertical}.regen{width:100%;border-collapse:collapse;font-size:14px}.regen td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle}.regen .st{font:700 22px var(--font-d);color:var(--amber);width:36px}.rq{color:var(--ember);font-weight:600}
 .tipbox{background:var(--panel);border:1px solid var(--amber);border-radius:6px;padding:10px 14px;margin:0 0 12px;font-size:14px}
 details.opt{margin:18px 0 0;border:1px solid var(--line);border-radius:6px;padding:8px 12px}
 details.opt>summary{cursor:pointer}
-.dgrid .vt{aspect-ratio:1/1}
+.dgrid{grid-template-columns:1fr!important}.dgrid .vt{aspect-ratio:4/3}.vrow{display:grid;grid-template-columns:minmax(0,46%) minmax(0,1fr);gap:14px;align-items:start}.vrow .vb{min-width:0}p.sd{margin:6px 0 0;font-size:15px}ol.how{margin:6px 0 0;padding-left:20px;font-size:14px}ol.how li{margin:2px 0}.vrow textarea.pt{margin-top:8px}.vrow .vl{margin-top:0}@media (max-width:760px){.vrow{grid-template-columns:1fr}}
 .vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
 .vc{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:8px;min-width:0}
 .vt{aspect-ratio:4/5;border:1px dashed var(--line);border-radius:4px;background:var(--bg);display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;font-size:11px;color:var(--muted)}
@@ -171,7 +173,7 @@ var NAV=[
  ['Game design',[['docs/01-vision-and-pillars.md','01 Vision and pillars'],['docs/02-story-and-lore.md','02 Story and lore'],['docs/03-world-and-level-design.md','03 World and level design'],['docs/04-characters-and-companions.md','04 Characters and companions'],['docs/05-enemies.md','05 Enemies'],['docs/06-core-systems.md','06 Core systems'],['docs/08-the-throne.md','08 The Throne']]],
  ['Stages',[['docs/stages/README.md','Stages overview'],['docs/stages/stage-1-lurking.md','1 Lurking'],['docs/stages/stage-2-emerging.md','2 Emerging'],['docs/stages/stage-3-the-toil.md','3 The Toil'],['docs/stages/stage-4-the-leap.md','4 The Leap'],['docs/stages/stage-5-flying.md','5 Flying'],['docs/stages/stage-6-the-peak.md','6 The Peak'],['docs/stages/the-throne-ending.md','The Throne ending']]],
  ['Build',[['docs/09-audio-and-ux.md','09 Audio and UX'],['docs/10-unreal-architecture.md','10 Unreal architecture'],['docs/11-production-plan.md','11 Production plan']]],
- ['Art',[['docs/12-art-direction.md','12 Art direction'],['art/README.md','Art gallery'],['islands','Islands (13)'],['docs/16-island-dressing-guide.md','16 Island dressing guide'],['docs/18-look-bible.md','18 Look Bible (sample images)'],['docs/19-env01-blueprint.md','19 ENV-01 blueprint (locked)'],['docs/20-env01-developer-walkthrough.md','20 ENV-01 developer walkthrough'],['tracker','All assets (53)'],['art-pipeline/README.md','3D pipeline'],['prompts/README.md','Prompts index'],['prompts/playthrough-image-prompts.md','Playthrough image prompts (71)'],['prompts/key-art-prompts.md','Key art prompts'],['prompts/elias-character-reference-prompts.md','Elias prompts']]],
+ ['Art',[['docs/12-art-direction.md','12 Art direction'],['art/README.md','Art gallery'],['islands','Islands (13)'],['structures','Structures: towers, bridges, gates (35)'],['creatures','Enemies and creatures (6)'],['sky','Sky and the Eye (10)'],['throne','The Throne (3)'],['effects','Effects: fire and light (9)'],['docs/18-look-bible.md','18 Look Bible (sample images)'],['art-pipeline/README.md','3D pipeline'],['prompts/README.md','Prompts index'],['prompts/playthrough-image-prompts.md','Playthrough image prompts (71)'],['prompts/key-art-prompts.md','Key art prompts'],['prompts/elias-character-reference-prompts.md','Elias prompts']]],
  ['Project',[['docs/13-canon-and-open-decisions.md','13 Canon and open decisions'],['docs/14-funding-and-submission.md','14 Funding and submission'],['GLOSSARY.md','Glossary'],['CONTRIBUTING.md','Contributing'],['design/README.md','Original PDFs']]]
 ];
 var PDFS=[['design/GDD_Legend_and_Game_Design.pdf','Game design document'],['design/Story_Meaning_Goal.pdf','Story, meaning, goal'],['design/Pitch_Deck_Master_Brief.pdf','Pitch deck brief'],['design/Elias_Character_Reference.pdf','Elias reference'],['design/Island_Map.pdf','Island map'],['design/Throne_Wow_Direction.pdf','Throne direction'],['art-pipeline/3D_Reference_Prompt_Pack.pdf','3D prompt pack'],['art-pipeline/Playthrough_Storyboard_Prompts.pdf','Playthrough storyboard prompts']];
@@ -191,94 +193,90 @@ function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').repl
 function cap(s){return s.charAt(0).toUpperCase()+s.slice(1)}
 function pimg(u){return new Promise(function(r){var i=new Image();i.onload=function(){r(true)};i.onerror=function(){r(false)};i.src=u})}
 function head(u){return fetch(u,{method:'HEAD',cache:'no-cache'}).then(function(r){return r.ok}).catch(function(){return pimg(u)})}
-var LIB={A:[],P:{}};
+var LIB={A:[],P:{}};var GUIDE={'ENV-01':'docs/19-env01-blueprint.md','ENV-02':'docs/20-env02-blueprint.md','ENV-03':'docs/21-env03-blueprint.md'};
+var REGEN={'ENV-01':[['hero','Hero view','FILED, but it has garbled label text drawn into the image. Regenerate with no text in the picture, then use it as the reference.','Redo'],['under','Underside','Missing. Prompt below.','Missing'],['detail-2','Detail 2: The weathered beam','Missing. Prompt below.','Missing'],['detail-3','Detail 3: Spawn terrace','Missing. Prompt below.','Missing'],['detail-4','Detail 4: Underside cone','Missing. Prompt below.','Missing'],['detail-11','Detail 11: Antechamber hall','Missing. Prompt below.','Missing'],['detail-13','Detail 13: Exit tunnel and ledge','Missing. Prompt below. Steps go down into the opening. No skeletons.','Missing'],['detail-14','Detail 14: Rim props','Missing. Prompt below.','Missing']]};
+function loadGuides(){[].forEach.call(document.querySelectorAll('[data-guide]'),function(g){var path=g.getAttribute('data-guide');fetch(path).then(function(r){return r.text()}).then(function(t){g.innerHTML=marked.parse(t,{mangle:false});[].forEach.call(g.querySelectorAll('img'),function(im){var r=im.getAttribute('src');if(r&&!/^(https?:|data:)/.test(r))im.setAttribute('src',norm(path,r));im.loading='lazy';var a=document.createElement('a');a.href=im.getAttribute('src');a.target='_blank';a.rel='noopener';a.style.display='block';im.parentNode.insertBefore(a,im);a.appendChild(im)});[].forEach.call(g.querySelectorAll('table'),function(tb){var w=document.createElement('div');w.className='tw';tb.parentNode.insertBefore(w,tb);w.appendChild(tb)});[].forEach.call(g.querySelectorAll('a[href]'),function(a){var r=a.getAttribute('href');if(/\.pdf$/.test(r)||/^https?:/.test(r)){a.target='_blank'}})}).catch(function(){g.innerHTML='<p>Guide not published yet.</p>'})})}
+function showBox(t){var o=document.createElement('div');o.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:99;display:flex;align-items:center;justify-content:center;padding:16px';o.innerHTML='<div style="background:var(--panel);border:1px solid var(--amber);border-radius:8px;padding:14px;max-width:760px;width:100%"><p style="margin:0 0 8px"><b>Copying was blocked here.</b> The prompt is selected: press <b>Ctrl+C</b> (Mac: <b>Cmd+C</b>), then close this.</p><textarea readonly style="width:100%;height:55vh;background:var(--code);color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:10px;font:12.5px/1.5 ui-monospace,Menlo,monospace"></textarea><p style="margin:8px 0 0;text-align:right"><button class="btn pri">Close</button></p></div>';document.body.appendChild(o);var ta=o.querySelector('textarea');ta.value=t;ta.focus();ta.select();o.querySelector('button').onclick=function(){o.remove()}}
 function copyText(t,b){
   var done=function(){var o=b.getAttribute('data-l')||b.textContent;b.setAttribute('data-l',o);b.textContent='Copied';setTimeout(function(){b.textContent=o},1500)};
-  var fb=function(){var ta=document.createElement('textarea');ta.value=t;ta.style.cssText='position:fixed;opacity:0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy')}catch(e){}ta.remove();done()};
+  var fb=function(){var ok=false;var ta=document.createElement('textarea');ta.value=t;ta.style.cssText='position:fixed;opacity:0';document.body.appendChild(ta);ta.select();try{ok=document.execCommand('copy')}catch(e){}ta.remove();if(ok)done();else showBox(t)};
   if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,fb)}else fb();
 }
 function imgTag(base,k,alt,big){
   return '<a href="'+base+k+'.jpg" target="_blank" rel="noopener" class="ia"><img loading="lazy" src="'+base+'thumbs/'+k+'.jpg" onerror="this.onerror=null;this.src=\''+base+k+'.jpg\'" alt="'+esc(alt)+'"></a>';
 }
-function vcardf(x,p){return function(v){return '<div class="vc" data-k="'+v.k+'"><div class="vt" data-vt><span class="path">Missing<br>'+v.k+'.jpg</span></div><div class="vl">'+esc(v.label)+'</div><div class="acts sm"><span data-dl></span><button class="btn sm" data-pid="'+x.id+'" data-pk="'+v.k+'">Copy prompt</button><a class="btn sm" href="prompts/assets/'+x.id+'/'+v.k+'.txt" download="'+x.id+'_'+v.k+'_prompt.txt">Prompt .txt</a></div><details><summary class="meta">Show prompt</summary><pre class="pt">'+esc((p.views||{})[v.k]||'')+'</pre></details></div>'}}
+var VDESC2={'ENV-03:sheet':'One board with 4 views: front, back, top and underside.','ENV-03:front':'The island from the south: the grand rock massif behind the hollow.','ENV-03:back':'The island from the north: the massif up close.','ENV-03:top':'The island from above: the spires, the hollow, the column and both bridge ends.','ENV-03:under':'The underside: the rough cone with hanging rock tendrils.','ENV-03:detail-1':'The grand rock massif: one thick mass, seen from the hollow.','ENV-03:detail-2':'The quiet hollow: bare flat floor and thin bronze lines.','ENV-03:detail-3':'The ignition column, dark and unlit.','ENV-03:detail-4':'The extra tall crag and its leaning sister, seen from low down.','ENV-03:detail-5':'The rest stone on the rim, with the wide view.','ENV-02:sheet':'One board with 4 views: front, back, top and underside.','ENV-02:bird':'The big bat-bird gliding low over the island. It shows the size and the look of the bird.','ENV-02:front':'The spire from the front.','ENV-02:back':'The spire from behind.','ENV-02:left':'The spire from the west side.','ENV-02:top':'The island from above: the flat top, the dead tree, the stone bridge end on the west and the plank bridge on the east.','ENV-02:under':'The underside: the long drilled tail.','ENV-02:detail-1':'The bronze ring around the spire.','ENV-02:detail-2':'The twisted rock layers and black fins.','ENV-02:detail-3':'The flat top: tree, stone bridge end on the west, bronze anchor sockets, plank bridge on the east.','ENV-02:detail-4':'The long drilled tail with hanging shards.'};
+var VDESC={hero:'The whole island from the south-west: start disc, beam, locked door and the big rock mountain.',sheet:'One board with 6 views: front, back, left, right, top and underside.',front:'The island from the front, with the door in the middle.',back:'The island from behind.',left:'The island from the west side.',right:'The island from the east side, with the exit ledge.',top:'The island from above. It shows the walk from the start to the door.',under:'The rock cone under the island, with the hanging chains.',
+'detail-1':'The locked bronze door with chains and the padlock.','detail-2':'The rusty beam across the crack.','detail-3':'The start terrace with the bronze disc.','detail-4':'The rock cone under the island, with chains.','detail-5':'The door and the rock beside it.','detail-6':'The door unlocked: padlock open, chains on the steps.','detail-7':'The door open. It is dark inside.','detail-8':'The forecourt and the 3 steps up to the door.','detail-9':'The deep crack in the ground.','detail-10':'Big rock outcrops on the cliff.','detail-11':'Inside the cave room. It is dark. Columns and the weapons platform.','detail-12':'The round platform with 3 floating weapons. The room is dark.','detail-13':'The steps down to the exit tunnel, and the ledge outside.','detail-14':'Rim props: dead tree, stump, bronze ring and chain.'};
+function vcardf(x,p){return function(v){var pr=v.k==='sheet'?(p.sheet||''):((p.views||{})[v.k]||'');return '<div class="vc vrow" data-k="'+v.k+'"><div class="vt" data-vt><span class="path">MISSING<br>'+v.k+'.jpg<br>Generate it from the prompt next to this box</span></div><div class="vb"><div class="vl">'+esc(v.label)+'</div><div class="meta" data-vs>Missing: generate it with this prompt</div>'+(GUIDE[x.id]?'<p class="sd">'+esc(VDESC2[x.id+':'+v.k]||VDESC[v.k]||'')+'</p>':'')+'<div class="acts sm"><button class="btn sm" data-pid="'+x.id+'" data-pk="'+v.k+'">Copy prompt</button><a class="btn sm" href="prompts/assets/'+x.id+'/'+v.k+'.txt" download="'+x.id+'_'+v.k+'_prompt.txt">Prompt .txt</a><span data-dl></span></div><details class="opt" style="margin-top:8px"><summary class="meta">Show prompt</summary><textarea class="pt" readonly onclick="this.select()" rows="8">'+esc(pr)+'</textarea></details></div></div>'}}
 function isdet(v){return v.k.indexOf('detail')===0}
-function renderLibrary(mode){
-  Promise.all([fetch('data/assets.json').then(function(r){return r.json()}),fetch('data/prompts.json').then(function(r){return r.json()})]).then(function(R){
-    var A=R[0],P=R[1];LIB.P=P;
-    var isl=mode==='islands';
-    var L=isl?A.filter(function(x){return x.cat==='Islands'}):A;LIB.A=L;
-    var cats=['Islands','Structures','Sky','Throne','Creatures','Effects'];
-    var totalDet=L.reduce(function(a,x){return a+x.views.filter(isdet).length},0);var totalOpt=L.reduce(function(a,x){return a+x.views.filter(function(v){return !isdet(v)}).length},0);
-    var allTxt=isl?'prompts/islands-core-prompts.txt':'prompts/all-asset-core-prompts.txt';
-    var h='<div id="lib-top"></div><h1>'+(isl?'Islands':'Asset library')+'</h1>';
-    h+='<p>'+(isl?'The '+L.length+' floating islands of the world. <b>Part 1</b> is the numbered list. <b>Part 2</b> has every island with its images (each with a Download button) and the exact prompt that made it (each with a Copy button).':'Every object in the game, with its images, downloads and prompts. <b>Part 1</b> is the numbered list. <b>Part 2</b> has every asset in full.')+' To add or replace an image, put it in <code>art/assets/&lt;ID&gt;/</code> with the file name shown and this page updates itself.</p>';
-    h+='<div class="tk-sum"><div><b id="n-total">'+L.length+'</b><span>'+(isl?'islands':'assets')+'</span></div><div><b id="n-sheet">0</b><span>turnaround sheets in</span></div><div><b id="n-views">0</b><span>close-ups in (of '+totalDet+')</span></div><div><b id="n-comp">0</b><span>complete (sheet in)</span></div><div><b id="n-opt">0</b><span>single views in (of '+totalOpt+')</span></div></div>';
-    h+='<div class="prog" aria-hidden="true"><i id="bar"></i></div><p id="barlbl" style="font-size:12px;color:var(--muted);margin:2px 0 14px"></p>';
-    h+='<div class="tipbox"><b>How to generate:</b> every prompt below is <b>one image</b>. Paste <b>one prompt per message</b>. Make the sheet first (5 angles in one image: front, back, side, top, underside). For consistency, <b>attach the approved sheet</b> to anything else you generate and say "same island, do not change any shapes". Then make the single views and close-ups, one prompt each.</div><div class="acts"><a class="btn" href="art-pipeline/3D_Reference_Prompt_Pack.pdf" target="_blank" rel="noopener">Open the PDF prompt pack</a></div>';
-    h+='<div class="tk-f">'+(isl?'':'<label for="fc">Group</label><select id="fc"><option value="">All</option>'+cats.map(function(c){return '<option>'+c+'</option>'}).join('')+'</select>')+'<label for="fs">Status</label><select id="fs"><option value="">All</option><option value="missing">Missing</option><option value="sheet">Needs details</option><option value="prog">In progress</option><option value="done">Complete</option></select><label for="fq">Find</label><input id="fq" type="search" placeholder="ID or name"></div>';
-    // PART 1
-    h+='<h2>Part 1 · The list</h2><ol class="nl" id="nl">';
-    var n=0,lastc='';
-    L.forEach(function(x){n++;
-      if(!isl&&x.cat!==lastc){lastc=x.cat;h+='</ol><div class="grp2" data-cat="'+x.cat+'">'+x.cat+'</div><ol class="nl">'}
-      h+='<li class="nr" data-id="'+x.id+'" data-cat="'+x.cat+'" data-q="'+esc((x.id+' '+x.name).toLowerCase())+'"><div class="ni"><div class="no">'+n+'</div><div class="nt" data-t></div><div class="nb"><div class="id">'+x.id+' · '+x.size+'</div><div class="nn"><b>'+esc(x.name)+'</b></div><div class="meta">'+esc(x.short||'')+'</div><div class="nact"><span class="pill missing" data-st>Missing</span> <button class="btn sm" data-go="sec-'+x.id+'">See images &amp; prompts</button></div></div></div></li>';
+var CATS={
+ islands:['Islands','Islands','The floating islands of the world, in a line. Open one to see everything for that island and nothing else: its description, the structures and towers on it, every image, download and prompt.'],
+ creatures:['Creatures','Enemies and creatures','The Cinder, the Fire Dragon and the enemies. Open one for its images and prompts.'],
+ structures:['Structures','Structures: towers, bridges, gates','Every structure that can stand on an island. The towers are also built into the island prompts. Open one to see which islands use it.'],
+ sky:['Sky','Sky and the Eye','The six-line ladder, the Fire Eye and the planets.'],
+ throne:['Throne','The Throne','The Throne, its stairs and its summit.'],
+ effects:['Effects','Effects: fire and light','Visual effects references.']};
+function loadData(){return Promise.all([fetch('data/assets.json').then(function(r){return r.json()}),fetch('data/prompts.json').then(function(r){return r.json()})]).then(function(R){LIB.A=R[0];LIB.P=R[1];return R})}
+function keyOf(cat){return Object.keys(CATS).filter(function(k){return CATS[k][0]===cat})[0]}
+function renderList(key){
+  var C=CATS[key];
+  loadData().then(function(R){
+    var L=R[0].filter(function(x){return x.cat===C[0]});
+    var h='<h1>'+esc(C[1])+'</h1><p>'+esc(C[2])+'</p><div class="tk-f"><label for="fq">Find</label><input id="fq" type="search" placeholder="ID or name"><span class="meta">'+L.length+' items · <span id="nsh">0</span> with a sheet image</span></div><ol class="nl">';
+    L.forEach(function(x,i){
+      h+='<li class="nr" data-id="'+x.id+'" data-q="'+esc((x.id+' '+x.name).toLowerCase())+'"><div class="ni"><div class="no">'+(i+1)+'</div><div class="nt" data-t></div><div class="nb"><div class="id">'+x.id+' · '+esc(x.size)+'</div><div class="nn"><b>'+esc(x.name)+'</b></div><div class="meta">'+esc(x.short||cap(x.desc).slice(0,150)+'…')+'</div><div class="nact"><span class="pill missing" data-st>No image yet</span> <a class="btn pri sm" href="#a-'+x.id.toLowerCase()+'">Open '+x.id+'</a></div></div></div></li>';
     });
-    h+='</ol>';
-    // PART 2
-    h+='<h2>Part 2 · Images and prompts</h2>';
-    L.forEach(function(x){
-      var base='art/assets/'+x.id+'/',p=P[x.id]||{sheet:'',views:{}};
-      h+='<section class="asset" id="sec-'+x.id+'" data-id="'+x.id+'" data-cat="'+x.cat+'" data-q="'+esc((x.id+' '+x.name).toLowerCase())+'">'
-       +'<div class="ah"><div><div class="id">'+x.id+' · '+x.cat+' · '+esc(x.size)+'</div><h3 class="an">'+esc(x.name)+'</h3></div><span class="pill missing" data-st>Missing</span></div>'
-       +'<p class="desc">'+esc(cap(x.desc))+'.</p>'
-       +(x.note?'<p class="note">Note: '+esc(x.note)+'</p>':'')
-       +(x.dress&&x.dress.length?'<div class="dress"><b>Put on this island</b> <span class="meta">(separate structures; suggested)</span><ul>'+x.dress.map(function(d){return '<li><span class="id">'+d.id+'</span> '+esc(d.name)+' <span class="meta">· '+esc(d.where)+'</span></li>'}).join('')+'</ul></div>':'')
-       +'<div class="sheetbox" data-sheet><div class="empty">Turnaround sheet not added yet.<br><span class="path">'+base+'sheet.jpg</span></div></div>'
-       +'<div class="acts"><span data-dl-sheet></span><a class="btn" href="prompts/assets/'+x.id+'/sheet.txt" download="'+x.id+'_sheet_prompt.txt">Download sheet prompt (.txt)</a><button class="btn" data-pid="'+x.id+'" data-pk="sheet">Copy sheet prompt</button></div>'
-       +'<h4>Sheet prompt <span class="meta">(one image, 5 angles)</span></h4><pre class="pt">'+esc(p.sheet)+'</pre>'
-       +(x.views.length?'<h4>Views and close-ups <span class="meta">('+x.views.length+' images, one prompt each; each works on its own, and attaching the approved sheet matches best)</span></h4><div class="vgrid dgrid">'+x.views.filter(function(v){return !isdet(v)}).concat(x.views.filter(isdet)).map(vcardf(x,p)).join('')+'</div>':'')
-       +'<p class="meta"><button class="btn sm" data-go="lib-top">Back to the list</button> <span class="path">'+base+'</span></p></section>';
-    });
-    doc.className='wide';doc.innerHTML=h;
-    var state={},ns=0,nv=0,no=0,nc=0;
-    L.forEach(function(x){state[x.id]={sheet:false,n:0,o:0,total:x.views.filter(isdet).length}});
-    function stat(st){return !st.sheet?((st.n||st.o)?'prog':'missing'):'done'}
-    function upd(){nc=0;L.forEach(function(x){if(stat(state[x.id])==='done')nc++});document.getElementById('n-sheet').textContent=ns;document.getElementById('n-views').textContent=nv;document.getElementById('n-opt').textContent=no;document.getElementById('n-comp').textContent=nc;
-      var pct=Math.round(ns/L.length*1000)/10;document.getElementById('bar').style.width=pct+'%';document.getElementById('barlbl').textContent=pct+'% of the sheets (one 5-angle sheet per asset)'}
-    function setpill(id){var st=state[id],k=stat(st),t={missing:'Missing',sheet:'Needs details',prog:'In progress',done:'Complete'}[k]+(k==='prog'?' ('+(st.n+(st.sheet?1:0))+'/'+(st.total+1)+')':'');
-      [].forEach.call(doc.querySelectorAll('[data-id="'+id+'"]'),function(el){el.setAttribute('data-s',k);var p=el.querySelector('[data-st]');p.className='pill '+k;p.textContent=t});filter()}
-    function filter(){var fc=document.getElementById('fc'),c=fc?fc.value:'',s=document.getElementById('fs').value,q=document.getElementById('fq').value.toLowerCase();
-      [].forEach.call(doc.querySelectorAll('[data-id]'),function(el){el.hidden=!((!c||el.getAttribute('data-cat')===c)&&(!s||el.getAttribute('data-s')===s)&&(!q||el.getAttribute('data-q').indexOf(q)>-1))});
-      [].forEach.call(doc.querySelectorAll('.grp2'),function(g){g.hidden=!!c&&g.getAttribute('data-cat')!==c})}
-    ['fc','fs'].forEach(function(i){var e=document.getElementById(i);e&&e.addEventListener('change',filter)});document.getElementById('fq').addEventListener('input',filter);
-    L.forEach(function(x){
-      var base='art/assets/'+x.id+'/',sec=document.getElementById('sec-'+x.id),row=doc.querySelector('li[data-id="'+x.id+'"]');
-      sec.setAttribute('data-s','missing');row.setAttribute('data-s','missing');
-      head(base+'sheet.jpg').then(function(ok){if(!ok)return;state[x.id].sheet=true;ns++;
-        sec.querySelector('[data-sheet]').innerHTML=imgTag(base,'sheet','Turnaround sheet for '+x.name);sec.querySelector('[data-sheet]').className='sheetbox ok';
-        sec.querySelector('[data-dl-sheet]').innerHTML='<a class="btn pri" href="'+base+'sheet.jpg" download="'+x.id+'_sheet.jpg">Download sheet image</a>';
-        row.querySelector('[data-t]').innerHTML=imgTag(base,'sheet','');row.querySelector('[data-t]').className='nt ok';
-        setpill(x.id);upd()});
-      x.views.forEach(function(v){head(base+v.k+'.jpg').then(function(ok){if(!ok)return;var st=state[x.id];if(isdet(v)){st.n++;nv++}else{st.o++;no++}
-        var c=sec.querySelector('[data-k="'+v.k+'"]');c.querySelector('[data-vt]').innerHTML=imgTag(base,v.k,x.name+' '+v.label);c.querySelector('[data-vt]').className='vt ok';
-        c.querySelector('[data-dl]').innerHTML='<a class="btn pri sm" href="'+base+v.k+'.jpg" download="'+x.id+'_'+v.k+'.jpg">Download</a>';
-        setpill(x.id);upd()})});
-    });
-    upd();view.scrollTop=0;window.scrollTo(0,0);
-  }).catch(function(e){console.error(e);doc.innerHTML='<h1>Library</h1><p>The asset list could not be loaded.</p>'});
+    h+='</ol>';doc.className='wide';doc.innerHTML=h;
+    document.getElementById('fq').addEventListener('input',function(){var q=this.value.toLowerCase();[].forEach.call(doc.querySelectorAll('li[data-id]'),function(el){el.hidden=!!q&&el.getAttribute('data-q').indexOf(q)<0})});
+    var n=0;
+    L.forEach(function(x){var base='art/assets/'+x.id+'/',row=doc.querySelector('li[data-id="'+x.id+'"]');
+      head(base+'sheet.jpg').then(function(ok){if(!ok)return;n++;document.getElementById('nsh').textContent=n;row.querySelector('[data-t]').innerHTML=imgTag(base,'sheet','');row.querySelector('[data-t]').className='nt ok';var p=row.querySelector('[data-st]');p.className='pill done';p.textContent='Sheet in'})});
+    view.scrollTop=0;window.scrollTo(0,0);
+  }).catch(function(e){console.error(e);doc.innerHTML='<h1>'+esc(C[1])+'</h1><p>The list could not be loaded.</p>'});
+}
+function renderAsset(id){
+  loadData().then(function(R){
+    var A=R[0],P=R[1],x=A.filter(function(a){return a.id===id})[0];
+    if(!x){doc.innerHTML='<h1>Not found</h1><p><a href="#islands">Back to the islands</a></p>';return}
+    var key=keyOf(x.cat),C=CATS[key],same=A.filter(function(a){return a.cat===x.cat}),i=same.indexOf(x),prev=same[i-1],next=same[i+1];
+    [].forEach.call(idx.querySelectorAll('a[data-p]'),function(a){a.getAttribute('data-p')===key?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current')});
+    var base='art/assets/'+x.id+'/',p=P[x.id]||{sheet:'',views:{}};var simple=!!GUIDE[x.id];var vlist=(simple?[{k:'sheet',label:'All sides in one image'}]:[]).concat(x.views.filter(function(v){return !isdet(v)}),x.views.filter(isdet));if(simple){vlist.sort(function(a,b){return (a.k==='hero'?0:1)-(b.k==='hero'?0:1)})}
+    var usedOn=A.filter(function(a){return (a.dress||[]).some(function(d){return d.id===x.id})});
+    var h='<div class="acts"><a class="btn" href="#'+key+'">← '+esc(C[1])+'</a>'+(prev?'<a class="btn sm" href="#a-'+prev.id.toLowerCase()+'">← '+prev.id+'</a>':'')+(next?'<a class="btn sm" href="#a-'+next.id.toLowerCase()+'">'+next.id+' →</a>':'')+'</div>'
+     +'<section class="asset" id="sec-'+x.id+'" data-id="'+x.id+'"><div class="ah"><div><div class="id">'+x.id+' · '+x.cat+' · '+esc(x.size)+'</div><h1 class="an" style="margin:2px 0 0">'+esc(x.name)+'</h1></div><span class="pill missing" data-st>Missing</span></div>'
+     +(simple?'':(x.short?'<p class="desc" style="font-size:16px;color:var(--fg)">'+esc(x.short)+'.</p><details class="opt"><summary class="meta">Full description (the basis of every prompt)</summary><p class="desc">'+esc(cap(x.desc))+'.</p></details>':'<p class="desc">'+esc(cap(x.desc))+'.</p>')+(x.note?'<p class="note">Note: '+esc(x.note)+'</p>':''))
+     +(simple?'':(function(){var rows=REGEN[x.id],head,auto=!rows;if(auto){rows=[['sheet','All sides in one image','','']].concat(x.views.filter(function(v){return !isdet(v)}).concat(x.views.filter(isdet)).map(function(v){return [v.k,v.label,'','']}));head='Copy the prompts <span class="meta">(one image per prompt; paste one prompt per message, attach the approved sheet for everything after the sheet)</span>'}else head='Still to do for ENV-01 <span class="meta">(all other ENV-01 images are filed; attach the hero and both blueprint sheets when generating these)</span>';
+       return '<h4>'+head+'</h4><table class="regen">'+rows.map(function(r,n){return '<tr><td class="st">'+(n+1)+'</td><td><b>'+esc(r[1])+'</b>'+(r[2]?'<div class="meta">'+esc(r[2])+'</div>':'')+'</td><td class="'+(r[3]==='Required'?'rq':'meta')+'">'+r[3]+'</td><td><button class="btn pri sm" data-pid="'+x.id+'" data-pk="'+r[0]+'">Copy prompt</button></td></tr>'}).join('')+'</table>'})())
+     +(simple?'':(x.dress&&x.dress.length?'<h4>'+(simple?'Other assets on this island':'Structures and towers on this island')+' <span class="meta">(each opens on its own page)</span></h4><div class="vgrid">'+x.dress.map(function(d){return '<a class="vc" style="text-decoration:none;color:inherit" href="#a-'+d.id.toLowerCase()+'"><div class="vt" style="aspect-ratio:4/3" data-sthumb="'+d.id+'"><span class="path">'+d.id+'</span></div><div class="vl">'+esc(d.name)+'</div><div class="meta">'+esc(d.where)+'</div></a>'}).join('')+'</div>':''))
+     +(usedOn.length?'<h4>Used on these islands</h4><ul>'+usedOn.map(function(a){var d=a.dress.filter(function(d){return d.id===x.id})[0];return '<li><a href="#a-'+a.id.toLowerCase()+'">'+a.id+' '+esc(a.name)+'</a> <span class="meta">· '+esc(d.where)+'</span></li>'}).join('')+'</ul>':'')
+     +(x.views.length?'<h4>'+(simple?'Pictures and prompts':'Views and close-ups')+' <span class="meta">('+(simple?(x.id==='ENV-01'?'attach the hero and the sheet when you make a new picture':'attach the sheet and both blueprint pictures when you make a new picture'):vlist.length+' images, one prompt each')+')</span></h4><div class="vgrid dgrid">'+vlist.map(vcardf(x,p)).join('')+'</div>':'')
+     +(GUIDE[x.id]?'<div class="guide" data-guide="'+GUIDE[x.id]+'"><p class="loading">Loading…</p></div>':'')
+     +(simple?'':'<div class="sheetbox" data-sheet><div class="empty">Turnaround sheet not added yet.<br><span class="path">'+base+'sheet.jpg</span></div></div>')
+     +(simple?'':'<div class="acts"><span data-dl-sheet></span><a class="btn" href="prompts/assets/'+x.id+'/sheet.txt" download="'+x.id+'_sheet_prompt.txt">Download sheet prompt (.txt)</a><button class="btn" data-pid="'+x.id+'" data-pk="sheet">Copy sheet prompt</button></div>')
+     +(simple?'':'<h4>Sheet prompt <span class="meta">(one image, all angles)</span></h4><textarea class="pt" readonly onclick="this.select()" rows="12">'+esc(p.sheet)+'</textarea>')
+     +'<div class="acts"><a class="btn" href="#'+key+'">← '+esc(C[1])+'</a></div></section>';
+    doc.className='wide';doc.innerHTML=h;document.title='I-RULE01 Developer Hub';
+    var st={sheet:false,n:0,total:x.views.filter(isdet).length,all:0};
+    function setp(){var k=!st.sheet?(st.n?'prog':'missing'):'done',t={missing:'Missing',prog:'In progress',done:'Complete'}[k]+(k==='prog'?' ('+st.n+'/'+(st.total+1)+')':'');if(simple){var have=doc.querySelectorAll('.vt.ok').length;k=have>=vlist.length?'done':(have?'prog':'missing');t=k==='done'?'Complete':'In progress ('+have+' of '+vlist.length+' images)'}var e=doc.querySelector('[data-st]');e.className='pill '+k;e.textContent=t}
+    if(!simple)head(base+'sheet.jpg').then(function(ok){if(!ok)return;st.sheet=true;var sb=doc.querySelector('[data-sheet]');sb.innerHTML=imgTag(base,'sheet','Sheet for '+x.name);sb.className='sheetbox ok';doc.querySelector('[data-dl-sheet]').innerHTML='<a class="btn pri" href="'+base+'sheet.jpg" download="'+x.id+'_sheet.jpg">Download sheet image</a>';setp()});
+    vlist.forEach(function(v){head(base+v.k+'.jpg').then(function(ok){if(!ok)return;if(v.k==='sheet')st.sheet=true;else if(isdet(v))st.n++;var c=doc.querySelector('[data-k="'+v.k+'"]');c.querySelector('[data-vt]').innerHTML=imgTag(base,v.k,x.name+' '+v.label);c.querySelector('[data-vt]').className='vt ok';var vs=c.querySelector('[data-vs]');if(vs)vs.style.display='none';c.querySelector('[data-dl]').innerHTML='<a class="btn pri sm" href="'+base+v.k+'.jpg" download="'+x.id+'_'+v.k+'.jpg">Download</a>';setp()})});
+    [].forEach.call(doc.querySelectorAll('[data-sthumb]'),function(el){var sid=el.getAttribute('data-sthumb'),b='art/assets/'+sid+'/';head(b+'sheet.jpg').then(function(ok){if(ok){el.innerHTML=imgTag(b,'sheet','');el.className='vt ok'}})});
+    loadGuides();view.scrollTop=0;window.scrollTo(0,0);
+  }).catch(function(e){console.error(e);doc.innerHTML='<h1>Could not load</h1><p><a href="#islands">Back</a></p>'});
 }
 
 var doc=document.getElementById('doc'),view=document.getElementById('view');
 var pending=null;
 function route(){
   var s=(location.hash||'').slice(1)||'readme';
-  var path=MAP[s]||'README.md';
+  var path=MAP[s]||(/^a-/.test(s)?'asset:'+s.slice(2).toUpperCase():'README.md');
   document.body.classList.remove('open');document.getElementById('menu').setAttribute('aria-expanded','false');
   [].forEach.call(idx.querySelectorAll('a[data-p]'),function(a){a.getAttribute('data-p')===path?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current')});
   doc.innerHTML='<p class="loading">Loading…</p>';
   doc.className='';
-  if(path==='tracker'){renderLibrary('all');return}
-  if(path==='islands'){renderLibrary('islands');return}
+  if(CATS[path]){renderList(path);return}
+  if(path.indexOf('asset:')===0){renderAsset(path.slice(6));return}
   fetch(path).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(t){
     doc.innerHTML=marked.parse(t,{mangle:false});
     [].forEach.call(doc.querySelectorAll('img'),function(im){var r=im.getAttribute('src');if(r&&!/^(https?:|data:)/.test(r)){im.setAttribute('src',norm(path,r))}im.loading='lazy'});
