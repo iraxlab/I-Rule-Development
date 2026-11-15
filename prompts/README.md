@@ -4,7 +4,7 @@
 |---|---|
 | [key-art-prompts.md](key-art-prompts.md) | The 25-page key-art prompt set (Page 24 is the redesigned Throne) |
 | [elias-character-reference-prompts.md](elias-character-reference-prompts.md) | Five-view Elias turnaround prompts |
-| [3D Reference Prompt Pack](../art-pipeline/3D_Reference_Prompt_Pack.pdf) | 53 assets, sheet and single-angle prompts |
+| [3D Reference Prompt Pack](../art-pipeline/3D_Reference_Prompt_Pack.pdf) | 76 assets, sheet and single-angle prompts |
 | [cover-regeneration.md](cover-regeneration.md) | Cover prompt with equal-width bars (canon fix) |
 | [Throne Wow Direction](../design/Throne_Wow_Direction.pdf) | Throne hero, scale, seat, turnaround, ignition prompts |
 
