@@ -70,7 +70,8 @@ CONTRIBUTING.md            how to propose changes
 
 | # | Document | Answers |
 |---|---|---|
-| 17 | [Playthrough: start to Throne](docs/17-playthrough-start-to-throne.md) | Every beat from the first frame on island 1 to the Ring of Fire |
+| 24 | [Playthrough, simple: islands 1 to 5](docs/24-playthrough-simple-01-05.md) | Short numbered steps for islands 1 to 5 |
+| 17 | [Playthrough: arena to the Throne](docs/17-playthrough-start-to-throne.md) | Every beat from the arena to the Ring of Fire, with sketches |
 | 00 | [How it plays](docs/how-it-plays.md) | What does the player actually do, minute by minute? |
 | 01 | [Vision and pillars](docs/01-vision-and-pillars.md) | What are we making and why? |
 | 02 | [Story and lore](docs/02-story-and-lore.md) | What happens, why Elias, why now, what does it mean? |
@@ -87,6 +88,9 @@ CONTRIBUTING.md            how to propose changes
 | 13 | [Canon and open decisions](docs/13-canon-and-open-decisions.md) | What is locked, what conflicts, what is undecided |
 | 14 | [Funding and submission](docs/14-funding-and-submission.md) | Epic MegaGrants status and checklist |
 | 15 | [Asset library](docs/15-asset-tracker.md) | Every asset, its image slots, and what is still missing |
+| 16 | [Island dressing guide](docs/16-island-dressing-guide.md) | Which structure goes on which island |
+| 18 | [Look Bible](docs/18-look-bible.md) | The sample images that set the look |
+| 19 to 23 | Island plans: [ENV-01](docs/19-env01-blueprint.md), [ENV-02](docs/20-env02-blueprint.md), [ENV-03](docs/21-env03-blueprint.md), [ENV-04](docs/22-env04-blueprint.md), [ENV-05](docs/23-env05-blueprint.md) | Each island: route, sizes, sounds, how it connects |
 | Site | **Islands page** (open the website, Art, Islands) | Numbered list of the 13 islands, then every island with its images (Download buttons) and prompts (Copy buttons) |
 
 ## The six lines at a glance
@@ -111,7 +115,7 @@ CONTRIBUTING.md            how to propose changes
 | Art direction and look lock | Done |
 | Key art | 25+ approved images, in [art/](art/README.md) |
 | Throne | **Redesigned**, new renders pending (see [docs/08](docs/08-the-throne.md)) |
-| 3D reference prompt pack | Done (53 assets, 110 pages) |
+| 3D reference prompt pack | Done (76 assets, 208 pages) |
 | Unreal prototype | **Not started.** Stage 1 vertical slice is the first build |
 | Open decisions | See [docs/13](docs/13-canon-and-open-decisions.md) |
 

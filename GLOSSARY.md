@@ -15,6 +15,10 @@
 | **Creative Energy Cycle** | The hidden state machine that evaluates behaviour |
 | **ForcingIndex** | The single 0-1 internal meter of how hard the player is forcing |
 | **Stillness** | Continuous non-movement, the game's central verb |
+| **Rock gate** | ENV-04's exit: the two tallest natural rock spires lean together. A short stone bridge leads out between them |
+| **Brittle slab** | ENV-12. A rock slab that cracks about 2 seconds after the player steps on it. Keep moving or dash |
+| **Ember Leech** | Small armoured crawler (about 40 cm). Drains platform stability. Calm makes fewer of them |
+| **Bat-bird** | Large dark bird with leather wings. Islands 1 and 2 only |
 | **Calm Pocket** | A volume where stillness registers faster; storm-reset spots |
 | **Still Window** | 2 s of stillness that clears a storm |
 | **Ignition column** | The receptacle where a line is ignited by a stillness hold |
