@@ -22,11 +22,11 @@ Times are mm:ss from game start on the golden path. Includes intentional low-ene
 
 | Time | What the player experiences |
 |---|---|
-| 70:00-71:20 | Arrival at the highest monolith platform. Extreme wind. Narrow safe zones. |
-| 71:20-72:30 | The player's instinct is to move; the world subtly punishes over-movement (micro-slips, edge instability). |
-| 72:30-74:30 | The final mechanic: **stop moving for 10 seconds.** Any movement resets. Audio strips down to wind and a distant harmonic. The Cinder locks and becomes perfectly calm. |
-| 74:30-75:00 | **Line 6** ignites (top bar). All six glow: a vertical ladder of fire in the sky. The Eye fully opens. |
-| 75:00-76:00 | The Dragon lands, lifts Elias and carries him to the Throne. |
+| 70:00-72:00 | Arrival at the highest monolith platform. Extreme wind. Narrow safe zones. |
+| 72:00-74:00 | The player's instinct is to move; the world subtly punishes over-movement (micro-slips, edge instability). |
+| 74:00-77:00 | The final mechanic: **stop moving for 10 seconds.** Any movement resets. Audio strips down to wind and a distant harmonic. The Cinder locks and becomes perfectly calm. |
+| 77:00-78:00 | **Line 6** ignites (top bar). All six glow: a vertical ladder of fire in the sky. The Eye fully opens. |
+| 78:00-79:00 | The Dragon lands, lifts Elias and carries him to the Throne platform (full view of the world: lanterns, structures, planets, the Eye). He approaches. **The Throne does nothing until the player stops.** |
 
 ## Failure correction loop
 Any movement resets the timer. If resets feel unfair, widen look tolerance (mouse 0.35 -> 0.45) and velocity tolerance (0.06 -> 0.08). Do not reduce the 10 s requirement except in a demo-only build (the demo cut uses 6 s).

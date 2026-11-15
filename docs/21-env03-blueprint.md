@@ -93,7 +93,7 @@ Follow the steps in order. "Build" tells you what to make.
 ## 9. How it connects
 1. Order of play: ENV-01, ENV-02, then **ENV-03**, then the moving platforms (ENV-11), then ENV-04.
 2. Height here is about +6 m above ENV-01. This is the top of the first tier (the Shelf).
-3. **In (west).** The plank-and-chain bridge (STR-07) from ENV-02, about 12 m long. It ends at a bronze anchor socket. The windbreak spires are on the north side, so the bridge end is in their shelter.
+3. **In (west).** The plank-and-chain bridge (STR-07) from ENV-02, about 12 m long. It ends at a bronze anchor socket. The windbreak spires are on the north side, so the bridge end is in their shelter. A free-floating rock blade (ENV-13, [doc 39](39-env13-blueprint.md), proposed) floats north of the bridge and makes a calm pocket on it.
 4. **Out (east).** A short stone bridge, about 12 m long, near the monolith slab at the east edge. It leads to the first moving platform (ENV-11). This is the start of Stage 2.
 5. He can leave before he lights the column. The column stays dark until he does it. The first calm place is behind him.
 6. The way back west stays open.

@@ -33,3 +33,10 @@ Six stages, one line each, then the Throne. All six lines are visible from the f
 | 4 | Stop to build bridges |
 | 5 | Commit to flow; hold still in wind to ignite |
 | 6 | Stop for 10 seconds, nothing else |
+
+## Rules applied
+Applied 15 Nov 2026 from [doc 32](../32-rules-of-successful-games.md). See [doc 33](../33-rules-applied.md).
+
+1. Before each stage, the camera drifts to the next empty Line. After it, the Line lighting is the ceremony.
+2. After 3 failures in a row at one spot, the world helps. Hold times never change.
+3. Every failure resets in under 5 seconds. No game over.

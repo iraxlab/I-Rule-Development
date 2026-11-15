@@ -15,7 +15,7 @@ First combat. Anti-spam design. Entropy storms become explicit. Full combat kit 
 ## Level
 Southeast. Arena centre (160, 0, -180): a circular obsidian plateau with broken edges (fall risk), five heat vents, a large monolith for line-of-sight breaks at (150, 0, -185), calm pocket at (146, 0, -190), radius 4.5. Ignition column (170, 0, -180), hold 4.0 s. Entry gate (120, 0, -140), exit gate (210, 0, -210).
 
-**Uses:** ENV-05 Causeway, ENV-12 Brittle Slabs, ENV-06 Arena Island. The way in: stone bridge from ENV-04, 3 brittle slabs, the 80 m causeway, then a chain and plank bridge up to the arena (see [docs/23](../23-env05-blueprint.md)). **PROPOSED:** a few Ember Leeches climb up from under the causeway before the arena. Not decided yet. Five heat vents (STR-17). Glass Shadows, Burn Knight, Storm Wraith. Dragon glimpsed overhead.
+**Uses:** ENV-05 Causeway, ENV-12 Brittle Slabs ([doc 38](../38-env12-blueprint.md)), ENV-06 Arena Island. The way in: stone bridge from ENV-04, 3 brittle slabs, the 80 m causeway, then a chain and plank bridge up to the arena (see [docs/23](../23-env05-blueprint.md)). **PROPOSED:** a few Ember Leeches climb up from under the causeway before the arena. Not decided yet. Five heat vents (STR-17). Glass Shadows, Burn Knight, Storm Wraith. Dragon glimpsed overhead.
 
 ## Beat plan
 Times are mm:ss from game start on the golden path. Includes intentional low-energy rest pockets and one expected failure loop.

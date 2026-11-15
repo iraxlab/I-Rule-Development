@@ -80,7 +80,7 @@ Picture: Sheet C (`art/guide/env05-blueprint-C-connection.png`).
 
 1. Order of play: ENV-04, then ENV-05, then ENV-06.
 2. **ENV-04 to ENV-05.** The player leaves the ENV-04 plateau (+10 m) through the rock gate. A short fixed stone bridge (STR-06, about 12 m) leads out.
-3. Then 3 brittle slabs (ENV-12) climb from +11 m to +18 m. They crack after 2 seconds. This is the only gap you can fall from on the way in. A fall is a soft reset to the last anchor.
+3. Then 3 brittle slabs (ENV-12, [doc 38](38-env12-blueprint.md)) climb from +11 m to +18 m. They crack after 2 seconds. This is the only gap you can fall from on the way in. A fall is a soft reset to the last anchor.
 4. The last slab meets the west rock tongue of ENV-05. The causeway is flat at +18 m and 80 m long.
 5. **ENV-05 to ENV-06.** The east rock tongue meets a chain and plank bridge (STR-07, 2 segments, 20 m). It rises from +18 m to the arena at +22 m. The arena has chain anchors for it.
 6. The island is the long breath between the climb and the fight.

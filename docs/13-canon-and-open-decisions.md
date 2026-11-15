@@ -53,6 +53,9 @@ The spec contains two threshold models for the Creative Energy Cycle:
 | 8 | **Media link / trailer** | Application | Assemble the pitch deck or cut a short animatic |
 | 9 | **License** | Repository | Choose before opening the repo publicly |
 | 11 | **Stage 1 encounter and Stillness Duel** | Gameplay, level design | Approve the proposed Arms, Still Ring and mind-vision duel in [Playthrough](17-playthrough-start-to-throne.md#ideas-not-decided-yet) |
+| 12 | **Six pillars fixes** | Game design | **Approved 15 Nov 2026.** The gamer layer is in [doc 28](28-gamer-layer.md). Other options for developers are in [doc 29](29-gamer-layer-options.md) |
+| 13 | **Rules from the four books** | Game design | **Applied 15 Nov 2026.** Fits and Check rules are in [doc 33](33-rules-applied.md). Rules that break canon are held back there. Three details are not decided yet |
+| 14 | **ENV-08 layout and the Stage 6 to ending timeline** | Level design, game design | **Applied 15 Nov 2026.** ENV-08 has five rock masses (as in the pictures), four bridges and the Spine. The long bridge (72 m) is in. Stage 6 runs 70:00 to 79:00 and the ending 79:00 to 85:00. See [doc 31](31-env08-blueprint.md) and [doc 34](34-alignment-check.md). |
 | 10 | **Cover art regeneration** | Art, deck | The current cover shows six bars of increasing width (a pyramid shape). Regenerate with equal-width bars using [cover-regeneration prompt](../prompts/cover-regeneration.md) |
 
 ## Known issues in the assembled pitch deck (audit, not yet fixed)

@@ -20,11 +20,15 @@ Most action games escalate power through speed, aggression and builds. I-RULE01 
 | **The throne is recognition** | There is no villain to defeat. Elias claims what was always his and the world wakes. |
 | **Mechanics teach theme** | Every story beat is something the gameplay itself produces. |
 
+## The six pillars of game design (the check)
+Every feature must also pass the six pillars of game design: **Fun, Game Loop, Curiosity, Skill, Motivation, Progression.** No exception. See [the six pillars check](27-six-pillars-check.md).
+
 ## Development rules (so it stays coherent)
 
 1. **No theme-only features.** If a feature does not connect to Entropy / Freshness / Beauty or Stillness / Alignment / Flow, it does not ship.
 2. **Movement feel is gate 1.** If movement is not Pathless-grade, stop everything and fix it.
-3. **The playtest question.** After every session ask only: *"When did you realize you had to stop moving?"*
+3. **The six pillars check.** A feature that fails any of the six pillars does not ship ([doc 27](27-six-pillars-check.md)).
+4. **The playtest question.** After every session ask only: *"When did you realize you had to stop moving?"*
    - Never realised: feedback is too weak.
    - Too early: too obvious.
    - Too late: clarify or punish earlier.

@@ -73,8 +73,8 @@ The player lights six fires in the sky. One fire per stage.
 1. The gaps are wide. Nothing to walk on.
 2. He stands still. A bridge of light forms.
 3. He moves. The bridge breaks.
-4. Two glass shadows on a narrow span. He stays calm.
-5. He stands still near the Dragon. Its wind holds the bridge for 5 seconds.
+4. He stands still near the Dragon. Its wind holds the second bridge for 5 seconds.
+5. Two glass shadows on a narrow ridge. He stays calm.
 6. Leeches drain the bridge. Stillness builds it again.
 7. At the last bridge he steps once, then holds still for **3 seconds**.
 8. **Line 4** lights in the sky.
@@ -84,7 +84,7 @@ The player lights six fires in the sky. One fire per stage.
 **If he fails:** the bridge breaks. He goes back to the last anchor. A calm spot is always near.
 
 **Build:**
-- 2 cliffs and 3 pairs of bridge anchors (STR-08 light bridge).
+- 4 cliffs and 3 bridges with anchor pairs (STR-08 light bridge). See [doc 31](31-env08-blueprint.md).
 - A bridge that only exists while the player is still.
 - 2 glass shadows on one narrow span.
 - Details: [Stage 4](stages/stage-4-the-leap.md).

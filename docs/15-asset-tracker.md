@@ -49,12 +49,12 @@ All prompts in the [3D Reference Prompt Pack](../art-pipeline/3D_Reference_Promp
 | ENV-05 | Long Causeway Island | ~80 m long, 10 m wide | 10: sheet, front, back, top, under, detail-1 to detail-5 | 10 | none yet | Complete. 10 images filed. Natural rock, leaning spire pairs, no props. Connection and leeches in docs/23 (Sheet C). ATTENTION: picture mistakes and fixes are in docs/23 section 12 |
 | ENV-06 | Arena Island | ~64 m wide | 10: sheet, front, back, top, under, detail-1..detail-5 | 22 | [key art](../art/world/stage-3-the-toil.jpg), [doc 25](25-env06-blueprint.md) | Redesigned. Sheets A, B, C done. All 10 pictures filed. Read ATTENTION in doc 25 |
 | ENV-07 | Summit Peak Island | ~150 m wide, 90 m tall | 10: sheet, front, back, top, under, detail-1..detail-5 | 25 | [key art](../art/world/stage-6-the-summit.jpg), [doc 26](26-env07-blueprint.md) | Redesigned HUGE (zigzag of rock steps, the Throne on top, no towers). Sheets A, B, C done. 10 pictures filed (see doc 26 section 12) |
-| ENV-08 | Canyon Cliff Pair | two ~35 m islands | 9: front, back, left, top, under, detail-1, detail-2, detail-3, detail-4 | 28 | [key art](../art/world/stage-4-the-leap.jpg) | Sheet v1 filed |
-| ENV-09 | Drifting Fragment Cluster | cluster ~50 m | 9: front, back, left, top, under, detail-1, detail-2, detail-3, detail-4 | 31 | [key art](../art/world/stage-5-flying.jpg) | Missing |
-| ENV-10 | Debris Rocks Set | 1-4 m each | 8: front, left, top, tq_fl, detail-1, detail-2, detail-3, detail-4 | 34 | none yet | Sheet v1 filed |
-| ENV-11 | Moving Platform Slab | ~8 m wide | 9: front, back, left, top, under, detail-1, detail-2, detail-3, detail-4 | 37 | none yet | Missing |
-| ENV-12 | Brittle Slab | ~6 m wide | 9: front, back, left, top, under, detail-1, detail-2, detail-3, detail-4 | 40 | none yet | Missing |
-| ENV-13 | Windbreak Ridge | ~25 m long, 8 m tall | 8: front, left, top, tq_fl, detail-1, detail-2, detail-3, detail-4 | 43 | none yet | Missing |
+| ENV-08 | Canyon Cliffs | five rock masses, four bridges, about 285 m | 10: sheet, front, back, top, under, detail-1 to detail-5 | 31 | [key art](../art/world/stage-4-the-leap.jpg) | Complete: sheet (composed from the 4 accepted views) + front, back, top, underside + 5 details filed. Bridge 1 is not drawn in the pictures. Differences in docs/31 section 11 |
+| ENV-09 | Drifting Fragment Cluster | cluster ~390 m | 10: front, back, left, top, under, detail-1 to detail-5 | 31 | [key art](../art/world/stage-5-flying.jpg) | Complete: sheet (composed from front, back, top, underside) + left + 5 details filed. Pictures show 8 fragments (one extra hollow one) and tan-brown rock; accepted as reference. |
+| ENV-10 | Debris Rocks Set | six rocks, 3 to 7 m wide | 8: front, left, top, tq_fl, detail-1, detail-2, detail-3, detail-4 | 36 | none yet | Complete: sheet (composed from front, left, top, 3/4) + 4 details filed. Title typos: top reads "NV-10", detail 4 reads "DEBR S". Accepted as reference. |
+| ENV-11 | Moving Platform Slab | ~8 m wide | 9: front, back, left, top, under, detail-1, detail-2, detail-3, detail-4 | 37 | none yet | Complete: 9 pictures filed (front, back, left, top, under, 4 details) + composed sheet. Back, left and top titles have typos ("LEFT  E", "ENV-1"); detail rock reads tan-brown with black glass shards and a green bronze disc. Accepted as reference; the top and front pictures match canon best. |
+| ENV-12 | Brittle Slab | ~6 m wide | 9: front, back, left, top, under, detail-1, detail-2, detail-3, detail-4 | 38 | none yet | Complete: sheet (composed from front, top, left, detail 4) + 9 pictures filed. Rock is good; the top view is brighter amber and the layers are thinner than the blueprint (4 layers, not tilted). Accepted as reference. |
+| ENV-13 | Windbreak Ridge | ~25 m long, 8 m tall | 8: front, left, top, tq_fl, detail-1, detail-2, detail-3, detail-4 | 39 | none yet | Complete: sheet + 8 pictures filed. Reads as a shark-fin blade with a fluted face and broken shoulder, good. Deviations (accepted as reference): front and left views are shown end-on, so the blade looks like a U-shaped bowl, not a long fin (use the sheet and 3/4 view for shape); the root shows as two stubby legs in the 3/4 view and a single thin spike in the front and left views, so build one short root; the crest detail has no clear thin notches (reads as a thick rock cap); detail 4 shows the blade tip, not the root; rock is browner with glossy black chips, so make it darker black-brown in the engine. The blueprint role is still PROPOSED (doc 39). |
 
 ## Structures
 
@@ -86,6 +86,15 @@ All prompts in the [3D Reference Prompt Pack](../art-pipeline/3D_Reference_Promp
 | STR-24 | Needle Spire Tower | ~45 m tall | 5: front, back, left, top, under | 79 | none yet | Missing |
 | STR-25 | Twin Towers with Broken Arch | ~26 m tall, 30 m wide | 5: front, back, left, top, under | 81 | none yet | Missing |
 | STR-26 | Gatehouse Tower | ~24 m tall | 5: front, back, left, top, under | 83 | none yet | Missing |
+| STR-27 | Long Rung Bridge | ~72 m long | 5: front, back, left, top, under | 148 | none yet | Missing |
+| STR-28 | Leech Bridge Underside | 20 to 72 m long, fits the bridge | 5: front, back, left, top, under | 150 | none yet | Missing |
+| STR-29 | Six-Line Floor Inlay | ~10 m wide | 4: front, left, top, tq_fl | 152 | none yet | Missing |
+| STR-30 | Fire Brazier, Standing | ~3 m tall | 5: front, back, left, top, under | 154 | none yet | Missing |
+| STR-31 | Rock-Spire Citadel Tower | ~80 m tall | 5: front, back, left, top, under | 156 | none yet | Missing |
+| STR-32 | Obsidian Shard Cluster | ~40 m tall | 5: front, back, left, top, under | 158 | none yet | Missing |
+| STR-33 | Dead Tree Grove | ~8 m tall | 4: front, left, top, tq_fl | 160 | none yet | Missing |
+| STR-34 | Bronze Door, Unlocked | ~8 m tall | 5: front, back, left, top, under | 144 | none yet | Missing |
+| STR-35 | Bronze Door, Open | ~8 m tall | 5: front, back, left, top, under | 146 | none yet | Missing |
 
 ## Sky
 
@@ -93,17 +102,22 @@ All prompts in the [3D Reference Prompt Pack](../art-pipeline/3D_Reference_Promp
 |---|---|---|---|---|---|---|
 | SKY-01 | Six-Line Ladder, Dormant | ~120 m wide total | 5: front, back, left, top, under | 86 | [key art](../art/world/04-six-lines-the-sky-is-the-map.jpg) | Missing |
 | SKY-02 | Six-Line Ladder, Progress States | ~120 m wide total | 4: front, left, top, tq_fl | 88 | [key art](../art/world/04-six-lines-the-sky-is-the-map.jpg) | Missing |
-| SKY-03 | Fire Eye Structure | ~200 m wide | 5: front, back, left, top, under | 89 | [key art](../art/characters/companion-the-fire-eye.jpg) | Missing |
+| SKY-03 | Fire Eye, Open and Burning | ~200 m wide | 5: front, back, left, top, under | 89 | [key art](../art/characters/companion-the-fire-eye.jpg) | Missing |
 | SKY-04 | Ringed Planet | sky object | 4: front, left, top, tq_fl | 90 | none yet | Missing |
 | SKY-05 | Plain Planet | sky object | 4: front, left, top, tq_fl | 91 | none yet | Missing |
+| SKY-06 | Ember Planet | sky object | 4: front, left, top, tq_fl | 170 | none yet | Missing |
+| SKY-07 | Fire Eye, Open and Dormant | ~460 m wide (proposed) | 5: front, back, left, top, under | 171 | none yet | Missing |
+| SKY-08 | Fire Eye, Closed and Burning | ~460 m wide (proposed) | 5: front, back, left, top, under | 173 | none yet | Missing |
+| SKY-09 | Fire Eye, Closed and Dormant | ~460 m wide (proposed) | 5: front, back, left, top, under | 175 | none yet | Missing |
+| SKY-10 | Six Lines, Six Elements (proposed) | ~460 m wide (proposed) | 5: front, back, left, top, under | 176 | none yet | Missing |
 
 ## Throne
 
 | ID | Asset | Size | Views needed | Pack page | Look reference | Status |
 |---|---|---|---|---|---|---|
-| THR-01 | The Throne of Stillness | ~40 m tall | 15: front, back, left, right, top, tq_fl, tq_fr, tq_bl, tq_br, low, high, detail-fissures, detail-ribs, detail-seat, ignited | 93 | Sheet v1 at `art/assets/THR-01/sheet.jpg` | Sheet only (revise: six fissures, two ribs) |
-| THR-02 | The Throne Stairs and Platform | ~50 m long | 5: front, back, left, top, under | 97 | none yet | Missing |
-| THR-03 | Throne on Summit | ~70 m overall | 15: front, back, left, right, top, tq_fl, tq_fr, tq_bl, tq_br, low, high, detail-fissures, detail-ribs, detail-seat, ignited | 99 | [key art](../art/world/stage-6-the-summit.jpg) | Missing |
+| THR-01 | The Throne of Stillness | ~40 m tall | 14: front, back, left, right, top, tq_fl, tq_fr, tq_bl, tq_br, low, detail-fissures, detail-ribs, detail-seat, ignited (high 45 dropped, not needed) | 93 | New approved sheet at `art/assets/THR-01/sheet.jpg` (old in _superseded), [doc 40](40-throne-blueprint.md) | Complete: sheet + 14 pictures filed. Six bars, three ribs each side and four braziers are right in every picture. Deviations (accepted as reference): the TOP view shows only 4 bars; the stair and seat block look low and the seat block plain (build the 10 m seat and 22-step stair from doc 40); the backrest sits on a rock pile in most views; several titles are misspelled (ignore the titles). The sheet shows 5 bars: build 6. |
+| THR-02 | The Throne Stairs and Platform | ~50 m long | 5: front, back, left, top, under | 97 | [doc 40](40-throne-blueprint.md), Sheet B | Blueprinted (doc 40). Pictures to make. |
+| THR-03 | Throne on Summit | ~70 m overall | 15: front, back, left, right, top, tq_fl, tq_fr, tq_bl, tq_br, low, high, detail-fissures, detail-ribs, detail-seat, ignited | 99 | [key art](../art/world/stage-6-the-summit.jpg) , [doc 40](40-throne-blueprint.md), Sheet C | Blueprinted (doc 40). Pictures to make. |
 
 ## Creatures
 
@@ -116,8 +130,22 @@ All prompts in the [3D Reference Prompt Pack](../art-pipeline/3D_Reference_Promp
 | CRE-05 | Ember Leech | ~40 cm | 4: front, left, top, tq_fl | 109 | [key art](../art/characters/enemy-ember-leeches.jpg) | Missing |
 | CRE-06 | Storm Wraith (VFX reference) | ~5 m | 4: front, left, top, tq_fl | 110 | [key art](../art/characters/enemy-storm-wraiths.jpg) | Missing |
 
+## Effects
+
+| ID | Asset | Size | Views needed | Pack page | Look reference | Status |
+|---|---|---|---|---|---|---|
+| VFX-01 | Elias Suit Glow | effect | 2: fx_hero, fx_close | 201 | none yet | Missing |
+| VFX-02 | Sacred Arc | effect | 2: fx_hero, fx_close | 202 | none yet | Missing |
+| VFX-03 | Stillness Rings | effect | 2: fx_hero, fx_close | 203 | none yet | Missing |
+| VFX-04 | Run Sparks | effect | 2: fx_hero, fx_close | 204 | none yet | Missing |
+| VFX-05 | Ambient Ember Sparks | effect | 2: fx_hero, fx_close | 205 | none yet | Missing |
+| VFX-06 | Combat Flame Ring | effect | 2: fx_hero, fx_close | 206 | none yet | Missing |
+| VFX-07 | Hidden-System Energy Orbs | effect | 2: fx_hero, fx_close | 207 | none yet | Missing |
+| VFX-08 | Dragon Fire Breath | effect | 2: fx_hero, fx_close | 208 | none yet | Missing |
+| VFX-09 | Ring of Fire, Dormant and Ignited | effect | 2: fx_hero, fx_close | 209 | none yet | Missing |
+
 ## Totals
-- 76 assets: 13 islands, 35 structures, 10 sky, 3 throne, 6 creatures, 9 effects (new ones are not in the snapshot table above).
+- 76 assets: 13 islands, 35 structures, 10 sky, 3 throne, 6 creatures, 9 effects (all 76 are in the tables above).
 - Sheets needed: 53. Single views and detail close-ups (combined count): 394.
 - Plus four Throne detail renders (six fissures, dragon ribs, seat and armrest, ignited state): `art/assets/THR-01/detail-fissures.jpg`, `detail-ribs.jpg`, `detail-seat.jpg`, `ignited.jpg`.
 

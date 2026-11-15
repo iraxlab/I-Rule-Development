@@ -8,17 +8,16 @@
 
 | Item | Detail |
 |---|---|
-| **Target time** | 6:00 (76:00-85:00 of the golden path; the ending budget is 360 s) |
+| **Target time** | 6:00 (79:00-85:00 of the golden path; the ending budget is 360 s) |
 | **Player input** | The only moment of pure choice: pressing to sit |
 
 ## Beat plan
 | Time | What happens |
 |---|---|
-| 76:00-77:20 | Dragon flight to the Throne platform. Full view of the world: lanterns, structures, planets, the Eye. |
-| 77:20-78:10 | Elias approaches the Throne. **The Throne does nothing until the player stops.** |
-| 78:10-79:00 | Elias sits. The Cinder dissolves into the suit. |
-| 79:00-81:30 | The Fire Eye opens fully. A **Ring of Fire** spreads along structures, through lantern anchors and across platforms. |
-| 81:30-83:30 | Lanterns ignite sequentially, then all together. Architecture glows with internal fire veins. Planets reflect firelight. |
+| 79:00-80:00 | Elias sits. The Cinder dissolves into the suit. The Fire Eye opens fully. The first spread of fire begins. |
+| 80:00-81:50 | A **Ring of Fire** spreads along structures, through lantern anchors and across platforms. Lanterns ignite sequentially. |
+| 81:50-82:30 | Harmony peak: all lanterns together. Architecture glows with internal fire veins. Planets reflect firelight. |
+| 82:30-83:30 | The spread completes. |
 | 83:30-84:30 | The Fire Eye slowly closes. Audio resolves to wind and near-silence. |
 | 84:30-85:00 | Fade out. End screen: **I-RULE01 COMPLETE.** No speech, no lore dump. |
 

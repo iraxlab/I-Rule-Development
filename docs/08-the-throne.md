@@ -3,6 +3,8 @@
 > The Throne is not a prize. It is a recognition. When Elias sits, he is not defeating anyone: he is completing himself.
 
 ## Status
+**Final numbers: [doc 40](40-throne-blueprint.md).** The approved look is the new `art/assets/THR-01/sheet.jpg`.
+
 **Redesigned. New renders pending.** The legacy key art ([art/throne](../art/throne/throne-final-activation-legacy.jpg)) shows an earlier, simpler throne and is superseded by the design below. Drop approved new renders into [`art/throne/`](../art/throne/README.md).
 
 ## Design brief (locked)
@@ -13,8 +15,8 @@ The Throne must look **hard, dark, fiery, mysterious and very tall**, matching t
 | **Height** | About **40 m**. A tiny figure at its base must make the player feel small. |
 | **Seat** | Deep, massive block of black volcanic stone with two thick armrests |
 | **Backrest** | A very tall, narrow **monolith** with straight parallel sides and a flat notched top |
-| **Six fissures** | Six equally spaced **horizontal glowing amber fissures** across the backrest like a ladder of fire: the six lines, as straight bars |
-| **Dragon ribs** | Two colossal curved bronze ribs rising on both sides and arching inward like a cage, with fire glowing between them: ties the Throne to the Fire Dragon |
+| **Six fissures** | **Exactly six** equally spaced short **horizontal glowing amber bars** across the backrest like a ladder of fire: the six lines |
+| **Dragon ribs** | **Three** colossal curved bronze ribs on each side (six in all), tapering like tusks, rising beside the seat and arching inward without touching, fire glowing between them: ties the Throne to the Fire Dragon. (Changed from two to match the approved sheet.) |
 | **Approach** | A long, steep staircase of broken black stone with bronze braziers burning on both sides: the climb is the build-up |
 | **Surface** | Rough, weathered; molten-amber cracks veining through dark stone like lava under a crust |
 | **Never** | Modern, glossy, chrome, mirror-polished, minimal, floating on rods; no skulls, no wings, no readable text |

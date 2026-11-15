@@ -13,7 +13,7 @@
 4. At the top is the **crown**: a wide flat platform of cracked dark rock, 40 m across. In the middle stands **one short stone column** on a round bronze base, with a faint ring of amber cracks around it.
 5. Two tall natural rock spires lean toward each other like a gate where the path reaches the crown (30 m and 22 m).
 6. Behind the crown a **steep stair of broken dark rock** climbs 20 m to a higher broad terrace at the very top. Six small bronze braziers stand along it, three on each side, dark and unlit until the ending.
-7. **The Throne of Stillness stands on the top terrace.** It is about 40 m tall, hewn from black volcanic stone: a deep seat block with two thick armrests, a very tall narrow monolith backrest with six faint horizontal amber fissures, and two huge curved bronze dragon ribs arching inward. It faces south, down the stair, and it is the highest point of the whole island. Details: [The Throne](08-the-throne.md).
+7. **The Throne of Stillness stands on the top terrace.** It is about 40 m tall, hewn from black volcanic stone: a deep seat block with two thick armrests, a very tall narrow monolith backrest with six faint horizontal amber fissures, and three huge curved bronze dragon ribs on each side arching inward. It faces south, down the stair, and it is the highest point of the whole island. Details: [The Throne](08-the-throne.md).
 8. Two huge rock spires (40 m and 28 m) lean toward each other at the foot of the stair. One lower spire (18 m) stands on the east edge of the crown.
 9. Nothing else is built. **No towers, no walls, no arches.** The path steps are carved into the rock.
 
@@ -60,7 +60,7 @@ This is Stage 6: The Summit. No enemies. No combat. No dash. About 9 minutes.
 | Gate spires | 30 m and 22 m |
 | Foot-of-rise spires | 40 m (west) and 28 m (east) |
 | East single spire | 18 m |
-| Steep stair and Throne terrace | +20 m, 6 braziers, terrace about 25 m across |
+| Steep stair and Throne terrace | +20 m, 6 braziers, terrace 36 x 30 m (changed from 25 m, [doc 40](40-throne-blueprint.md)) |
 | The Throne | about 40 m tall, on the terrace (+20 to +60 m). It is the highest point |
 
 World height: the crown is at +360 m. The arrival ledge is at +290 m. The terrace is at +380 m. The top of the Throne is at about +420 m.
@@ -74,7 +74,7 @@ World height: the crown is at +360 m. The arrival ledge is at +290 m. The terrac
 1. The island has no props. Do not add anything without asking.
 2. The made things are the thin bronze line, the one column on its round bronze base, the 6 braziers on the stair, and the Throne.
 3. The old plan had a ring wall, a gatehouse tower, a slender tower, arches, chains, dead trees and lanterns. They are removed. Add them in Unreal only after approval.
-4. The braziers and the Throne follow the canon in [The Throne](08-the-throne.md). Six braziers (3+3) is a proposed number.
+4. The braziers and the Throne follow the canon in [The Throne](08-the-throne.md). Six braziers (3+3): 4 on the stair and 2 beside the seat ([doc 40](40-throne-blueprint.md)). Proposed number.
 
 ## 7. Sounds and mood
 1. Loud wind at the foot. It grows with every flight.
@@ -117,7 +117,7 @@ The 10 pictures are filed in `art/assets/ENV-07/`. They show the mood well. They
 |---|---|---|
 | 1 | Front and sheet: the two big gate spires lean OUTWARD, away from each other | They lean toward each other like a gate (Detail 4 is right). |
 | 2 | Front, top and sheet: 8 braziers (3 each side on the stair plus 1 at each top corner) | 6 braziers, 3 on each side of the stair. This number is not decided yet. |
-| 3 | Back: 4 or more thin bronze arcs like a cage around the backrest | Two dragon ribs only. Front, Detail 5 and the key art are right. |
+| 3 | Back: 4 or more thin bronze arcs like a cage around the backrest | Three ribs on each side, six in all (changed to match the approved THR-01 sheet, [doc 40](40-throne-blueprint.md)). Not a cage of many thin arcs. |
 | 4 | Top: a second small pillar on a bronze base at the left of the column | One column only. The two small bronze-based posts are the west and east gap posts, kept low. |
 | 5 | Pictures: the backrest is a plain tall slab | A 40 m backrest with six faint horizontal amber cracks. See THR-01. |
 | 6 | Detail 3: the title says "ENV- 07" with a gap | Ignore titles. Use the names in the tracker. |

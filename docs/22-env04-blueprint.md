@@ -87,7 +87,7 @@ Follow the steps in order. "Build" tells you what to make.
 ## 9. How it connects
 1. Order of play: ENV-03, then the moving platforms (ENV-11), then **ENV-04**, then ENV-05, then ENV-06.
 2. Height here is about +10 m above ENV-01. The Starting Shelf is now visible far below.
-3. **In (west).** The last of 4 moving platforms (ENV-11) brings the player to the flat west landing, about 10 m wide. The platform has an anchor socket (STR-09) at each end of its rail. The way back stays open.
+3. **In (west).** The last of 4 moving platforms (ENV-11) brings the player to the flat west landing, about 10 m wide. The slab has an anchor socket (STR-09) at each end of its route. The way back stays open.
 4. **Out (east).** The rock gate: a short stone bridge (STR-06, about 12 m) between the two tallest spires. It leads out to ENV-05.
 5. After the bridge there are 3 brittle slabs (ENV-12). They climb from +11 m to +18 m. The player lands on the ENV-05 causeway at +18 m. See docs/23, section 9, and Sheet C.
 6. Inside the island: the landing, then 3 paths (north rim, south rim, crater edge), then the crater and the column on the east rim, then the rock gate. Only the crater path is aligned.

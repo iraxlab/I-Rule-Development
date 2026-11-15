@@ -39,14 +39,13 @@ Which structures go on which island. The islands are bare rock plus one signatur
 |  | STR-18 Energy Reservoir | one set into the rim |
 | ENV-07 Summit Peak Island | STR-12 Peak Column | one in the middle of the crown |
 |  | STR-22 Summit Staircase | the five flights of steps, carved in the rock (not built) |
-| ENV-08 Canyon Cliff Pair | STR-06 Fixed Stone Bridge | across the gap between the two cliffs |
-|  | STR-05 Locked Bronze Gate | inside the cave mouth |
-|  | STR-25 Twin Towers with Broken Arch | (built into the island prompt) on the cave-side cliff top, near the cave mouth |
-|  | STR-03 Rock Spire Cluster | (built into the island prompt) on the facing cliff top |
-| ENV-09 Drifting Fragment Cluster | STR-19 Fossil Tree | one on the largest fragment |
+| ENV-08 Canyon Cliffs | STR-08 Light Bridge Segment | bridges 1 to 3, each with its two bronze posts at both ends |
+|  | STR-27 Long Rung Bridge | West Cliff to the North shelf (decided: the shortcut) |
+|  | STR-28 Leech Underside | under the Long Rung Bridge and bridge 3 |
+|  | STR-10 Ignition Column Dormant | one on the East Cliff |
 | ENV-10 Debris Rocks Set | STR-03 Rock Spire Cluster | a small one on the largest rock |
-| ENV-11 Moving Platform Slab | STR-09 Anchor Socket | at each end of the rail |
+| ENV-11 Moving Platform Slab | STR-09 Anchor Socket | at each end of the route |
 | ENV-12 Brittle Slab | nothing | Keep bare; its rock is the feature |
-| ENV-13 Windbreak Ridge | STR-20 Six-Line Pylon | one at the top of the tiny stair |
+| ENV-13 Windbreak Ridge | nothing | Keep bare; it is a landmark, not a place to stand |
 
 Every structure's images and prompts are on the website under Art, All assets.

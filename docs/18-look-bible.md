@@ -30,7 +30,7 @@ ENV-01 and the Throne keep their current prompts, except ENV-01 detail 1 (door).
 - **Leeches under long bridges:** they cling to the underside and strike up through gaps only when Elias is mid-bridge. A held stillness ring pushes them back (stillness rings, VFX-03).
 - **Eye reacts to the climb:** closed and dormant at the start, opens one stage at a time, burning when the Throne is reached (the four Eye states).
 - **Brazier checkpoints:** standing bronze braziers (STR-30) light when Elias passes and act as rest points.
-- **Dragon mount:** Elias must wake the Fire Dragon and ride it. Canon says the dragon lands at 75:00 and carries him to the foot of the Throne stairs; the sample images also show a ride in Stage 5. Decide which.
+- **Dragon mount:** Elias must wake the Fire Dragon and ride it. Canon says the dragon lands at 78:00 and carries him to the foot of the Throne stairs; the sample images also show a ride in Stage 5. Decide which.
 
 ## Differences between the samples and canon (flagged, not changed)
 1. Lines are lit from the top in the Interface, Flying and Summit samples; canon lights them bottom up.
@@ -40,7 +40,7 @@ ENV-01 and the Throne keep their current prompts, except ENV-01 detail 1 (door).
 
 ## Update: the door and the towers (owner direction)
 - **The door replaces the broken gateway.** ENV-01 and every ENV-01 prompt now use the Core Fantasy door (carved frame with bronze finials, verdigris scrollwork panels, chain and padlock, light through the centre gap). The playthrough frames and docs/02 and docs/17 use the same door. PROPOSED canon change: the gateway becomes this locked door; the beam of light is the light in its centre gap.
-- **Towers are locked into each island.** Each island prompt now includes its own towers, fused to the island's rock and within about 15 to 25 m of its signature feature, so one island sheet shows the complete look. Islands with towers: ENV-01 (three towers behind the door), ENV-03 (drum tower and banded tower by the pillar), ENV-08 (twin towers by the cave). Each of these has a "tower group" close-up as its fifth detail. The separate STR tower assets stay as style references only.
+- **Towers are locked into each island.** Each island prompt now includes its own towers, fused to the island's rock and within about 15 to 25 m of its signature feature, so one island sheet shows the complete look. Islands with towers: ENV-01 (three towers behind the door), ENV-03 (drum tower and banded tower by the pillar). Each of these has a "tower group" close-up as its fifth detail. The separate STR tower assets stay as style references only.
 - **ENV-01 needs a redo.** The filed ENV-01 images show the old gateway. Regenerate the sheet first, then the details.
 
 ## Update: not a toy, and the door must be locked, then unlocked, then entered
@@ -68,7 +68,7 @@ ENV-01 now has eight detail prompts, including Spawn terrace (detail 3) and Fore
 
 
 ## Update: ENV-01 locked
-The hero render was approved. ENV-01 is the first locked environment: see docs/19. ENV-02 is blueprinted: see docs/20. ENV-03 is blueprinted: see docs/21. ENV-04 is blueprinted: see docs/22. ENV-05 is blueprinted: see docs/23. ENV-06 is blueprinted: see docs/25. ENV-07 is blueprinted: see docs/26. Next environment to blueprint: ENV-08.
+The hero render was approved. ENV-01 is the first locked environment: see docs/19. ENV-02 is blueprinted: see docs/20. ENV-03 is blueprinted: see docs/21. ENV-04 is blueprinted: see docs/22. ENV-05 is blueprinted: see docs/23. ENV-06 is blueprinted: see docs/25. ENV-07 is blueprinted: see docs/26. ENV-08 is blueprinted: see docs/31. Next environment to blueprint: ENV-09.
 
 ## Update: ENV-01 rock pillars, not towers (owner direction)
 The two big formations behind the ENV-01 door are natural rock pillars of the same dark rock as the cliff. Prompts that said "tower" produced built, Roman-looking towers, so ENV-01 prompts no longer use that word and forbid masonry, battlements and arched windows. The other islands still carry their towers until their own blueprints are approved.

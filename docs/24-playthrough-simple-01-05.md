@@ -34,7 +34,7 @@ The same in words:
 2. **Island 2.** One big bat-bird flies over once. It never hurts him. Leeches stay behind.
 3. **Island 3.** None. The bat-bird is far away.
 4. **Island 4.** None.
-5. **Island 5.** Leeches only (not decided yet). They climb up from under the island. No bat-birds.
+5. **Island 5.** None. It is a calm walk. Wind and leaning rocks only.
 6. **Island 6.** Leeches come back with the glass shadows in the arena fight.
 
 ---
@@ -161,8 +161,8 @@ The same in words:
 2. He walks east on the bronze line.
 3. Giant rocks lean over the path.
 4. At the broken rock the edge shakes.
-5. A few leeches climb up.
-6. In the calm spot he stands still for 2 seconds. The leeches fall away.
+5. He steps carefully.
+6. In the calm spot he stands still for 2 seconds. The wind drops.
 7. Near the end the wind rises.
 8. He crosses the chain bridge to the arena.
 
@@ -180,15 +180,16 @@ The first big fight. The full steps and the sketch are on [the arena to the Thro
 1. He crosses the chain bridge. The arena is round, with five glowing vents.
 2. He fights 3 waves. He hides behind the monolith when the storm comes.
 3. He holds still at the column. **Line 3** lights.
-4. If he falls, the Cinder catches him and he lands in the calm pocket. No damage. (Not decided yet. See the options in doc 25.)
+4. If he falls, the Cinder catches him and he lands in the calm pocket. No damage.
 
 ---
 
-## Not decided yet
-Do not build these yet.
+## Decided (15 Nov 2026)
+See [the gamer layer](28-gamer-layer.md), section 8.
 
-1. The Shadow fight on island 1.
-2. Leeches on island 5.
-3. The rock gate on island 4.
-4. The 3 cracking slabs.
-5. The fall plan for the arena.
+1. No Shadow fight on island 1. A faint echo appears on the Summit instead.
+2. No leeches on island 5.
+3. The 3 cracking slabs stay, with a red glow and rumble first.
+4. If he falls in the arena, the Cinder catches him.
+5. The island 1 ledge fight is a gentle bow lesson.
+6. The rock gate on island 4 is still open.

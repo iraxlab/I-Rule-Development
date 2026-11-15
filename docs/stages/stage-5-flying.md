@@ -15,7 +15,7 @@ Heat currents, high-speed traversal and Dragon flight segments. No bridges. Hesi
 ## Level
 North-central. Centre (40, 0, 120). Launch terrace (40, 0, 80) facing north. Three readable heat-current lanes (centre, left, right) climbing from y=10 to y=18. Throne silhouette reveal camera marker (40, 20, 170). Dragon carry trigger (40, 0, 205), landing (40, 0, 210), drop (0, 0, 250). Ignition column (0, 0, 260), hold 5.0 s. Gate to Stage 6 at (0, 0, 290).
 
-**Uses:** ENV-09 Drifting Fragment Cluster, ENV-10 Debris. Heat-current flight with the Fire Dragon (CRE-02). No bridges.
+**Uses:** ENV-09 Drifting Fragment Cluster ([doc 35](../35-env09-blueprint.md): seven fragments, six heat currents, Dragon carry over a 48 m void, last current lifts him 225 m to ENV-07), ENV-10 Debris ([doc 36](../36-env10-blueprint.md): six stepping rocks into the last heat current). Heat-current flight with the Fire Dragon (CRE-02). No bridges.
 
 ## Beat plan
 Times are mm:ss from game start on the golden path. Includes intentional low-energy rest pockets and one expected failure loop.

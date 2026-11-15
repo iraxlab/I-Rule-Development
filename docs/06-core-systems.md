@@ -137,3 +137,22 @@ A world ignition that reads as **activation, not destruction**: internal circuit
 Every session logs: time to first stillness realisation; number of storm triggers before the first successful calm reset; average ForcingIndex per stage; Stage 6 attempts before success. If Stage 6 resets feel unfair, widen look tolerance (mouse 0.35 -> 0.45) and velocity tolerance (0.06 -> 0.08).
 
 **Dev-only debug HUD (never ship):** F1 toggle; ForcingIndex bar, state label, stillness streak, APS, direction-flip flag, storm threshold marker; F2 force Entropy, F3 force Beauty, F4 spawn Glass Shadow. Gizmos for calm pockets, cover volumes, heat currents and bridge-build progress.
+
+## 9. Feel rules applied
+Applied 15 Nov 2026 from [doc 32](32-rules-of-successful-games.md).
+
+1. **Answer fast (GF-7).** Every input shows a result within 100 ms. Aim for 50 ms. The whole path, from key to screen, stays within 3 frames at 60 fps.
+2. **Stillness needs two answers.** The hold keeps its 0.20 s debounce and its locked times. But the moment he stops, the world answers within 100 ms: the Cinder glow settles and the sound softens. The count itself starts after the debounce.
+3. **Break fast too.** When movement resets a hold, the world answers within 100 ms: rungs dim, the glow lifts.
+4. **No ambiguous buttons (GF-2).** Keep one priority table. When two actions arrive in the same frame, the higher one wins. Order: Guard/Parry, Dash, Jump, Strike. The 0.10 s buffer stays. Write the table into the Enhanced Input setup.
+5. **Few states, all visible (GF-3).** Every state change has a cue the player can see or hear.
+6. **Frame rate (GF-9).** Target 60 fps on PC. Never below 30. Stillness and bridge logic run on a fixed tick, so they do not change with frame rate.
+7. **Empty-room test (GF-14).** Movement must be a joy on grey boxes, before art. This is part of gate 1.
+8. **Keep it fresh (GF-13).** Make at least 3 variants of footsteps for each surface, of chain clinks, of rung-lighting timing, and of the idle and settle animations.
+9. **Failure is worth watching (GF-15).** Make at least 3 versions each of a bridge breaking, a fall and the Cinder catch.
+10. **Move in arcs (GF-16).** Use velocity and force, not set positions. Chains sag on arcs. The suit follows through.
+11. **Harmony (GF-17, GF-18).** Look, sound, motion and rules say the same thing. Keep the mythic, iconic look. Do not chase photo-real.
+12. **No clipping (GF-19).** Check every island for clipping and loose physics objects before sign-off.
+13. **Weight cues (GF-21).** Big things get slow motion, deep sound, dust and a small shake: the Dragon, bridge chains, the Throne.
+14. **Feel sheet (GF-25).** For each mechanic record input, response, context, polish, metaphor and rules. Log it in playtests.
+15. **Debug readout.** Add a response-time readout to the dev-only HUD.

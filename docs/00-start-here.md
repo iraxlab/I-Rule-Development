@@ -5,10 +5,15 @@ Pick your role, read in this order, and you will know enough to work without ask
 ## Everyone (10 minutes)
 1. [README](../README.md): the game in 30 seconds.
 1. [How it plays](how-it-plays.md): what the player actually does.
+   - [The story for a kid](30-the-story-for-a-kid.md): the whole game in simple numbered steps, to read out loud.
    - [Playthrough, simple: islands 1 to 5](24-playthrough-simple-01-05.md): short numbered steps, easy to read.
    - [Playthrough: arena to the Throne](17-playthrough-start-to-throne.md): every beat, the arena to the Ring of Fire.
 2. [Vision and pillars](01-vision-and-pillars.md): seven rules every decision is tested against.
-3. [Canon and open decisions](13-canon-and-open-decisions.md): what you may never change, and what is still open.
+3. [The six pillars check](27-six-pillars-check.md): the game against Fun, Game Loop, Curiosity, Skill, Motivation and Progression.
+4. [Rules of successful games](32-rules-of-successful-games.md): 156 rules from four design books, plus 12 master rules, each checked against I-RULE01.
+   - [Rules applied](33-rules-applied.md): what we changed because of them, and what we held back.
+   - [Alignment and win check](34-alignment-check.md): what was checked across the whole game, what was fixed, and what is still missing.
+5. [Canon and open decisions](13-canon-and-open-decisions.md): what you may never change, and what is still open.
 
 ## Gameplay programmer
 1. [Core systems](06-core-systems.md): the hidden Creative Energy Cycle, stillness, fire, combat, traversal.

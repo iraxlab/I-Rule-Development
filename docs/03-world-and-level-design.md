@@ -27,7 +27,7 @@ Modular island chunks with snap points for bridges and platforms; danger-edge vo
 
 | Group | Assets |
 |---|---|
-| **Islands (ENV-01-13)** | Starting Shelf, Stepping Island, Medium Island with Windbreak, Large Plateau, Causeway Island, Arena Island, Summit Peak, Canyon Cliff Pair, Drifting Fragment Cluster, Debris Rocks, Moving Platform Slab, Brittle Slab, Windbreak Ridge |
+| **Islands (ENV-01-13)** | Starting Shelf, Stepping Island, Medium Island with Windbreak, Large Plateau, Causeway Island, Arena Island, Summit Peak, Canyon Cliffs, Drifting Fragment Cluster, Debris Rocks, Moving Platform Slab, Brittle Slab, Windbreak Ridge |
 | **Structures (STR-01-22)** | Tower ruins, rock spires, monolith slab, locked bronze gate, stone / plank / light bridge segments, anchor socket, ignition columns (dormant / ignited / peak), XL lantern anchors (hanging, tower, ground, lit), heat vent, energy reservoir, fossil tree, six-line pylon, small lantern post, summit staircase |
 | **Sky (SKY-01-05)** | Six-line ladder (dormant, progress states), Fire Eye structure, ringed and plain planet |
 | **Throne (THR-01-03)** | [The Throne of Stillness](08-the-throne.md), stairs and platform, throne on summit |

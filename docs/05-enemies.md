@@ -44,3 +44,15 @@ Not an enemy. See [characters](04-characters-and-companions.md#the-fire-dragon-t
 - **Stage 4:** two Glass Shadows on the narrow combat span at about t=220 s.
 - **Stage 5:** optional encounter zone, bypassable by flow (non-combat success).
 - **Stage 6:** no enemies.
+
+## Behaviour rules applied
+Applied 15 Nov 2026 from [doc 32](32-rules-of-successful-games.md).
+
+1. **One state table for each enemy (UN-5).** Every enemy has named states and a visible or audible cue for each.
+2. **Glass Shadows.** Patrol, notice, mirror, shatter. They patrol random waypoints inside a set area (UN-7).
+3. **Storm Wraiths.** Dormant, trigger, storm, clear. The cue is wind and dust.
+4. **Burn Knights.** Advance, shielded, shield down, stagger. The cue is the heat-core.
+5. **Ember Leeches.** Latch, drain, starve. The cue is the chain glow dimming.
+6. **Show enemy damage in the body (UN-4).** Glass cracks. No health bars.
+7. **Predictable (GF-1).** The same player action always gives the same enemy answer.
+8. **Cinder is the helper (UN-12).** It follows, guides and catches.
