@@ -22,7 +22,7 @@ Every generation Igara chooses one person. Not the strongest, not the most famou
 - **No backstory trauma, no betrayal.** His arc is universal on purpose. Any player can see themselves as someone who has not yet learned when to stop pushing.
 - His suit does not glow because he is powerful. It glows because he is **correct.** This is a mastery fantasy, not a power fantasy.
 
-He wakes on a dark obsidian plain with six unlit lines above him. At the far end, behind a gate of bronze and frozen fire, a single beam of light stands perfectly still. That light is his. It always has been.
+He wakes on a dark obsidian plain with six unlit lines above him. At the far end, behind a locked bronze door, a single thin line of light stands perfectly still. That light is his. It always has been.
 
 ## The story in six trials
 Each stage teaches one law and ignites one line. See [Stages](stages/README.md) for full beat plans.

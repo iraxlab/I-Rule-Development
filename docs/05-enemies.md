@@ -38,6 +38,9 @@ Not an enemy. See [characters](04-characters-and-companions.md#the-fire-dragon-t
 
 ## Wave tables
 - **Stage 3 arena:** wave 1, two Glass Shadows. Wave 2, Glass Shadows plus Ember Leeches on the arena edges. Wave 3, one Burn Knight. See [Stage 3](stages/stage-3-the-toil.md).
+- **Stage 1, island 1 (ledge, after the bow):** leeches and bat-birds. One arrow stops one. See [docs/19](19-env01-blueprint.md). Not in the old canon.
+- **Stage 1, island 2:** one big bat-bird flies over once. It never hurts the player. See [docs/20](20-env02-blueprint.md).
+- **Stage 3, island 5 (PROPOSED):** 3 to 5 Ember Leeches climb up from under the causeway. Calm makes them drop. See [docs/23](23-env05-blueprint.md).
 - **Stage 4:** two Glass Shadows on the narrow combat span at about t=220 s.
 - **Stage 5:** optional encounter zone, bypassable by flow (non-combat success).
 - **Stage 6:** no enemies.

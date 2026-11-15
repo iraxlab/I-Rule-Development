@@ -10,7 +10,11 @@
 | **Stillness hold** | 2.5 s |
 | **Lesson** | *Do not act yet. Find alignment first.* |
 
-> **PROPOSED CHANGE:** Stage 1 gets one scripted enemy encounter on island 1 (the Unbroken Shadow and the Stillness Duel). See [Playthrough: start to Throne](../17-playthrough-start-to-throne.md). The beat plan below is the canon version and needs retiming if approved.
+> **PROPOSED CHANGES (not decided yet):**
+> 1. The locked island 1 plan has a small fight on the exit ledge (leeches and bat-birds, after the bow). See [docs/19](../19-env01-blueprint.md). The old canon says no enemies in Stage 1.
+> 2. An old idea adds a Shadow fight (the Stillness Duel). See [Ideas not decided yet](../17-playthrough-start-to-throne.md#ideas-not-decided-yet).
+>
+> The simple walk-through of islands 1 to 3 is here: [Playthrough, islands 1 to 5](../24-playthrough-simple-01-05.md). The beat plan below is the canon version and needs retiming if either change is approved.
 
 No enemies in the original canon. The game teaches "do not act yet." Combat is disabled; dash is allowed but penalised (+0.08 forcing each).
 

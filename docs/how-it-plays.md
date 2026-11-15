@@ -47,4 +47,6 @@ Stillness is not idle time. It is a skill with timing and risk:
 - The climax is a quiet recognition, not a boss.
 - The six-line ladder is both story, progress bar and map.
 
+Walk-through with sketches: [Playthrough, islands 1 to 5](24-playthrough-simple-01-05.md) and [Playthrough, arena to the Throne](17-playthrough-start-to-throne.md).
+
 Continue: [Vision and pillars](01-vision-and-pillars.md) · [Core systems](06-core-systems.md) · [Stages](stages/README.md)

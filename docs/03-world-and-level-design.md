@@ -28,7 +28,7 @@ Modular island chunks with snap points for bridges and platforms; danger-edge vo
 | Group | Assets |
 |---|---|
 | **Islands (ENV-01-13)** | Starting Shelf, Stepping Island, Medium Island with Windbreak, Large Plateau, Causeway Island, Arena Island, Summit Peak, Canyon Cliff Pair, Drifting Fragment Cluster, Debris Rocks, Moving Platform Slab, Brittle Slab, Windbreak Ridge |
-| **Structures (STR-01-22)** | Tower ruins, rock spires, monolith slab, locked bronze gate, stone / plank / light bridge segments, anchor socket, ignition columns (dormant / ignited / peak), XL lantern anchors (hanging, tower, ground, lit), heat vent, energy reservoir, fossil tree, signal mast, small lantern post, summit staircase |
+| **Structures (STR-01-22)** | Tower ruins, rock spires, monolith slab, locked bronze gate, stone / plank / light bridge segments, anchor socket, ignition columns (dormant / ignited / peak), XL lantern anchors (hanging, tower, ground, lit), heat vent, energy reservoir, fossil tree, six-line pylon, small lantern post, summit staircase |
 | **Sky (SKY-01-05)** | Six-line ladder (dormant, progress states), Fire Eye structure, ringed and plain planet |
 | **Throne (THR-01-03)** | [The Throne of Stillness](08-the-throne.md), stairs and platform, throne on summit |
 | **Creatures (CRE-01-06)** | Cinder, Fire Dragon, Glass Shadow, Burn Knight, Ember Leech, Storm Wraith |
@@ -62,9 +62,9 @@ Six XL lanterns, yaw facing inward: (-220,0,-180), (220,0,-180), (-260,0,40), (2
 
 ## Traversal and verticality
 
-**Source canon:** the world is mostly one level with Stage 6 as the only major elevation shift (summit at y=80). The island map already shows rising elevation by stage.
+**Source canon:** the world is mostly one level with Stage 6 as the only major elevation shift (summit at y=80; a taller Grand Scale proposal is in docs/17). The island map already shows rising elevation by stage.
 
-**Design recommendation (proposed, not yet canon):** make the whole game a *climb*, not a walk across a plane. A world of floating islands is most compelling when height is felt.
+**Locked by the island map (elevation by stage):** the whole game is a *climb*, not a walk across a plane. A world of floating islands is most compelling when height is felt.
 
 | Stage | Elevation feel | Verticality device |
 |---|---|---|

@@ -47,12 +47,12 @@ The spec contains two threshold models for the Creative Energy Cycle:
 | 2 | **Fire Eye redesign ("Iris of Plates")** | Art | Keep approved render, or adopt the redesign |
 | 3 | **Fire Dragon redesign ("River of Fire")** | Art | Keep approved render, or adopt the redesign |
 | 4 | **Community benefit answer** for MegaGrants | Application | Open source part / share learnings / release a tool or plugin / combination |
-| 5 | **Verticality** | Level design | Adopt the "whole game is a climb" recommendation in [world design](03-world-and-level-design.md) |
+| 5 | **Verticality** | Level design | **Resolved: locked.** The island map shows a six-tier climb (Shelf lowest, Throne summit highest). See [Playthrough](24-playthrough-simple-01-05.md#the-route) |
 | 6 | **New Throne renders** | Art, deck | Generate with the prompts in [Throne Wow Direction](../design/Throne_Wow_Direction.pdf) |
 | 7 | **Page 23 moderation** | Art | Capture the exact Freepik rejection message if it recurs |
 | 8 | **Media link / trailer** | Application | Assemble the pitch deck or cut a short animatic |
 | 9 | **License** | Repository | Choose before opening the repo publicly |
-| 11 | **Stage 1 encounter and Stillness Duel** | Gameplay, level design | Approve the proposed Arms, Still Ring and mind-vision duel in [Playthrough](17-playthrough-start-to-throne.md#11-decisions-needed-from-the-project-owner) |
+| 11 | **Stage 1 encounter and Stillness Duel** | Gameplay, level design | Approve the proposed Arms, Still Ring and mind-vision duel in [Playthrough](17-playthrough-start-to-throne.md#ideas-not-decided-yet) |
 | 10 | **Cover art regeneration** | Art, deck | The current cover shows six bars of increasing width (a pyramid shape). Regenerate with equal-width bars using [cover-regeneration prompt](../prompts/cover-regeneration.md) |
 
 ## Known issues in the assembled pitch deck (audit, not yet fixed)

@@ -5,7 +5,8 @@ Pick your role, read in this order, and you will know enough to work without ask
 ## Everyone (10 minutes)
 1. [README](../README.md): the game in 30 seconds.
 1. [How it plays](how-it-plays.md): what the player actually does.
-   - [Playthrough: start to Throne](17-playthrough-start-to-throne.md): every beat, island 1 to the Ring of Fire.
+   - [Playthrough, simple: islands 1 to 5](24-playthrough-simple-01-05.md): short numbered steps, easy to read.
+   - [Playthrough: arena to the Throne](17-playthrough-start-to-throne.md): every beat, the arena to the Ring of Fire.
 2. [Vision and pillars](01-vision-and-pillars.md): seven rules every decision is tested against.
 3. [Canon and open decisions](13-canon-and-open-decisions.md): what you may never change, and what is still open.
 

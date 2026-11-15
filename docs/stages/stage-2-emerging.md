@@ -13,9 +13,9 @@
 Platforms begin moving. Timing is taught; speed is punished. Combat disabled; dash cooldown rises to 1.4 s if used twice in 3 s.
 
 ## Level
-South-central. Centre (-80, 0, -200), about 180 x 120 m. Direction-gate hub (-40, 0, -190) with three lanes (left / centre / right); only one stable when aligned. Ignition column (-10, 0, -110), hold 3.0 s. Gate arch to Stage 3 at (20, 0, -80).
+South-central. Centre (-80, 0, -200), about 180 x 120 m. Direction-gate hub (-40, 0, -190) with three lanes (left / centre / right); only one stable when aligned. On the ENV-04 plateau these are three paths (north rim, south rim, and the middle path into the crater); the middle one is the right one. Ignition column (-10, 0, -110), hold 3.0 s. Gate to Stage 3 at (20, 0, -80). **PROPOSED:** the gate is a natural rock gate (the two tallest spires lean together), not a built arch. It opens onto a stone bridge, then 3 brittle slabs (ENV-12) up to ENV-05. See [docs/22](../22-env04-blueprint.md).
 
-**Uses:** ENV-11 Moving Platform Slab x6, ENV-04 Large Plateau. Signal masts (STR-20) as rhythm markers; beacon on the plateau. Falling resets to a safe platform.
+**Uses:** ENV-11 Moving Platform Slab x6, ENV-04 Large Plateau. The ENV-04 plateau has no props, no towers and no buildings (natural rock only). The deep crater is the energy reservoir. Falling resets to a safe platform.
 
 ## Beat plan
 Times are mm:ss from game start on the golden path. Includes intentional low-energy rest pockets and one expected failure loop.
