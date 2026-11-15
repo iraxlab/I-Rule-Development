@@ -175,8 +175,12 @@ The same in words:
 ---
 
 ## Island 6: Arena
-1. The first big fight.
-2. Not made yet.
+The first big fight. The full steps and the sketch are on [the arena to the Throne page](17-playthrough-start-to-throne.md#island-6-the-arena-env-06). The island plan is [doc 25](25-env06-blueprint.md).
+
+1. He crosses the chain bridge. The arena is round, with five glowing vents.
+2. He fights 3 waves. He hides behind the monolith when the storm comes.
+3. He holds still at the column. **Line 3** lights.
+4. If he falls, the Cinder catches him and he lands in the calm pocket. No damage. (Not decided yet. See the options in doc 25.)
 
 ---
 
@@ -187,3 +191,4 @@ Do not build these yet.
 2. Leeches on island 5.
 3. The rock gate on island 4.
 4. The 3 cracking slabs.
+5. The fall plan for the arena.

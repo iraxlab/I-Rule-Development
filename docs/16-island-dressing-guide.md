@@ -31,14 +31,14 @@ Which structures go on which island. The islands are bare rock plus one signatur
 |  | STR-06 Fixed Stone Bridge | the short east exit between the two tallest rock spires |
 | ENV-05 Long Causeway Island | STR-06 Fixed Stone Bridge | one short end at the west and one at the east |
 | ENV-06 Arena Island | STR-17 Heat Vent | the five arena vents |
+| ENV-06 Arena Island | STR-10 Ignition Column | one in the east half |
+| ENV-06 Arena Island | STR-07 Chain and Plank Bridge, STR-09 Anchor Socket | at the west and east gaps |
 |  | STR-02 Tower Ruin, Capped | (built into the island prompt) in the ring-wall tower group |
 |  | STR-24 Needle Spire Tower | (built into the island prompt) in the ring-wall tower group |
 |  | STR-15 Lantern Anchor XL, Ground | at the arena edge |
 |  | STR-18 Energy Reservoir | one set into the rim |
-| ENV-07 Summit Peak Island | STR-22 Summit Staircase | the long carved stair around the spire |
-|  | STR-12 Peak Column | at the crown, beside the empty Throne space |
-|  | STR-26 Gatehouse Tower | (built into the island prompt) at the stair mid-point, with its neighbour tower |
-|  | STR-21 Small Lantern Post | along the terraces |
+| ENV-07 Summit Peak Island | STR-12 Peak Column | one in the middle of the crown |
+|  | STR-22 Summit Staircase | the five flights of steps, carved in the rock (not built) |
 | ENV-08 Canyon Cliff Pair | STR-06 Fixed Stone Bridge | across the gap between the two cliffs |
 |  | STR-05 Locked Bronze Gate | inside the cave mouth |
 |  | STR-25 Twin Towers with Broken Arch | (built into the island prompt) on the cave-side cliff top, near the cave mouth |

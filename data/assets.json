@@ -384,10 +384,6 @@
     "label": "Back"
    },
    {
-    "k": "left",
-    "label": "Left side"
-   },
-   {
     "k": "top",
     "label": "Top"
    },
@@ -401,31 +397,31 @@
    },
    {
     "k": "detail-2",
-    "label": "Detail 2: Ring-wall teeth"
+    "label": "Detail 2: Broken rim edge"
    },
    {
     "k": "detail-3",
-    "label": "Detail 3: Bronze brazier"
+    "label": "Detail 3: Monolith"
    },
    {
     "k": "detail-4",
-    "label": "Detail 4: Funnel underside"
+    "label": "Detail 4: Ignition column"
    },
    {
     "k": "detail-5",
-    "label": "Detail 5: Ring-wall tower group"
+    "label": "Detail 5: West entry tongue"
    }
   ],
   "page": 51,
   "ref": "art/world/stage-3-the-toil.jpg",
   "legacy": false,
-  "desc": "a circular ancient stone arena floating in the sky, a massive ring wall broken into jagged tooth-like towers of different heights, a cracked flat floor with five great round vents glowing ember-orange, enormous bronze braziers on the ring wall, thick chains attached to two sides as bridge anchors, a stepped funnel-shaped underside like a gigantic inverted bowl with a dull glowing ember core deep in its base, as in the Stage 3 key art, intimidating and grand; built into the ring wall on one side, among the tooth-like towers, a tight group of three taller towers within about 20 m of each other: a squat drum tower with a cracked, half-collapsed cap, a very slender needle tower, and a broken tower tip with amber-lit windows, all the same stone as the wall",
-  "short": "Tooth-ring arena, five vents, funnel underside",
+  "desc": "a large round floating island of the same dark black-brown fractured boulder rock as the Starting Shelf Island, about 64 m wide, a flat round arena floor of cracked dark rock with faint amber light in the cracks and FIVE great round vents glowing ember-orange (one near the middle, four spread around it), a LOW irregular rim of fractured natural rock around the edge like a crater lip, never taller than a sixth of the island width, broken away in several places so the floor ends in raw sheer drops, ONE tall thick natural rock monolith standing near the north-east side, leaning a little, as tall as about a third of the island width, one short stone ignition column on a round bronze base near the middle of the east half, a wide natural gap in the rim at the west end where a short flat rock tongue with two short bronze anchor posts takes the incoming bridge, and a second natural gap at the east end with the same tongue and posts for the exit, a thick tapering inverted-bowl underside of rough rock with a dull glowing ember core deep at its base, as in the Stage 3 key art. Nothing is built. Dry and dead, no green",
+  "short": "A round rock arena with five glowing vents, one monolith, one column and a broken low rim",
   "dress": [
    {
-    "id": "STR-31",
-    "name": "Rock-Spire Citadel Tower",
-    "where": "built into the island prompt, close to its signature feature"
+    "id": "STR-10",
+    "name": "Ignition Column, Dormant",
+    "where": "one on the east half of the arena floor"
    },
    {
     "id": "STR-17",
@@ -433,32 +429,23 @@
     "where": "the five arena vents"
    },
    {
-    "id": "STR-02",
-    "name": "Tower Ruin, Capped",
-    "where": "built into the island prompt, close to its signature feature"
+    "id": "STR-07",
+    "name": "Chain and Plank Bridge",
+    "where": "arrives at the west gap; a second bridge leaves at the east gap"
    },
    {
-    "id": "STR-24",
-    "name": "Needle Spire Tower",
-    "where": "built into the island prompt, close to its signature feature"
-   },
-   {
-    "id": "STR-15",
-    "name": "Lantern Anchor XL, Ground",
-    "where": "at the arena edge"
-   },
-   {
-    "id": "STR-18",
-    "name": "Energy Reservoir",
-    "where": "one set into the rim"
+    "id": "STR-09",
+    "name": "Anchor Socket",
+    "where": "two short bronze posts at each gap"
    }
-  ]
+  ],
+  "note": "Redesigned (natural rock, no towers). Filed: sheet, front, back, top, under, details 1-5. Read ATTENTION in doc 25: the rim is too thick, the underside single is wrong, the tongues show too many posts. Old sheet v1 is in _superseded."
  },
  {
   "id": "ENV-07",
   "name": "Summit Peak Island",
   "cat": "Islands",
-  "size": "~50 m wide, 40 m tall",
+  "size": "~150 m wide, 90 m to the top terrace, about 130 m with the Throne",
   "views": [
    {
     "k": "front",
@@ -469,10 +456,6 @@
     "label": "Back"
    },
    {
-    "k": "left",
-    "label": "Left side"
-   },
-   {
     "k": "top",
     "label": "Top"
    },
@@ -481,60 +464,47 @@
     "label": "Underside"
    },
    {
-    "k": "right",
-    "label": "Right"
-   },
-   {
-    "k": "tq_br",
-    "label": "3/4 back-right"
-   },
-   {
     "k": "detail-1",
-    "label": "Detail 1: Spiral staircase"
+    "label": "Detail 1: Flight of rock steps"
    },
    {
     "k": "detail-2",
-    "label": "Detail 2: Bronze terrace"
+    "label": "Detail 2: Landing"
    },
    {
     "k": "detail-3",
-    "label": "Detail 3: Crown of teeth"
+    "label": "Detail 3: Crown and column"
    },
    {
     "k": "detail-4",
-    "label": "Detail 4: Root of rock"
+    "label": "Detail 4: Gate spires"
    },
    {
     "k": "detail-5",
-    "label": "Detail 5: Gatehouse on the stair"
+    "label": "Detail 5: Throne on the top terrace"
    }
   ],
   "page": 57,
   "ref": "art/world/stage-6-the-summit.jpg",
   "legacy": false,
-  "desc": "the tallest floating island, a slender mountain spire of dark weathered stone spiralled by one long carved staircase winding up around it, narrow bronze-edged terraces at each turn, hanging chains and broken stone arches along the climb, the top ending in a wide flat crown platform ringed by jagged broken stone teeth and left empty for a monumental throne, the base a long tapering root of rock, wreathed in cloud, awe-inspiring and austere; at the middle turn of the staircase, a broad gatehouse tower with a pointed arch passage through its base that the staircase climbs through, with one slender banded tower fused to the spire rock right beside it, both within about 15 m of each other",
-  "short": "Spire wound by one long staircase, empty crown",
-  "note": "Sheet v1 plus six single-angle renders filed. Still needed: underside and 3/4 front-left.",
+  "desc": "the tallest and by far the largest floating island, a huge tiered mountain peak of the same dark black-brown fractured boulder rock as the Starting Shelf Island, about 150 m wide and 90 m tall above a long tapering root of rock, rising far above every other island, ONE broad winding path of broken, uneven, irregular rock steps cut into the front of the mountain, five long flights zigzagging up the face from a low flat rock ledge at the west foot, joined by four flat landings at the turns, each flight wide enough for several people, with one thin bronze line down the middle of the path, near the top a wide flat open crown platform of cracked dark rock about 40 m across with ONE short stone column on a round bronze base in the middle and a faint ring of amber cracks around it, two tall natural rock spires leaning toward each other like a gate where the path reaches the crown (one very tall, one a little shorter), behind the crown a steep stair of broken dark rock steps, with six small bronze braziers (three on each side, dark and unlit), climbing to a higher broad flat terrace at the very top where the colossal Throne of Stillness, about 40 m tall, hewn from black volcanic stone: a deep massive seat block with two thick armrests facing south toward the stair, a very tall narrow monolith backrest with straight parallel sides and a flat notched top carrying six equally spaced horizontal amber fissures that glow only faintly, and two huge curved bronze dragon ribs rising on either side of it and arching inward like a cage stands, two huge natural rock spires of different heights flanking the foot of that rise (the tallest as tall as a quarter of the mountain), one lower single spire on the east edge of the crown, nothing else built, awe-inspiring, austere, golden haze, wreathed in cloud at the root. Dry and dead, no green",
+  "short": "A huge tiered mountain with a zigzag of broad rock steps, a still crown with one column, and the Throne on the top terrace",
+  "note": "Redesigned: huge tiered mountain, zigzag of rock steps, the Throne on top, no towers. Filed: sheet, front, back, top, under, details 1-5. Read ATTENTION in doc 26: gate spires lean outward, 8 braziers instead of 6, a cage of arcs on the back, a second pillar on top. Old sheet v1 and 6 renders are in _superseded.",
   "dress": [
-   {
-    "id": "STR-22",
-    "name": "Summit Staircase",
-    "where": "the long carved stair around the spire"
-   },
    {
     "id": "STR-12",
     "name": "Peak Column",
-    "where": "at the crown, beside the empty Throne space"
+    "where": "one in the middle of the crown"
    },
    {
-    "id": "STR-26",
-    "name": "Gatehouse Tower",
-    "where": "built into the island prompt, close to its signature feature"
+    "id": "STR-22",
+    "name": "Summit Staircase",
+    "where": "the five flights of rock steps up the face (carved in the rock, not built)"
    },
    {
-    "id": "STR-21",
-    "name": "Small Lantern Post",
-    "where": "along the terraces"
+    "id": "THR-03",
+    "name": "Throne on Summit",
+    "where": "on the top terrace, with its stair and six braziers"
    }
   ]
  },

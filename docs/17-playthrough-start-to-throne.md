@@ -51,13 +51,17 @@ The player lights six fires in the sky. One fire per stage.
 
 **He learns:** rushing makes more enemies. Stillness ends the storm.
 
-**If he fails:** a fall is a soft reset. The fix is always the same: hide, then stand still for 2 seconds.
+**If he falls (not decided yet):**
+1. A broken edge glows red and rumbles first.
+2. Five options with other game examples are in [doc 25, section 2](25-env06-blueprint.md). The recommended one: the Cinder catches him and he lands in the calm pocket.
+3. No damage. Cleared waves stay cleared.
+4. The fix is always the same: hide, then stand still for 2 seconds.
 
 **Build:**
 - A round plateau with broken edges, 5 vents, a monolith to hide behind, and a calm pocket.
 - 3 waves. Wave 1: 2 glass shadows. Wave 2: glass shadows and leeches. Wave 3: 1 burn knight.
 - The fire column with a 4 s hold.
-- Details: [Stage 3](stages/stage-3-the-toil.md).
+- Details: [Stage 3](stages/stage-3-the-toil.md) and [doc 25](25-env06-blueprint.md).
 
 ---
 
@@ -116,7 +120,7 @@ The player lights six fires in the sky. One fire per stage.
 
 ![Summit](../art/guide/pt-09-summit.png)
 
-1. He climbs the long path. The wind grows.
+1. He lands on the arrival ledge. He climbs 5 flights of rock steps. The wind grows.
 2. At the top the wind is huge. Everything says: move!
 3. He stands still for **10 seconds**. Any move starts the count again.
 4. **Line 6** lights. All six fires burn. The Eye opens fully.
@@ -131,7 +135,7 @@ The player lights six fires in the sky. One fire per stage.
 **Build:**
 - A summit platform with a wind zone, a fire column and a stillness timer.
 - The timer resets on any move.
-- Details: [Stage 6](stages/stage-6-the-peak.md).
+- Details: [Stage 6](stages/stage-6-the-peak.md) and [doc 26](26-env07-blueprint.md).
 
 ---
 
@@ -193,6 +197,7 @@ All the detail for these ideas is in the [old long playthrough](archive/17-playt
 1. Do we keep the Shadow fight on island 1? Yes or no.
 2. Does the Dragon drop him at the foot of the stairs (the plan on this page) or at the seat?
 3. Do leeches appear on island 5? See [the simple playthrough](24-playthrough-simple-01-05.md).
+4. Which fall option for the arena? A to E in [doc 25](25-env06-blueprint.md). We recommend A, the Cinder catch.
 
 ---
 
