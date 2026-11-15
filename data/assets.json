@@ -489,7 +489,7 @@
   "legacy": false,
   "desc": "the tallest and by far the largest floating island, a huge tiered mountain peak of the same dark black-brown fractured boulder rock as the Starting Shelf Island, about 150 m wide and 90 m tall above a long tapering root of rock, rising far above every other island, ONE broad winding path of broken, uneven, irregular rock steps cut into the front of the mountain, five long flights zigzagging up the face from a low flat rock ledge at the west foot, joined by four flat landings at the turns, each flight wide enough for several people, with one thin bronze line down the middle of the path, near the top a wide flat open crown platform of cracked dark rock about 40 m across with ONE short stone column on a round bronze base in the middle and a faint ring of amber cracks around it, two tall natural rock spires leaning toward each other like a gate where the path reaches the crown (one very tall, one a little shorter), behind the crown a steep stair of broken dark rock steps, with six small bronze braziers (three on each side, dark and unlit), climbing to a higher broad flat terrace at the very top where the colossal Throne of Stillness, about 40 m tall, hewn from black volcanic stone: a deep massive seat block with two thick armrests facing south toward the stair, a very tall narrow monolith backrest with straight parallel sides and a flat notched top carrying six equally spaced horizontal amber fissures that glow only faintly, and two huge curved bronze dragon ribs rising on either side of it and arching inward like a cage stands, two huge natural rock spires of different heights flanking the foot of that rise (the tallest as tall as a quarter of the mountain), one lower single spire on the east edge of the crown, nothing else built, awe-inspiring, austere, golden haze, wreathed in cloud at the root. Dry and dead, no green",
   "short": "A huge tiered mountain with a zigzag of broad rock steps, a still crown with one column, and the Throne on the top terrace",
-  "note": "Redesigned: huge tiered mountain, zigzag of rock steps, the Throne on top, no towers. Filed: sheet, front, back, top, under, details 1-5. Read ATTENTION in doc 26: gate spires lean outward, 8 braziers instead of 6, a cage of arcs on the back, a second pillar on top. Old sheet v1 and 6 renders are in _superseded.",
+  "note": "Redesigned: huge tiered mountain, zigzag of rock steps, the Throne on top, no towers. Old sheet v1 and 6 renders archived. Filed: sheet, front, back, top, under, details 1-5. Read ATTENTION in doc 26: gate spires lean outward, 8 braziers instead of 6, a cage of arcs on the back, a second pillar on top. Old sheet v1 and 6 renders are in _superseded.",
   "dress": [
    {
     "id": "STR-12",
@@ -510,9 +510,9 @@
  },
  {
   "id": "ENV-08",
-  "name": "Canyon Cliff Pair",
+  "name": "Canyon Cliffs",
   "cat": "Islands",
-  "size": "two ~35 m islands",
+  "size": "chain ~285 m long: five rock masses, four bridges and the Spine",
   "views": [
    {
     "k": "front",
@@ -521,10 +521,6 @@
    {
     "k": "back",
     "label": "Back"
-   },
-   {
-    "k": "left",
-    "label": "Left side"
    },
    {
     "k": "top",
@@ -540,59 +536,50 @@
    },
    {
     "k": "detail-2",
-    "label": "Detail 2: Cave mouth"
+    "label": "Detail 2: Light bridge forming"
    },
    {
     "k": "detail-3",
-    "label": "Detail 3: Toppled arch"
+    "label": "Detail 3: The Spine"
    },
    {
     "k": "detail-4",
-    "label": "Detail 4: Shattered face"
+    "label": "Detail 4: Column and launch lip"
    },
    {
     "k": "detail-5",
-    "label": "Detail 5: Twin towers and arch"
+    "label": "Detail 5: Calm pocket"
    }
   ],
   "page": 63,
   "ref": "art/world/stage-4-the-leap.jpg",
   "legacy": false,
-  "desc": "two colossal sheer cliff islands that look like the two halves of one split mountain, their layered strata lines matching across the gap as though torn apart, one cliff with a huge dark cave mouth, the other with a toppled bronze arch hanging from its edge by chains, bronze anchor plates set into the near edges, jagged shattered faces, hanging stone teeth below, dramatic and ominous; on the cave-side cliff top, within about 20 m of the cave mouth, twin ruin towers of different heights (one with a cracked broken cap, one open-topped) joined near the top by a cracked high stone arch, fused into the cliff rock; on the facing cliff top, a cluster of black rock needles",
+  "desc": "a chain of FIVE separate floating rock masses (two cliffs and three shelves) of the same dark black-brown fractured boulder rock as the Starting Shelf Island, about 285 m long in all, with wide gaps of open sky and a deep drop into cloud between them, loosely staggered and NOT in a straight row: a big West Cliff about 70 m long where the player arrives, a small South shelf south of the line, a Middle shelf south-east of it, a North shelf a little north of the line, and a huge East Cliff, the biggest, about 86 m long; the West Cliff and the East Cliff are the two halves of one split mountain, each with sheer vertical faces carrying the same five horizontal bands of thin lighter brown strata at the same heights, so the bands line up across the whole chain as though the mountain was torn apart; flat cracked broken tops; each mass hangs over a short thick tapering root of rough rock wreathed in cloud; three short bridges cross three of the gaps (West Cliff to South shelf, South shelf to Middle shelf, North shelf to East Cliff), each made of two heavy dark chains strung between two short bronze posts on a flat rock tongue at each side, with flat rungs of which only the first four at the near end glow amber-white; one narrow natural rock ridge as wide as a path joins the Middle shelf to the North shelf; one very long bridge of the same kind crosses from the West Cliff straight to the North shelf; ONE short stone column on a round bronze base on the East Cliff; a wide flat lip at the north-east corner of the East Cliff with faint heat shimmer rising and two low natural rock needles beside it; a cluster of three black natural rock needles of different heights on the north rim of the West Cliff; a round shallow hollow in the top of each of the West Cliff and the three shelves. Nothing is built. Dry and dead, no green",
   "short": "Two halves of one split mountain, cave and toppled arch",
   "dress": [
    {
+    "id": "STR-08",
+    "name": "Light Bridge Segment",
+    "where": "bridges 1 to 3: two heavy chains between bronze posts, the first four rungs glowing"
+   },
+   {
     "id": "STR-27",
     "name": "Long Rung Bridge",
-    "where": "across the canyon, Ember Leeches (STR-28) lurking underneath"
+    "where": "the very long bridge from the West Cliff to the North shelf (the shortcut), Ember Leeches (STR-28) lurking underneath"
    },
    {
-    "id": "STR-06",
-    "name": "Fixed Stone Bridge",
-    "where": "a second shorter crossing"
-   },
-   {
-    "id": "STR-05",
-    "name": "Locked Bronze Gate",
-    "where": "inside the cave mouth"
-   },
-   {
-    "id": "STR-25",
-    "name": "Twin Towers with Broken Arch",
-    "where": "built into the island prompt, close to its signature feature"
-   },
-   {
-    "id": "STR-03",
-    "name": "Rock Spire Cluster",
-    "where": "built into the island prompt, close to its signature feature"
+    "id": "STR-10",
+    "name": "Ignition Column, Dormant",
+    "where": "one on the East Cliff"
    }
-  ]
+  ],
+  "note": "Complete: five rock masses, four light bridges, a natural ridge, no towers, no cave, no arch. 10 pictures filed."
  },
  {
   "id": "ENV-09",
   "name": "Drifting Fragment Cluster",
   "cat": "Islands",
-  "size": "cluster ~50 m",
+  "size": "cluster ~390 m",
   "views": [
    {
     "k": "front",
@@ -616,26 +603,30 @@
    },
    {
     "k": "detail-1",
-    "label": "Detail 1: Stone arch"
+    "label": "Detail 1: Launch terrace"
    },
    {
     "k": "detail-2",
-    "label": "Detail 2: Tower tip"
+    "label": "Detail 2: Heat current"
    },
    {
     "k": "detail-3",
-    "label": "Detail 3: Split sphere"
+    "label": "Detail 3: Great Fragment and slabs"
    },
    {
     "k": "detail-4",
-    "label": "Detail 4: Staircase slab"
+    "label": "Detail 4: Reveal ledge spire"
+   },
+   {
+    "k": "detail-5",
+    "label": "Detail 5: Ignition ledge"
    }
   ],
   "page": 69,
   "ref": "art/world/stage-5-flying.jpg",
   "legacy": false,
-  "desc": "a loose constellation of six very different broken fragments floating at different heights: a floating stone arch, a broken tower tip with bronze windows, a split hollow sphere of rock, a tilted slab with a staircase carved into it, a jagged crystal-like obsidian blade cluster, and a stout rounded boulder with a bronze band, thin amber light glowing in their cracks, no connections, mysterious like the wreckage of a giant structure",
-  "short": "Six different wreck fragments",
+  "desc": "a flight field of seven separate floating fragments of dark black-brown fractured natural boulder rock, pieces of one shattered mountain, of very different sizes (a flat launch terrace, a small rise, a very large central fragment, a small rock to the north, a mid fragment, a ledge with one tall thin black rock spire, and an ledge with one short stone column on a round bronze base), with very wide gaps of open sky, two thin brittle slabs, faint amber glow at the base of columns of rising warm air, no bridges, no stairs, no arches, no towers, no trees",
+  "short": "Seven floating dark rock fragments with no bridges and faint heat shimmer between them",
   "dress": [
    {
     "id": "STR-19",
@@ -653,7 +644,7 @@
   "id": "ENV-10",
   "name": "Debris Rocks Set",
   "cat": "Islands",
-  "size": "1-4 m each",
+  "size": "six rocks, 3 to 7 m wide",
   "views": [
    {
     "k": "front",
@@ -673,26 +664,26 @@
    },
    {
     "k": "detail-1",
-    "label": "Detail 1: Spiral shard"
+    "label": "Detail 1: Split slab"
    },
    {
     "k": "detail-2",
-    "label": "Detail 2: Ring stone"
+    "label": "Detail 2: Squat boulder"
    },
    {
     "k": "detail-3",
-    "label": "Detail 3: Blade cluster"
+    "label": "Detail 3: Long wedge"
    },
    {
     "k": "detail-4",
-    "label": "Detail 4: Banded boulder"
+    "label": "Detail 4: Block cluster"
    }
   ],
   "page": 74,
   "ref": null,
   "legacy": false,
-  "desc": "a set of four floating debris rocks, each a different shape: a spiral shard, a hollow ring-shaped stone, a cluster of obsidian blades, and a rounded boulder with a bronze band, jagged tan fracture faces, small bronze flecks, thin amber glow in the cracks",
-  "short": "Four distinct debris rocks",
+  "desc": "a set of four floating debris rocks of dark black-brown fractured natural boulder rock, each a different angular shape: a tall split slab, a squat boulder, a long wedge and a cluster of broken blocks, sharp flat fracture faces, thin amber glow in a crack, no bronze, no carving",
+  "short": "Four dark natural debris rocks",
   "dress": [
    {
     "id": "STR-03",
@@ -729,31 +720,31 @@
    },
    {
     "k": "detail-1",
-    "label": "Detail 1: Amber guide channels"
+    "label": "Detail 1: Guide grooves"
    },
    {
     "k": "detail-2",
-    "label": "Detail 2: Piston and rail"
+    "label": "Detail 2: Underside root"
    },
    {
     "k": "detail-3",
-    "label": "Detail 3: Bronze rim"
+    "label": "Detail 3: Fractured edge"
    },
    {
     "k": "detail-4",
-    "label": "Detail 4: Chamfered edge"
+    "label": "Detail 4: Route end"
    }
   ],
   "page": 78,
   "ref": null,
   "legacy": false,
-  "desc": "a heavy carved floating stone slab with a thick bronze rim, deep straight glowing amber guide channels cut across its top in parallel lines, chamfered edges, bronze ring handles hanging from its sides on short chains, a visible bronze piston-and-rail mechanism fixed beneath it, ancient engineered machinery",
-  "short": "Heavy slab on a visible piston and rail",
+  "desc": "one floating slab of dark black-brown fractured natural rock about 8 m wide and 5.5 m deep, a flat cracked top, a thick rough chipped rim about 1.5 m thick and a short thick tapering root of rough rock beneath, two shallow parallel grooves with a faint amber glow running along the top to show its direction of travel, a plain natural unworked piece of broken rock with nothing attached to it",
+  "short": "One floating natural rock slab with two faint amber grooves, nothing mechanical",
   "dress": [
    {
     "id": "STR-09",
     "name": "Anchor Socket",
-    "where": "at each end of the rail"
+    "where": "at each end of the route"
    }
   ]
  },
@@ -797,13 +788,13 @@
    },
    {
     "k": "detail-4",
-    "label": "Detail 4: Underside"
+    "label": "Detail 4: Slab pair"
    }
   ],
   "page": 82,
   "ref": null,
   "legacy": false,
-  "desc": "a fragile floating slab of thin layered stone peeling apart in sheets, hairline cracks leaking thin amber light, bronze inlay partly broken, chipped edges, small fragments already drifting off its rim, a delicate and doomed look",
+  "desc": "one floating fragile slab of dark black-brown rock about 6 m wide and 4.5 m deep and only about 1 m thick, four or five thin flat layers stacked like slate and starting to peel apart in sheets at the edges, a flat top slightly tilted so one long edge is higher, a web of hairline cracks leaking thin amber light, chipped curled layer edges, a few small flakes already drifting off the rim, a short thin tapering root beneath, a plain natural piece of splitting rock",
   "short": "Layered slab peeling apart, leaking amber light",
   "dress": []
  },
@@ -839,25 +830,19 @@
    },
    {
     "k": "detail-3",
-    "label": "Detail 3: Ruined stair"
+    "label": "Detail 3: Broken shoulder"
    },
    {
     "k": "detail-4",
-    "label": "Detail 4: Bronze brackets"
+    "label": "Detail 4: Root"
    }
   ],
   "page": 86,
   "ref": null,
   "legacy": false,
-  "desc": "a tall curved blade of obsidian-black rock like a giant shark fin or scimitar rising from a flat base, its wind-carved face fluted with long smooth grooves, a notched crest, a tiny ruined stair cut along the rough back, a few bronze brackets bolted into it",
+  "desc": "one free-floating curved blade of dark black-brown rock about 25 m long and 8 m tall like a giant shark fin or scimitar, the upper edge one smooth sweeping curve, a thin slightly notched crest, a thick foot, the windward face carved by wind into long smooth vertical flutes and grooves, the sheltered face plainer, rising from a rough broken shoulder of rock with a short thick tapering root below, a plain natural landmark rock",
   "short": "Shark-fin blade ridge with a tiny stair",
-  "dress": [
-   {
-    "id": "STR-20",
-    "name": "Six-Line Pylon",
-    "where": "one at the top of the tiny stair"
-   }
-  ]
+  "dress": []
  },
  {
   "id": "STR-01",
@@ -1116,8 +1101,8 @@
   "page": 106,
   "ref": null,
   "legacy": false,
-  "desc": "a short rung bridge segment: two heavy chains with flat wooden rungs; the first rungs are glowing bright amber-white light bars like the six lines and the rest are plain weathered wood, as in the Leap key art",
-  "short": "A short rung bridge segment: two heavy chains"
+  "desc": "a short rung bridge segment: two heavy dark chains strung between two short bronze posts at each end, with flat rungs; only the first four rungs at the near end glow bright amber-white and the rest are plain dark weathered wood, as in the Leap key art",
+  "short": "A short rung bridge segment: two heavy dark chains strung between two short bron"
  },
  {
   "id": "STR-09",
@@ -1709,7 +1694,7 @@
   "id": "STR-27",
   "name": "Long Rung Bridge",
   "cat": "Structures",
-  "size": "~120 m long",
+  "size": "~72 m long",
   "views": [
    {
     "k": "front",
@@ -1735,14 +1720,14 @@
   "page": 148,
   "ref": null,
   "legacy": false,
-  "desc": "a very long bridge made of two heavy chains with flat wooden rungs and plank walkway, sagging slightly, anchored with bronze posts at both ends, a row of six evenly spaced glowing amber light-bar rungs along its length like the six lines, as in the Leap key art; fixed and rigid, not swaying",
-  "short": "Long chain-and-rung bridge with six glowing rungs"
+  "desc": "a very long bridge made of two heavy dark chains with flat rungs, sagging slightly, anchored with bronze posts on a flat rock tongue at both ends, only the first four rungs at the near end glow amber-white and the rest are dark, the same make as the other canyon bridges, as in the Leap key art; fixed and rigid, not swaying",
+  "short": "Long chain-and-rung bridge, first four rungs glowing"
  },
  {
   "id": "STR-28",
   "name": "Leech Bridge Underside",
   "cat": "Structures",
-  "size": "~60 m long",
+  "size": "20 to 72 m long, fits the bridge",
   "views": [
    {
     "k": "front",
@@ -2355,10 +2340,6 @@
     "label": "Low hero"
    },
    {
-    "k": "high",
-    "label": "High 45"
-   },
-   {
     "k": "detail-fissures",
     "label": "Detail: fissures"
    },
@@ -2378,7 +2359,7 @@
   "page": 179,
   "ref": null,
   "legacy": false,
-  "desc": "a colossal ancient throne hewn from black volcanic stone and aged bronze, about 40 m tall, unmistakably a throne: a deep massive seat block with two thick armrests, and rising far above it a very tall narrow monolith backrest with straight parallel sides and a flat notched top, six equally spaced horizontal glowing amber fissures carved across the backrest like a ladder of fire, hot molten-amber cracks veining through the dark stone like lava under a crust, two colossal curved bronze dragon ribs rising on either side and arching inward like a cage with fire glowing between them, a long steep staircase of broken black stone with bronze braziers burning along both sides leading up to the seat, heavy rough weathered surfaces, thin embers rising",
+  "desc": "a colossal ancient throne hewn from black volcanic stone and aged bronze, about 40 m tall, unmistakably a throne: a deep massive seat block with two thick armrests, and rising far above it a very tall narrow monolith backrest with straight parallel sides and a flat top with ONE small rectangular notch in the middle, EXACTLY SIX short horizontal glowing amber bars (fissures) stacked at equal spacing up the front face of the backrest like a ladder of fire (count them: six), hot molten-amber cracks veining through the lower backrest and the stone like lava under a crust, on EACH side a cluster of THREE colossal curved tapering bronze ribs like dragon ribs or tusks (three on the left, three on the right, six in all) rising from the rock base and arching inward over the seat without touching, with molten fire glowing between them at their base, a short steep stair of broken black stone up the front to the seat with two small bronze braziers burning at the top corners and two at the foot of the stair, a rough broken rock plinth under everything, heavy rough weathered surfaces, thin embers rising",
   "short": "A colossal ancient throne hewn from black volcanic stone and aged bronze"
  },
  {
@@ -2411,8 +2392,8 @@
   "page": 183,
   "ref": null,
   "legacy": false,
-  "desc": "a long steep staircase of broken black volcanic stone with bronze braziers burning along both sides, leading up to a broad flat cracked stone platform with thin molten-amber veins in the stone, heavy rough weathered surfaces",
-  "short": "A long steep staircase of broken black volcanic stone"
+  "desc": "the summit approach: a long steep staircase of broken black volcanic stone about 8 m wide, in two flights of about 25 steps with one flat landing between them, climbing 20 m, with two small bronze braziers burning on each side of the stair (four in all, in two pairs), leading up to a broad flat cracked stone terrace about 36 m across with thin molten-amber veins in the stone and a rough broken rim; nothing else on it, empty where the Throne will stand; heavy rough weathered surfaces",
+  "short": "The summit approach: a long steep staircase of broken black volcanic stone about"
  },
  {
   "id": "THR-03",
@@ -2484,8 +2465,8 @@
   "page": 185,
   "ref": "art/world/stage-6-the-summit.jpg",
   "legacy": false,
-  "desc": "the colossal ancient volcanic-stone Throne with its very tall six-fissure monolith backrest and two arching bronze dragon ribs, standing at the very top of a rocky summit island above the clouds, the long staircase of broken black stone with burning bronze braziers climbing up to it",
-  "short": "The colossal ancient volcanic-stone Throne"
+  "desc": "the colossal ancient volcanic-stone Throne of Stillness (very tall notched monolith backrest with EXACTLY SIX horizontal amber bars, on each side a cluster of three curved bronze ribs arching inward, six ribs in all) standing on the broad top terrace of the summit island above the clouds, the long steep staircase of broken black stone with four bronze braziers climbing up to the terrace from the flat crown below, the crown with its low column and two rock spires leaning together like a gate at its foot, jagged natural dark rock all around",
+  "short": "The colossal ancient volcanic-stone Throne of Stillness (very tall notched monol"
  },
  {
   "id": "CRE-01",

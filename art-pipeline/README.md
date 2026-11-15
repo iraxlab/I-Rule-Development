@@ -2,7 +2,7 @@
 
 ![Pack contents](../art/world/island-map-page-2.jpg)
 
-The **[3D Reference Prompt Pack](3D_Reference_Prompt_Pack.pdf)** (110 pages) covers **53 assets**: 13 islands, 26 structures, 5 sky objects, 3 throne assets, 6 creatures. For each asset it gives a multi-angle **sheet prompt** plus **single-angle prompts**, every one labelled with the asset name, and an index with page numbers.
+The **[3D Reference Prompt Pack](3D_Reference_Prompt_Pack.pdf)** (199 pages) covers **76 assets**: 13 islands, 35 structures, 10 sky objects, 3 throne assets, 6 creatures, 9 effects. For each asset it gives a multi-angle **sheet prompt** plus **single-angle prompts**, every one labelled with the asset name, and an index with page numbers.
 
 ## Workflow
 1. **Turnaround sheet first.** Generate the multi-view sheet for the asset (Gemini). Check that it matches the key art.
