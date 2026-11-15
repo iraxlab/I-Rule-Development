@@ -90,12 +90,26 @@ Follow the steps in order. "Build" tells you what to make.
 2. The big bat-bird from ENV-02 is far away. It does not come.
 5. Do not add a fight on this island.
 
-## 9. Blueprint pictures
+## 9. How it connects
+1. Order of play: ENV-01, ENV-02, then **ENV-03**, then the moving platforms (ENV-11), then ENV-04.
+2. Height here is about +6 m above ENV-01. This is the top of the first tier (the Shelf).
+3. **In (west).** The plank-and-chain bridge (STR-07) from ENV-02, about 12 m long. It ends at a bronze anchor socket. The windbreak spires are on the north side, so the bridge end is in their shelter.
+4. **Out (east).** A short stone bridge, about 12 m long, near the monolith slab at the east edge. It leads to the first moving platform (ENV-11). This is the start of Stage 2.
+5. He can leave before he lights the column. The column stays dark until he does it. The first calm place is behind him.
+6. The way back west stays open.
+7. After this island the bridges stop being the main link. The next gaps are crossed on moving platforms that rise from +6 m to +10 m. They need timing.
+
+| From | To | Link | Gap | Height change |
+|---|---|---|---|---|
+| ENV-02 east | ENV-03 west | Plank-and-chain bridge | about 12 m | up about 3 m |
+| ENV-03 east | ENV-11 platforms | Short stone bridge, then moving platforms | about 12 m, then 4 platforms | up about 4 m in total |
+
+## 10. Blueprint pictures
 ![Plan: top view of the island](../art/guide/env03-blueprint-A-plan.png)
 
 ![Side view](../art/guide/env03-blueprint-B-section.png)
 
-## 10. Notes for builders
+## 11. Notes for builders
 1. The pictures are looks only. If a picture and these notes disagree, use the notes.
 2. The spires are the main shape. Make them tall. Make the player feel small next to them.
 3. The sizes are a starting point. Change them to fit the level.

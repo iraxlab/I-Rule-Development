@@ -27,15 +27,9 @@ Which structures go on which island. The islands are bare rock plus one signatur
 | ENV-03 Medium Island with Windbreak | STR-04 Monolith Slab | one at the east edge, near the bridge end |
 |  | STR-19 Fossil Tree | one in the sheltered hollow |
 |  | STR-21 Small Lantern Post | by the leaning pillar |
-| ENV-04 Large Plateau Island | STR-01 Tower Ruin, Large | (built into the island prompt) as one tight cluster on one side of the rim |
-|  | STR-23 Leaning Broken Tower | (built into the island prompt) in the same rim cluster |
-|  | STR-03 Rock Spire Cluster | (built into the island prompt) in the same rim cluster |
-|  | STR-14 Lantern Anchor XL, Tower-Mounted | (built into the island prompt) on the tallest tower |
-|  | STR-19 Fossil Tree | two, scattered |
-| ENV-05 Long Causeway Island | STR-07 Plank and Metal Causeway Segment | laid along the path between the ribs |
-|  | STR-20 Six-Line Pylon | one at each end |
-|  | STR-21 Small Lantern Post | along the path |
-|  | STR-19 Fossil Tree | one near the middle |
+| ENV-04 Large Plateau Island | STR-10 Ignition Column, Dormant | one on the east rim of the crater |
+|  | STR-06 Fixed Stone Bridge | the short east exit between the two tallest rock spires |
+| ENV-05 Long Causeway Island | STR-06 Fixed Stone Bridge | one short end at the west and one at the east |
 | ENV-06 Arena Island | STR-17 Heat Vent | the five arena vents |
 |  | STR-02 Tower Ruin, Capped | (built into the island prompt) in the ring-wall tower group |
 |  | STR-24 Needle Spire Tower | (built into the island prompt) in the ring-wall tower group |

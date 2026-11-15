@@ -111,12 +111,26 @@ The chains are heavy iron. They make small, low sounds.
 6. **The bow.** Rush and spam give weak, ordinary arrows. Stand still and aim, and the arrow burns with fire and hits harder.
 7. Enemies do not follow him across the bridge into ENV-02.
 
-## 9. Blueprint pictures
+## 9. How it connects
+1. Order of play: **ENV-01 (start)**, then ENV-02, then ENV-03, then the platforms (ENV-11), then ENV-04, then ENV-05.
+2. This island is the lowest of the whole world. Height here is 0 m. Every other island is higher.
+3. **Out.** The only way off is the exit ledge on the east side of the mountain, at (40, 47). A stone bridge (STR-06) starts there and goes east to ENV-02.
+4. The bridge is about 12 m long and climbs about 3 m. ENV-02 sits at +3 m.
+5. The bridge end has a small bronze anchor socket (STR-09).
+6. **In.** None. This is the start. The way back from ENV-02 stays open, so the player can return to the ledge.
+7. Enemies (leeches and bat-birds) stay on the ledge and the bridge. They do not follow him into ENV-02.
+8. The player cannot fall off the island by mistake. The soft invisible walls and the crack reset keep him on the route.
+
+| From | To | Link | Gap | Height change |
+|---|---|---|---|---|
+| ENV-01 east ledge | ENV-02 west | Stone bridge (STR-06) | about 12 m | up about 3 m |
+
+## 10. Blueprint pictures
 ![Plan: top view of the island](../art/guide/env01-blueprint-v2-A-plan.png)
 
 ![Section and front view](../art/guide/env01-blueprint-v2-B-section.png)
 
-## 10. Notes for builders
+## 11. Notes for builders
 1. The pictures are looks only. If a picture and these numbers disagree, use the numbers.
 2. **Inside the cave it is dark.** When he enters, there is no light. Only the weapons glow, very faintly.
 3. Details 2 and 3 show ruined buildings with windows in the background. Ignore them. Build raw rock only.

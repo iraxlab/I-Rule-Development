@@ -40,7 +40,7 @@ ENV-01 and the Throne keep their current prompts, except ENV-01 detail 1 (door).
 
 ## Update: the door and the towers (owner direction)
 - **The door replaces the broken gateway.** ENV-01 and every ENV-01 prompt now use the Core Fantasy door (carved frame with bronze finials, verdigris scrollwork panels, chain and padlock, light through the centre gap). The playthrough frames and docs/02 and docs/17 use the same door. PROPOSED canon change: the gateway becomes this locked door; the beam of light is the light in its centre gap.
-- **Towers are locked into each island.** Each island prompt now includes its own towers, fused to the island's rock and within about 15 to 25 m of its signature feature, so one island sheet shows the complete look. Islands with towers: ENV-01 (three towers behind the door), ENV-03 (drum tower and banded tower by the pillar), ENV-04 (cluster of three on the rim), ENV-06 (group of three in the ring wall), ENV-07 (gatehouse on the stair), ENV-08 (twin towers by the cave). Each of these has a "tower group" close-up as its fifth detail. The separate STR tower assets stay as style references only.
+- **Towers are locked into each island.** Each island prompt now includes its own towers, fused to the island's rock and within about 15 to 25 m of its signature feature, so one island sheet shows the complete look. Islands with towers: ENV-01 (three towers behind the door), ENV-03 (drum tower and banded tower by the pillar), ENV-06 (group of three in the ring wall), ENV-07 (gatehouse on the stair), ENV-08 (twin towers by the cave). Each of these has a "tower group" close-up as its fifth detail. The separate STR tower assets stay as style references only.
 - **ENV-01 needs a redo.** The filed ENV-01 images show the old gateway. Regenerate the sheet first, then the details.
 
 ## Update: not a toy, and the door must be locked, then unlocked, then entered
@@ -68,10 +68,14 @@ ENV-01 now has eight detail prompts, including Spawn terrace (detail 3) and Fore
 
 
 ## Update: ENV-01 locked
-The hero render was approved. ENV-01 is the first locked environment: see docs/19. ENV-02 is blueprinted: see docs/20. ENV-03 is blueprinted: see docs/21. Next environment to blueprint: ENV-04.
+The hero render was approved. ENV-01 is the first locked environment: see docs/19. ENV-02 is blueprinted: see docs/20. ENV-03 is blueprinted: see docs/21. ENV-04 is blueprinted: see docs/22. ENV-05 is blueprinted: see docs/23. Next environment to blueprint: ENV-06.
 
 ## Update: ENV-01 rock pillars, not towers (owner direction)
 The two big formations behind the ENV-01 door are natural rock pillars of the same dark rock as the cliff. Prompts that said "tower" produced built, Roman-looking towers, so ENV-01 prompts no longer use that word and forbid masonry, battlements and arched windows. The other islands still carry their towers until their own blueprints are approved.
 
 ## Rule: no built towers on ENV-03
 ENV-03 has no towers and no buildings. It is only natural rock spires of very different sizes (extra tall, tall, medium, small), the hollow, the column and two bridge ends.
+
+
+## Rule: no towers on ENV-04
+ENV-04 has no towers, no columns (except the one ignition column) and no buildings. It has a deep crater, six huge natural rock spires, three paths, and the two tallest spires form the east gate. See docs/22.

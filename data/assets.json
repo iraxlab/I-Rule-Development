@@ -266,10 +266,6 @@
     "label": "Back"
    },
    {
-    "k": "left",
-    "label": "Left side"
-   },
-   {
     "k": "top",
     "label": "Top"
    },
@@ -279,55 +275,40 @@
    },
    {
     "k": "detail-1",
-    "label": "Detail 1: Terraced bowl"
+    "label": "Detail 1: Deep crater"
    },
    {
     "k": "detail-2",
-    "label": "Detail 2: Column crown"
+    "label": "Detail 2: West landing and paths"
    },
    {
     "k": "detail-3",
-    "label": "Detail 3: Fallen drums"
+    "label": "Detail 3: Ignition column"
    },
    {
     "k": "detail-4",
-    "label": "Detail 4: Beacon pillar"
+    "label": "Detail 4: Rock gate"
    },
    {
     "k": "detail-5",
-    "label": "Detail 5: Rim tower cluster"
+    "label": "Detail 5: Spire crown"
    }
   ],
   "page": 40,
   "ref": "art/world/stage-2-emerging.jpg",
   "legacy": false,
-  "desc": "a vast island dominated by a sunken terraced bowl of concentric collapsed stone rings like a dry ancient reservoir, around the rim a crown of towering broken columns of different heights like the stumps of a giant colonnade, enormous fallen column drums lying across the terraces, two tall stone-and-bronze beacon pillars at the edge of the bowl, broken ragged cliff rim, a deep underside of stacked hanging rock slabs like an upside-down mountain, grand, weathered and mysterious; on one side of the rim, a tight cluster of three towers fused into the rim rock within about 25 m of each other: a tall seven-tier tapering tower with gold-bronze bands and a sheared top carrying a monumental bronze lantern, a leaning broken tower held up by one thick buttress, and a cluster of black rock needles beside them",
-  "short": "Sunken terraced bowl ringed by broken columns",
+  "desc": "a large floating island of the same dark black-brown fractured boulder rock as the Starting Shelf Island, about 60 m wide, with sheer broken cliff faces all around, a ragged oval outline, and a deep underside like an upside-down mountain of fractured rock with a few long hanging rock tendrils and a faint bronze vein deep in the cracks. In the middle of the top is one DEEP CRATER, about 30 m across and 18 m deep, with sheer cracked rock walls and three broad broken ledges stepping down to a flat floor far below. The crater is an irregular oval, NOT round, NOT neat rings, NOT a stadium, NOT a quarry with tidy steps. Thin amber light glows faintly in the cracks of the crater floor and walls, dim and dormant, like a sleeping reservoir of energy. Thin straight bronze lines are inlaid in the crater floor. Around the crater rim stand six huge NATURAL ROCK SPIRES of very different heights, scattered at different distances, some close together in pairs and some alone, NOT in a row, NOT in a fan, NOT like fingers. The two biggest stand at the east edge and lean toward each other with a narrow gap about 6 m wide between them, like a natural rock gate: the tallest is about as tall as the whole island is wide (about 55 m), the other about 44 m. The four others, along the north and south-east rims, are about 34 m, 28 m, 22 m and 16 m. Every spire is thick at the base, tapering, crooked, ragged, with deep vertical cracks, ledges and broken tops, each leaning at a different angle. They are like the giant natural rock spires in the approved key art, very grand, the island looks small beneath the tallest. They are NOT thin slabs, NOT fins, NOT teeth, NOT stacked blocks, NOT toy bricks, NOT icicles or cones. At the west edge is a flat landing about 10 m wide with a low natural rock lip. From the landing three rough broken rock paths lead east: one along the north rim, one along the south rim, and one straight out toward the crater edge. On the east rim of the crater, near the gate, stands ONE short stone column on a round bronze base with a small dark fire bowl on top, unlit. There is exactly ONE column, no second one. Through the gap between the two big spires a short fixed stone bridge end with one short bronze socket post leaves toward the next place. NOTHING ELSE: no props, no loose slabs, no floating slabs, no extra bowls, no grass, no trees, no stumps, no moss. It is dry and dead. Rough, grimy and uneven, never smooth, never tidy. Nothing is built: no buildings, no walls, no windows, no arches, no stairs, no tall structures of any kind",
+  "short": "A deep glowing crater ringed by giant natural rock spires, three ways across, one ignition column and a natural rock gate",
   "dress": [
    {
-    "id": "STR-01",
-    "name": "Tower Ruin, Large",
-    "where": "built into the island prompt, close to its signature feature"
+    "id": "STR-10",
+    "name": "Ignition Column, Dormant",
+    "where": "one on the east rim of the crater"
    },
    {
-    "id": "STR-23",
-    "name": "Leaning Broken Tower",
-    "where": "built into the island prompt, close to its signature feature"
-   },
-   {
-    "id": "STR-03",
-    "name": "Rock Spire Cluster",
-    "where": "built into the island prompt, close to its signature feature"
-   },
-   {
-    "id": "STR-14",
-    "name": "Lantern Anchor XL, Tower-Mounted",
-    "where": "built into the island prompt, close to its signature feature"
-   },
-   {
-    "id": "STR-19",
-    "name": "Fossil Tree",
-    "where": "two, scattered"
+    "id": "STR-06",
+    "name": "Fixed Stone Bridge",
+    "where": "the short east exit, between the two tallest rock spires"
    }
   ]
  },
@@ -346,10 +327,6 @@
     "label": "Back"
    },
    {
-    "k": "left",
-    "label": "Left side"
-   },
-   {
     "k": "top",
     "label": "Top"
    },
@@ -359,47 +336,36 @@
    },
    {
     "k": "detail-1",
-    "label": "Detail 1: Fossil ribs"
+    "label": "Detail 1: Spire rhythm"
    },
    {
     "k": "detail-2",
-    "label": "Detail 2: Paving strip"
+    "label": "Detail 2: Walking surface"
    },
    {
     "k": "detail-3",
-    "label": "Detail 3: Vertebra knobs"
+    "label": "Detail 3: Broken pair"
    },
    {
     "k": "detail-4",
-    "label": "Detail 4: Tail end"
+    "label": "Detail 4: Arrival end"
+   },
+   {
+    "k": "detail-5",
+    "label": "Detail 5: Tail underside"
    }
   ],
   "page": 46,
   "ref": null,
   "legacy": false,
-  "desc": "a very long thin island shaped like the spine of a colossal fossil creature, a straight obsidian paving strip running along the top with a bronze inlay line, giant curved stone ribs arching up and over the strip in an uneven rhythm, some ribs snapped off, small vertebra-like knobs along the sides, the underside tapering away like a tail with hanging chains, eerie and monumental",
-  "short": "Fossil spine with giant arching ribs",
-  "note": "Sheet v1 filed. One angle in the middle row (a long 3/4 view) has no label, and there is no underside view.",
+  "desc": "a very long, narrow, THIN floating island of the same dark black-brown fractured boulder rock as the Starting Shelf Island, about 80 m long and only 10 m wide, about EIGHT TIMES AS LONG AS IT IS WIDE, like a long flat blade or a fallen mountain ridge. It is a thin slab, only about 8 m thick in the middle, tapering to a point at both ends, with sheer broken cliff sides and a shallow underside with a few long hanging rock tendrils at the east end. The west end is where the player arrives and the east end is where he leaves. The top is a clean, open, flat-ish back of cracked dark rock, about 10 m wide, rough and uneven, with sheer drops on both sides. You can see right along it from end to end. One thin, perfectly straight bronze line is inlaid down the exact middle of the top, running the whole length. Along both edges of the back stand HUGE NATURAL ROCK SPIRES, thick at the base, tapering, crooked, ragged, with sharp angular fractured faces, long vertical cracks and broken tops, exactly like the giant natural rock spires of the approved key art and like the two gate spires of the Large Plateau Island. They stand in leaning PAIRS, one on the north edge and one on the south edge, leaning toward each other ACROSS the walking back so that their tops almost touch, like the natural rock gate on the Large Plateau Island. In a row from west to east: a small pair about 16 m high near the west end; a bigger pair about 24 m high close beside it; then a long open gap; then a broken pair in the middle where the south spire stands about 20 m high and its partner on the north edge has snapped off to a jagged stump about 5 m high; then the TALLEST pair just east of the middle, about 34 m high (the tallest reaches almost half as high as the island is long) with a narrow gap of about 4 m between their tops; then one single low spire about 9 m high on the north edge near the east end. The heights are very different and the spacing is uneven. At the west end a short flat tongue of the same rock, with one short bronze post at its tip, reaches out toward the previous island, and at the east end a second short flat tongue of rock with one short bronze post reaches out toward the next place. NOTHING ELSE: no props, no loose slabs, no boulders or rubble lying on the back, no grass, no trees, no stumps, no moss. It is dry and dead. Rough, grimy and uneven, never smooth, never tidy. Nothing is built: no buildings, no walls, no windows, no stairs, no towers",
+  "short": "A very long thin rock blade with pairs of giant natural spires leaning together across the path",
+  "note": "Redesigned. No images filed yet.",
   "dress": [
    {
-    "id": "STR-07",
-    "name": "Plank and Metal Causeway Segment",
-    "where": "laid along the path between the ribs"
-   },
-   {
-    "id": "STR-20",
-    "name": "Six-Line Pylon",
-    "where": "one at each end"
-   },
-   {
-    "id": "STR-21",
-    "name": "Small Lantern Post",
-    "where": "along the path"
-   },
-   {
-    "id": "STR-19",
-    "name": "Fossil Tree",
-    "where": "one near the middle"
+    "id": "STR-06",
+    "name": "Fixed Stone Bridge",
+    "where": "one short end at the west and one at the east, the only made things on the island"
    }
   ]
  },

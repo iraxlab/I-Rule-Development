@@ -77,12 +77,27 @@ Follow the steps in order. "Build" tells you what to make.
 7. It plays once. After that, it circles far away in the sky.
 8. Do not build a real fight here. A real fight with a big bird belongs on a later island.
 
-## 9. Blueprint pictures
+## 9. How it connects
+1. Order of play: ENV-01, then **ENV-02**, then ENV-03.
+2. Height here is about +3 m above ENV-01.
+3. **In (west).** A stone bridge (STR-06) from the ENV-01 exit ledge, about 12 m long. It climbs a little. It ends on the pad at a bronze anchor socket.
+4. **Out (east).** A plank-and-chain bridge (STR-07) to ENV-03, about 12 m long. It climbs about 3 m. It starts at a second anchor socket on the east edge.
+5. The two bridges are different on purpose. Stone is solid. Plank and chain creaks. The player learns that bridges get weaker as he climbs.
+6. The way back west stays open. Nothing is locked.
+7. The leeches and birds of ENV-01 stay behind. The only visitor here is the big bird, and it does no harm.
+8. From the pad the player can see ENV-03 to the east, a little higher, with the far lantern anchor.
+
+| From | To | Link | Gap | Height change |
+|---|---|---|---|---|
+| ENV-01 east ledge | ENV-02 west | Stone bridge | about 12 m | up about 3 m |
+| ENV-02 east | ENV-03 west | Plank-and-chain bridge | about 12 m | up about 3 m |
+
+## 10. Blueprint pictures
 ![Plan: top view of the island](../art/guide/env02-blueprint-A-plan.png)
 
 ![Side view](../art/guide/env02-blueprint-B-section.png)
 
-## 10. Notes for builders
+## 11. Notes for builders
 1. The pictures are looks only. If a picture and these notes disagree, use the notes.
 2. The bridges are fixed and weathered. They never break.
 3. The big bat-bird has its own picture. Use it for the look and the size. Its wings are leather, never feathers.

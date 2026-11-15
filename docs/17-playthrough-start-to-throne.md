@@ -2,6 +2,8 @@
 
 **Read this to know exactly what happens, in order.** It follows Elias from the first second on island 1 to the moment the ring of fire spreads from the Throne. Every beat says what the player does, what the game does back, what the camera and sound do, and what to build.
 
+> **Images for every step:** 71 storyboard prompts (one image each) are in [Playthrough image prompts](../prompts/playthrough-image-prompts.md) and in the PDF [Playthrough_Storyboard_Prompts.pdf](../art-pipeline/Playthrough_Storyboard_Prompts.pdf).
+
 ## Status and what changes
 This section combines the locked canon (stage docs, core systems, Throne) with a **new design direction from the project owner**: the *Stillness Duel*. Items marked **PROPOSED** are new and need owner approval. Everything else comes from existing canon.
 
@@ -44,11 +46,42 @@ Still true: no health bar, no HUD, no inventory screen, no text. Enemies are **s
 ---
 
 ## 3. Island 1: the Starting Shelf (ENV-01)
-~40 m wide. Visible from the first frame: a dark shelf, a deep **ravine**, one colossal **fallen bronze beam** crossing it, a **broken gateway** at the far end holding a **still beam of light**, a shallow bronze **arrival disc**, huge cracked paving slabs, chains hanging into the void, one bare fossil tree. Above everything: the six unlit lines and, far away, the **Throne silhouette** (see [Throne](08-the-throne.md)).
+~40 m wide and 56 m long (LOCKED design v2, see docs/19 for the exact map). Visible from the first frame: an irregular cracked spawn terrace with the sunken bronze arrival disc, a broken road to a crooked weathered **bronze beam** lying across a jagged meandering **crack**, a broken forecourt and three worn steps up to the **locked door** cut into a huge black cliff (carved frame, verdigris panels, chain and padlock, light through the centre gap), with two natural rock pillars (60 m and a leaning 36 m, the same dark rock, no built towers) growing out of the cliff. Behind the door is a walkable antechamber with columns, the Arms dais, all of it dark inside (only the weapons glow faintly), and an east exit tunnel to a ledge where the bridge to Island 2 begins.
+
+### The map is not flat (locked by the island map)
+The [island map](../art/world/island-map-page-1.jpg) shows the world as a **six-tier climb**. The Starting Shelf is the **lowest** island, each stage floats higher than the last, and the Throne summit is the **highest point** of the world. Never draw or build a flat horizon.
+
+| Tier | Stage and islands | Relative height (approx., tune in level) | What Elias sees |
+|---|---|---|---|
+| 1 | Shelf: ENV-01, ENV-02, ENV-03 | 0 m (lowest) | Cloud sea below the rim; every other island is higher |
+| 2 | Platforms: ENV-11, ENV-04 | about +10 m | The Shelf now visible below |
+| 3 | Arena: ENV-06 (with ENV-05, ENV-12) | about +22 m | Plateau and Shelf far below |
+| 4 | Canyon: ENV-08 pair | about +36 m | Bridges span depth; deep cloud under the span |
+| 5 | Flight: ENV-09, ENV-10 | about +50 m, heat currents lift to about +65 m | Whole lower world small below |
+| 6 | Summit: ENV-07, Throne | about +360 m (highest) | Every earlier tier stepped down below |
+
+**The chain of steps (locked island map, start to Throne).** Every step sits higher than the one before. PT-01 of the [image prompts](../prompts/playthrough-image-prompts.md) draws all ten.
+
+| Step | Island | ENV | Height | Line and hold |
+|---|---|---|---|---|
+| 1 | Starting Shelf (start) | ENV-01 | 0 m | none |
+| 2 | Stepping Island | ENV-02 | about +3 m | none |
+| 3 | Medium Island and Windbreak Ridge | ENV-03, 13 | about +6 m | Line 1, hold 2.5 s |
+| 4 | Four moving platforms | ENV-11 | rising to +10 m | none (timing trial) |
+| 5 | Large Plateau | ENV-04 | about +10 m | Line 2, hold 3 s |
+| 6 | Causeway and brittle slabs | ENV-05, 12 | about +18 m | none |
+| 7 | Arena Island | ENV-06 | about +22 m | Line 3, hold 4 s |
+| 8 | Canyon Cliff Pair, light bridge | ENV-08 | about +36 m | Line 4, hold 3 s |
+| 9 | Fragments, Dragon flight | ENV-09, 10 | +50 m, lifting to +65 m | Line 5, hold 5 s |
+| 10 | Summit Peak and the Throne | ENV-07 | about +360 m (highest) | Line 6, hold 10 s |
+
+**Scale (why it must not look easy).** The Throne is about 700 m from the spawn, roughly seventeen widths of the Starting Shelf, and about 360 m higher. The gaps between islands are as wide as the islands, bridges are long thin threads, and some gaps have no bridge at all. **The Fire Eye is always overhead:** a dark almond-shaped geometry at the start (Line 1 gives it a faint ember), opening wider with each line (wider at Line 4, nearly full at Line 5, fully open at Line 6). All ten islands share one family of rock and bronze.
+
+**From island 1, the Throne is not in front of him on the same level.** It is far to the **north** and far **above**: a slender summit spire island (ENV-07) crowned by the dark monolith, rising out of cloud above every island between. Elias must look **up** to see it. Compose the first frames with rising tiers between him and the summit.
 
 ### Route map
 ```
-                          [ SIX LINES, UNLIT ]   Throne silhouette (far)
+                          [ SIX LINES, UNLIT ]   Throne on summit spire (far north, far ABOVE)
                                   |
    +----------------------------- N ------------------------------+
    |                                                              |
@@ -78,9 +111,9 @@ Still true: no health bar, no HUD, no inventory screen, no text. Enemies are **s
 ### Beat plan: island 1, minute by minute (golden path)
 | Time | What Elias does | What the world does | Camera | Sound |
 |---|---|---|---|---|
-| 00:00-00:25 | Nothing yet | Black. Wind. Fade in on Elias on the Arrival Disc, standing, eyes open. Six lines visible but dark. | Fixed wide, slow push | Wind only (`AUDIO_S1_WindOnly_In`) |
+| 00:00-00:25 | Nothing yet | Black. Wind. Fade in on Elias on the Arrival Disc, the **lowest** island in the world, standing, eyes open. Six lines dark above. To the north the land **rises tier by tier**; the Throne is a tiny dark spire far above. | Fixed wide, slow push | Wind only (`AUDIO_S1_WindOnly_In`) |
 | 00:25-01:30 | **First control.** Walks off the disc across the paving field | No UI. The Cinder is barely visible beside him. Suit seams dark. | Close, grounded third person | Low drone fades in (`AUDIO_S1_LowDrone_FadeIn`) |
-| 01:30-02:30 | Explores the rim, the fossil tree, the chains | Looking up reveals the lines and the Throne silhouette. Edge = soft-reset volume. | Slight upward tilt hint when he looks up | Wind rises at the rim |
+| 01:30-02:30 | Explores the rim, the fossil tree, the chains | Looking **up** and north reveals the rising tiers and, far above them all, the summit spire with the Throne. Edge = soft-reset volume. | Slight upward tilt hint when he looks up | Wind rises at the rim |
 | 02:30-03:30 | **Crosses the fallen bronze beam** (walk, no jump) | Dust from the bronze. If he dashes: noise creeps in, dust lifts (first taste of Entropy). | Pull out to show depth under him | Metal resonance under footsteps |
 | 03:30-04:15 | Enters the antechamber. **Three Arms float in the air.** Walks into each and presses Interact; each lights and begins to orbit him | The still beam in the gateway pulses once, as if it noticed | Orbit shot of the Arms binding | Three rising bronze notes, one per Arm |
 | 04:15-04:45 | The beam casts **Elias's own shadow** across the floor. The shadow **stands up**: the **Unbroken Shadow** | It steps out, a dark amber-glass copy of Elias. The gateway beam dims. | Slow push to the Shadow | Drone drops; a single held low tone |
@@ -325,3 +358,21 @@ Line 6 ignites at the end of Stage 6, so the six sky lines are *already lit* whe
 | 8 | Camera in the vision | Third person, cinematic cuts |
 
 Related: [Stage 1](stages/stage-1-lurking.md) · [Core systems](06-core-systems.md) · [Enemies](05-enemies.md) · [The Throne](08-the-throne.md) · [Ending](stages/the-throne-ending.md) · [Canon and open decisions](13-canon-and-open-decisions.md)
+
+
+## Grand Scale layout guide (PROPOSED, needs owner approval)
+
+The source canon puts the Throne only 80 m above the start, which reads as a short hop. This proposal keeps every X/Z position and raises the heights so the climb reads as a mountain: Shelf 0, Stepping +12, Medium +30, platforms +46 to +86, Plateau +95, Causeway +122, Arena +142, Canyon +178 and +203, Fragments +240/+272/+305, Summit base +360 with the Throne on top. Because the Six Lines ladder and Fire Eye must stay above the Throne, they move up (lines about y=470, Eye about y=600). A grey-box layout guide (`art/guide/layout-guide.png`) is attached to the PT-01 generation so the image model copies the layout instead of guessing it. Towers follow docs/16 (STR-01 to STR-26) per island; planets (one ringed, one plain) are sky dressing only.
+
+
+## World scale and the Ring of Fire (PROPOSED, needs owner approval)
+
+**Design intent.** The first view must tell the player this is a game that cannot be finished in an hour: the world is a planet blown apart, the climb is long and indirect, and the Throne is not visible from the start (only a faint spire lost in haze). The Eye and the six lines are the only things that read as a goal.
+
+**Ring of Fire extent.** The ignition that spreads from the Throne ends on a vast ring around the whole world: radius about 1,250 m from the world centre (0, 150), 2,500 m across, at about y=60. Before the ending it is dormant, a line of smouldering embers on the far horizon, so the player can see how big the world is. This sets the final extent of `IgniteNode` propagation (the canon says it spreads outward but gives no size).
+
+**Six Lines.** Hang clearly below the Eye, about 460 m wide at y 470 to 580, never overlapped by it. Eye about 460 m wide at y 730.
+
+**Map views.** Top, front, back and both sides, with the true-scale strip: `art/guide/world-map-four-views.png`.
+
+![World map: top, front, back and sides](../art/guide/world-map-four-views.png)
