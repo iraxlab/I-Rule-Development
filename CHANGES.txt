@@ -1,8 +1,6 @@
-I-RULE01 hub: ENV-01, ENV-02 and ENV-03 only.
-Copy these files into the repo, keeping the folder names.
-1. art/assets/ENV-01, ENV-02, ENV-03: all pictures and thumbs.
-2. prompts/assets/ENV-01, ENV-02, ENV-03: prompt .txt files.
-3. art/guide: the blueprint pictures for ENV-01, ENV-02, ENV-03.
-4. docs 15, 16, 18, 19, 20, 21: tracker, dressing guide, look bible, three environment guides.
-5. data/assets.json, data/prompts.json, index.html: the hub itself.
-Nothing for ENV-04 and later is in this zip as new work.
+I-RULE01 update: people sheets (16 Nov)
+Unzip, then add/replace these files in your repo (same folders).
+- art/assets/PPL-01..08/sheet.jpg : the 8 approved people sheets
+- prompts/assets/PPL-*/ : rewritten sheet prompts plus 26 new per-person prompts
+- data/prompts.json, assets.json, assetdocs.json, pack-2.json, pack-index.json : hub data (these also carry the story-order and light changes made after update-01)
+Delete nothing.
