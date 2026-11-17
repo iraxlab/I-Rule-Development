@@ -1,6 +1,8 @@
-I-RULE01 update: people sheets (16 Nov)
-Unzip, then add/replace these files in your repo (same folders).
-- art/assets/PPL-01..08/sheet.jpg : the 8 approved people sheets
-- prompts/assets/PPL-*/ : rewritten sheet prompts plus 26 new per-person prompts
-- data/prompts.json, assets.json, assetdocs.json, pack-2.json, pack-index.json : hub data (these also carry the story-order and light changes made after update-01)
-Delete nothing.
+I-RULE01 hub update, 17 Nov 2026 (playthrough frames, last update only)
+
+- 33 playthrough frames filed: PT-188 and PT-253 to PT-284 (the playthrough set is complete).
+- data/pack-1.json, pack-2.json, pack-index.json: all hub images recompressed (1400 px, q72) and rebalanced into two packs (about 10.5 MB each).
+- data/prompts.json: prompts patched (no clock text, Elias hair rule, callout rule, natural-rock rule, PT-264 style, PT-278 Six Lines).
+- data/assetdocs.json: redo list updated with the frames to regenerate (PT-257 bald, hair, clock text, labels, masonry).
+- art/assets/PT-*/sheet.jpg: full-size copies of the new frames.
+Copy these files over the same paths in the repo.
