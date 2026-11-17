@@ -1,1 +1,1 @@
-Structure sheets update (17 Nov): 34 STR sheets filed (all except STR-01,02,03,04,39). Replaces data/pack-1.json, pack-2.json, pack-index.json, assetdocs.json. art/assets/STR-xx/sheet.jpg are the same images as full-size files. See docs/assets/redo-list.md for redo notes.
+Structure sheets update (17 Nov): 35 STR sheets filed (all except STR-01,02,03,04). Replaces data/pack-1.json, pack-2.json, pack-index.json, assetdocs.json. art/assets/STR-xx/sheet.jpg are the same images as full-size files. See docs/assets/redo-list.md.
