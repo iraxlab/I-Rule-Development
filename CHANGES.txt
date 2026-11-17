@@ -1,1 +1,1 @@
-Structure sheets update (17 Nov): 35 STR sheets filed (all except STR-01,02,03,04). Replaces data/pack-1.json, pack-2.json, pack-index.json, assetdocs.json. art/assets/STR-xx/sheet.jpg are the same images as full-size files. See docs/assets/redo-list.md.
+Update (17 Nov): 35 STR sheets and 9 BEF (World Before) sheets filed. BEF-03 and STR-01..04 still missing. Replaces data/pack-1.json, pack-2.json, pack-index.json, assetdocs.json. art/assets/*/sheet.jpg are the same images as full-size files. See docs/assets/redo-list.md.
